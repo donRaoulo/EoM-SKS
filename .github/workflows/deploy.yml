@@ -22,12 +22,10 @@ jobs:
 
       # Installiere die Abhängigkeiten
       - name: Install dependencies
-        working-directory: ./eom-sks  # Wechsle in das Verzeichnis mit deiner React-App
         run: npm install
 
       # Baue die React-App
       - name: Build React App
-        working-directory: ./eom-sks  # Wechsle in das Verzeichnis mit deiner React-App
         run: npm run build
 
       # Installiere GitHub Pages Deploy Action
@@ -35,6 +33,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages  # Der Branch, auf dem die React App deployed wird
-          folder: eom-sks/build  # Der Ordner, der die gebauten Dateien enthält
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Dein GitHub-Token aus den Secrets
