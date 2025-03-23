@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { DndProvider, useDrag, useDrop } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-import { Table } from "@/components/ui/table";
-import { Button } from "@/components/ui/button";
+import { Table, TableBody, TableCell, TableHead, TableRow, Button } from "@mui/material";
 
 const ItemType = "ROW";
-const PASSWORD = "meinSicheresPasswort"; // Passwort festlegen
-const GITHUB_REPO = "username/repo"; // Dein GitHub-Repo
-const FILE_PATH = "data/characterData.json"; // Pfad zur JSON-Datei
-const GITHUB_TOKEN = "your_github_token"; // Dein GitHub-Personal-Access-Token
+const CONFIG = "EoM-grüner-hund";
+const TOKEN = "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"
+const GITHUB_REPO = "donRaoulo/EoM-SKS"; // Dein GitHub-Repo
+const FILE_PATH = "eom-sks/data/characterData.json"; // Pfad zur JSON-Datei
 
 const initialData = JSON.parse(localStorage.getItem("characterData")) || [
   { id: 1, position: 1, character: "Char A", main: "Main A", alt: "Alt A", present: "Ja", item: "Nein" },
@@ -16,7 +15,7 @@ const initialData = JSON.parse(localStorage.getItem("characterData")) || [
   { id: 3, position: 3, character: "Char C", main: "Main C", alt: "Alt C", present: "Ja", item: "Nein" }
 ];
 
-const TableRow = ({ data, index, moveRow, isEditable }) => {
+const TableRowComponent = ({ data, index, moveRow, isEditable }) => {
   const ref = React.useRef(null);
   const [, drop] = useDrop({
     accept: ItemType,
@@ -40,14 +39,14 @@ const TableRow = ({ data, index, moveRow, isEditable }) => {
   if (isEditable && data.present !== "Nein") drag(drop(ref));
 
   return (
-    <tr ref={ref} className={`bg-white ${isDragging ? "opacity-50" : ""}`}>
-      <td>{data.position}</td>
-      <td>{data.character}</td>
-      <td>{data.main}</td>
-      <td>{data.alt}</td>
-      <td>{data.present}</td>
-      <td>{data.item}</td>
-    </tr>
+    <TableRow ref={ref} hover className={`bg-white ${isDragging ? "opacity-50" : ""}`}>
+      <TableCell>{data.position}</TableCell>
+      <TableCell>{data.character}</TableCell>
+      <TableCell>{data.main}</TableCell>
+      <TableCell>{data.alt}</TableCell>
+      <TableCell>{data.present}</TableCell>
+      <TableCell>{data.item}</TableCell>
+    </TableRow>
   );
 };
 
@@ -66,9 +65,9 @@ const CharacterTable = () => {
     setRows(updatedRows);
   };
 
-  const handlePasswordCheck = () => {
+  const handleConfigCheck = () => {
     const userInput = prompt("Passwort eingeben:");
-    if (userInput === PASSWORD) {
+    if (userInput === CONFIG) {
       setIsEditable(true);
     } else {
       alert("Falsches Passwort!");
@@ -80,7 +79,7 @@ const CharacterTable = () => {
     const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${FILE_PATH}`, {
       method: "PUT",
       headers: {
-        "Authorization": `token ${GITHUB_TOKEN}`,
+        "Authorization": `token ${TOKEN}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
@@ -104,24 +103,25 @@ const CharacterTable = () => {
 
   return (
     <DndProvider backend={HTML5Backend}>
-      <Button onClick={handlePasswordCheck} className="mb-4">Bearbeiten</Button>
-      {isEditable && <Button onClick={saveToGitHub} className="ml-4">Speichern</Button>}
+      <Button onClick={handleConfigCheck} variant="contained" className="mb-4">Bearbeiten</Button>
+      {isEditable && <Button onClick={saveToGitHub} variant="contained" className="ml-4">Speichern</Button>}
+      
       <Table>
-        <thead>
-          <tr>
-            <th>Position</th>
-            <th>Charakter</th>
-            <th>Main & Second</th>
-            <th>Alternative Charaktere</th>
-            <th>Anwesend</th>
-            <th>Item erhalten</th>
-          </tr>
-        </thead>
-        <tbody>
+        <TableHead>
+          <TableRow>
+            <TableCell>Position</TableCell>
+            <TableCell>Charakter</TableCell>
+            <TableCell>Main & Second</TableCell>
+            <TableCell>Alternative Charaktere</TableCell>
+            <TableCell>Anwesend</TableCell>
+            <TableCell>Item erhalten</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
           {rows.map((row, index) => (
-            <TableRow key={row.id} data={row} index={index} moveRow={moveRow} isEditable={isEditable} />
+            <TableRowComponent key={row.id} data={row} index={index} moveRow={moveRow} isEditable={isEditable} />
           ))}
-        </tbody>
+        </TableBody>
       </Table>
     </DndProvider>
   );
