@@ -1,37 +1,25 @@
-name: Deploy React App to GitHub Pages
+name: Update JSON on GitHub
 
 on:
-  push:
-    branches:
-      - main  # Der Workflow wird ausgeführt, wenn etwas auf den main-Branch gepusht wird.
+  workflow_dispatch: # manuelles Starten
 
 jobs:
-  deploy:
+  update-json:
     runs-on: ubuntu-latest
-
     steps:
-      # Checkout the code
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-      # Set up Node.js (passende Version für dein Projekt verwenden)
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'  # Deine Node.js Version (z.B. 16.x.x)
+      - name: Update JSON File
+        run: |
+          echo '${{ secrets.JSON_DATA }}' > data/characterData.json
 
-      # Installiere die Abhängigkeiten
-      - name: Install dependencies
-        run: npm install
-
-      # Baue die React-App
-      - name: Build React App
-        run: npm run build
-
-      # Installiere GitHub Pages Deploy Action
-      - name: Install GitHub Pages Deploy Action
-        uses: JamesIves/github-pages-deploy-action@4.1.0
-        with:
-          branch: gh-pages  # Der Branch, auf dem die React App deployed wird
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/characterData.json
+          git commit -m "Update characterData.json" || echo "No changes to commit"
+          git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Dein GitHub-Token aus den Secrets
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
