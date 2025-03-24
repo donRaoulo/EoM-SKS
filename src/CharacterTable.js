@@ -7,14 +7,10 @@ const ItemType = "ROW";
 const CONFIG = "pw123";
 const TOKEN = "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"
 const GITHUB_REPO = "donRaoulo/EoM-SKS"; // Dein GitHub-Repo
-const WORKFLOW_FILENAME = "update-json.yaml"; // oder .yml
+const WORKFLOW_FILENAME = "update-json.yml"; // oder .yml
 const BRANCH = "main";
 
-const initialData = JSON.parse(localStorage.getItem("characterData")) || [
-  { id: 1, position: 1, character: "Char A", main: "Main A", alt: "Alt A", present: "Ja", item: "Nein" },
-  { id: 2, position: 2, character: "Char B", main: "Main B", alt: "Alt B", present: "Nein", item: "Ja" },
-  { id: 3, position: 3, character: "Char C", main: "Main C", alt: "Alt C", present: "Ja", item: "Nein" }
-];
+const initialData = JSON.parse(localStorage.getItem("characterData"))
 
 const TableRowComponent = ({ data, index, moveRow, isEditable }) => {
   const ref = React.useRef(null);
