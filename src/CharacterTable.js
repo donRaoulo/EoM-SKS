@@ -1,26 +1,38 @@
 import React, { useState, useEffect } from "react";
 import { DndProvider, useDrag, useDrop } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-import { Table, TableBody, TableCell, TableHead, TableRow, Button } from "@mui/material";
+import { Table, TableBody, TableCell, TableHead, TableRow, Button, Checkbox  } from "@mui/material";
+import "./CharacterTable.css"; // Für Animation
+
 
 const ItemType = "ROW";
 const CONFIG = "pw123";
-const TOKEN = "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"
+const TOKEN = "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"
 const GITHUB_REPO = "donRaoulo/EoM-SKS"; // Dein GitHub-Repo
-const WORKFLOW_FILENAME = "update-json.yml"; // oder .yml
+//const WORKFLOW_FILENAME = "update-json.yml"; // oder .yml
 const BRANCH = "main";
 
-
-const TableRowComponent = ({ data, index, moveRow, isEditable }) => {
+const TableRowComponent = ({
+  data,
+  index,
+  moveRow,
+  isEditable,
+  present,
+  setPresent
+}) => {
   const ref = React.useRef(null);
-  const [, drop] = useDrop({
+
+  const [{ isOver }, drop] = useDrop({
     accept: ItemType,
     hover: (draggedItem) => {
       if (draggedItem.index !== index && data.present !== "Nein" && isEditable) {
         moveRow(draggedItem.index, index);
         draggedItem.index = index;
       }
-    }
+    },
+    collect: (monitor) => ({
+      isOver: monitor.isOver({ shallow: true }),
+    }),
   });
 
   const [{ isDragging }, drag] = useDrag({
@@ -34,14 +46,28 @@ const TableRowComponent = ({ data, index, moveRow, isEditable }) => {
 
   if (isEditable && data.present !== "Nein") drag(drop(ref));
 
+  const className = `animated-row ${isDragging ? "dragging" : ""} ${
+    isOver && isEditable && data.present !== "Nein" ? "drop-target" : ""
+  }`;
+
   return (
-    <TableRow ref={ref} hover className={`bg-white ${isDragging ? "opacity-50" : ""}`}>
+    <TableRow ref={ref} className={className}>
       <TableCell>{data.position}</TableCell>
       <TableCell>{data.character}</TableCell>
       <TableCell>{data.main}</TableCell>
       <TableCell>{data.alt}</TableCell>
-      <TableCell>{data.present}</TableCell>
-      <TableCell>{data.item}</TableCell>
+      <TableCell>
+  {isEditable ? (
+    <Checkbox
+      checked={present === "Ja"}
+      onChange={(e) => setPresent(e.target.checked ? "Ja" : "Nein")}
+    />
+  ) : (
+    present
+  )}
+</TableCell>
+
+    <TableCell>{data.item}</TableCell>
     </TableRow>
   );
 };
@@ -52,50 +78,86 @@ const CharacterTable = () => {
 
   useEffect(() => {
     fetch(process.env.PUBLIC_URL + "/characterData.json")
-    .then(response => response.json())
-      .then(data => setRows(data))
-      .catch(error => console.error("Fehler beim Laden der JSON-Datei", error));
+      .then((res) => res.json())
+      .then((data) => setRows(data))
+      .catch((err) => console.error("Fehler beim Laden der JSON-Datei", err));
   }, []);
 
   const moveRow = (fromIndex, toIndex) => {
-    const updatedRows = [...rows];
-    const [movedRow] = updatedRows.splice(fromIndex, 1);
-    updatedRows.splice(toIndex, 0, movedRow);
-    setRows(updatedRows);
+    const movable = rows.filter(r => r.present !== "Nein");
+    const fromMovableIndex = movable.findIndex(r => r === rows[fromIndex]);
+    const toMovableIndex = movable.findIndex(r => r === rows[toIndex]);
+
+    if (fromMovableIndex === -1 || toMovableIndex === -1) return;
+
+    const newMovable = [...movable];
+    const [movedRow] = newMovable.splice(fromMovableIndex, 1);
+    newMovable.splice(toMovableIndex, 0, movedRow);
+
+    // Rebuild full list
+    const newRows = [];
+    let mIndex = 0;
+    for (let i = 0; i < rows.length; i++) {
+      if (rows[i].present === "Nein") {
+        newRows.push(rows[i]);
+      } else {
+        newRows.push(newMovable[mIndex]);
+        mIndex++;
+      }
+    }
+
+    // Reassign position
+    newRows.forEach((r, i) => (r.position = i + 1));
+
+    setRows(newRows);
   };
 
   const handleConfigCheck = () => {
-    const userInput = prompt("Passwort eingeben:");
-    if (userInput === CONFIG) {
-      setIsEditable(true);
-    } else {
-      alert("Falsches Passwort!");
-    }
+    const input = prompt("Passwort eingeben:");
+    if (input === CONFIG) setIsEditable(true);
+    else alert("Falsches Passwort!");
   };
 
-  const triggerUpdate = async () => {
-    const json = JSON.stringify(rows).replace(/"/g, '\\"');
+  const updateCharacterData = async (rows) => {
+    const path = "public/characterData.json";
 
-    const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${WORKFLOW_FILENAME}/dispatches`, {
-      method: "POST",
-      headers: {
-        Authorization: `token ${TOKEN}`,
-        Accept: "application/vnd.github.v3+json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        ref: BRANCH,
-        inputs: {
-          json: json
+    try {
+      const shaRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}?ref=${BRANCH}`, {
+        headers: {
+          Authorization: `token ${TOKEN}`,
+          Accept: "application/vnd.github.v3+json"
         }
-      }),
-    });
+      });
 
-    if (res.ok) {
-      alert("Update erfolgreich gestartet!");
-    } else {
-      const err = await res.text();
-      alert("Fehler beim Starten des Updates:\n" + err);
+      if (!shaRes.ok) throw new Error("Fehler beim SHA holen");
+
+      const { sha } = await shaRes.json();
+      const cleanRows = rows.map(({ id, position, character, main, alt, present, item }) => ({
+        id, position, character, main, alt, present, item
+      }));
+
+      const content = JSON.stringify(cleanRows, null, 2);
+      const base64Content = btoa(unescape(encodeURIComponent(content)));
+
+      const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, {
+        method: "PUT",
+        headers: {
+          Authorization: `token ${TOKEN}`,
+          Accept: "application/vnd.github.v3+json",
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          message: "Update characterData.json via Web UI",
+          content: base64Content,
+          sha,
+          branch: BRANCH
+        })
+      });
+
+      if (res.ok) alert("✅ SKS Liste erfolgreich gespeichert!");
+      else alert("❌ Fehler beim Speichern:\n" + await res.text());
+    } catch (err) {
+      alert("❌ Fehler:\n" + err.message);
     }
   };
 
@@ -105,7 +167,7 @@ const CharacterTable = () => {
         Bearbeiten
       </Button>
       {isEditable && (
-        <Button onClick={triggerUpdate} variant="contained" className="ml-4">
+        <Button onClick={() => updateCharacterData(rows)} variant="contained" className="ml-4">
           Speichern
         </Button>
       )}
@@ -121,16 +183,22 @@ const CharacterTable = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row, index) => (
-            <TableRowComponent
-              key={row.id}
-              data={row}
-              index={index}
-              moveRow={moveRow}
-              isEditable={isEditable}
-            />
-          ))}
-        </TableBody>
+  {rows.map((row, index) => (
+    <TableRowComponent
+      key={row.id}
+      data={row}
+      index={index}
+      moveRow={moveRow}
+      isEditable={isEditable}
+      present={row.present}
+      setPresent={(value) => {
+        const updated = [...rows];
+        updated[index] = { ...updated[index], present: value };
+        setRows(updated);
+      }}
+    />
+  ))}
+</TableBody>
       </Table>
     </DndProvider>
   );

@@ -1,0 +1,20 @@
+.animated-row {
+    transition: all 200ms ease;
+    position: relative;
+  }
+  
+  .dragging {
+    opacity: 0.5;
+  }
+  
+  .drop-target::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #ff0077;
+    border-radius: 10px;
+  }
+  
