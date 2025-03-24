@@ -5,7 +5,7 @@ import { Table, TableBody, TableCell, TableHead, TableRow, Button } from "@mui/m
 
 const ItemType = "ROW";
 const CONFIG = "pw123";
-const TOKEN = "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"
+const TOKEN = "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"
 const GITHUB_REPO = "donRaoulo/EoM-SKS"; // Dein GitHub-Repo
 const WORKFLOW_FILENAME = "update-json.yaml"; // oder .yml
 const BRANCH = "main";
