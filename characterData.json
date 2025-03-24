@@ -1,14 +1,5 @@
 [
   {
-    "id": 1,
-    "position": 1,
-    "character": "Char D",
-    "main": "Main A",
-    "alt": "Alt A",
-    "present": "Ja",
-    "item": "Nein"
-  },
-  {
     "id": 2,
     "position": 2,
     "character": "Char E",
@@ -16,6 +7,15 @@
     "alt": "Alt AB",
     "present": "Nein",
     "item": "Ja"
+  },
+  {
+    "id": 1,
+    "position": 1,
+    "character": "Char D",
+    "main": "Main A",
+    "alt": "Alt A",
+    "present": "Ja",
+    "item": "Nein"
   },
   {
     "id": 3,
