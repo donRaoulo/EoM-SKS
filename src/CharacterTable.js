@@ -10,7 +10,6 @@ const GITHUB_REPO = "donRaoulo/EoM-SKS"; // Dein GitHub-Repo
 const WORKFLOW_FILENAME = "update-json.yml"; // oder .yml
 const BRANCH = "main";
 
-const initialData = JSON.parse(localStorage.getItem("characterData"))
 
 const TableRowComponent = ({ data, index, moveRow, isEditable }) => {
   const ref = React.useRef(null);
@@ -48,12 +47,15 @@ const TableRowComponent = ({ data, index, moveRow, isEditable }) => {
 };
 
 const CharacterTable = () => {
-  const [rows, setRows] = useState(initialData);
+  const [rows, setRows] = useState([]);
   const [isEditable, setIsEditable] = useState(false);
 
   useEffect(() => {
-    localStorage.setItem("characterData", JSON.stringify(rows));
-  }, [rows]);
+    fetch(process.env.PUBLIC_URL + "/characterData.json")
+    .then(response => response.json())
+      .then(data => setRows(data))
+      .catch(error => console.error("Fehler beim Laden der JSON-Datei", error));
+  }, []);
 
   const moveRow = (fromIndex, toIndex) => {
     const updatedRows = [...rows];
