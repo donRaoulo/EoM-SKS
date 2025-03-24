@@ -1,5 +1,29 @@
 [
-  { "id": 1, "position": 1, "character": "Char D", "main": "Main A", "alt": "Alt A", "present": "Ja", "item": "Nein" },
-  { "id": 2, "position": 2, "character": "Char E", "main": "Main B", "alt": "Alt AB", "present": "Nein", "item": "Ja" },
-  { "id": 3, "position": 3, "character": "Char F", "main": "Main C", "alt": "Alt C", "present": "Ja", "item": "Nein" }
+  {
+    "id": 1,
+    "position": 1,
+    "character": "Char D",
+    "main": "Main A",
+    "alt": "Alt A",
+    "present": "Ja",
+    "item": "Nein"
+  },
+  {
+    "id": 2,
+    "position": 2,
+    "character": "Char E",
+    "main": "Main B",
+    "alt": "Alt AB",
+    "present": "Nein",
+    "item": "Ja"
+  },
+  {
+    "id": 3,
+    "position": 3,
+    "character": "Char F",
+    "main": "Main C",
+    "alt": "Alt C",
+    "present": "Ja",
+    "item": "Nein"
+  }
 ]
