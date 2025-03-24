@@ -1,25 +1,34 @@
-name: Update JSON on GitHub
+name: Deploy React App to GitHub Pages
 
 on:
-  workflow_dispatch: # manuelles Starten
+  push:
+    branches:
+      - main
 
 jobs:
-  update-json:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      - name: Update JSON File
-        run: |
-          echo '${{ secrets.JSON_DATA }}' > data/characterData.json
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
 
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/characterData.json
-          git commit -m "Update characterData.json" || echo "No changes to commit"
-          git push
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build React App
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages      # Zielbranch
+          folder: build         # Quelle für Deployment (WICHTIG!)
+          clean: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
