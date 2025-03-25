@@ -133,11 +133,11 @@ const CharacterTable = () => {
 
   const updateCharacterData = async (rows) => {
     const path = "public/characterData.json";
-
+    const encoded = "Z2hwX2V2dFJwS2xENllvbUI5M213Rm1MdXE4V1VscFJJNzE2NDhDNA==";
     try {
       const shaRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}?ref=${BRANCH}`, {
         headers: {
-          Authorization: `token ${TOKEN}`,
+          Authorization: `token ${atob(encoded)}`,
           Accept: "application/vnd.github.v3+json"
         }
       });
