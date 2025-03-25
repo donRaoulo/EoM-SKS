@@ -18,7 +18,9 @@ const TableRowComponent = ({
   moveRow,
   isEditable,
   present,
-  setPresent
+  setPresent,
+  item,
+  setItem
 }) => {
   const ref = React.useRef(null);
 
@@ -67,7 +69,18 @@ const TableRowComponent = ({
   )}
 </TableCell>
 
-    <TableCell>{data.item}</TableCell>
+<TableCell>
+  {isEditable ? (
+    <input
+      type="text"
+      value={item}
+      onChange={(e) => setItem(e.target.value)}
+      style={{ width: "100%" }}
+    />
+  ) : (
+    item
+  )}
+</TableCell>
     </TableRow>
   );
 };
@@ -163,18 +176,29 @@ const CharacterTable = () => {
 
   return (
     <DndProvider backend={HTML5Backend}>
-      <Button onClick={handleConfigCheck} variant="contained" className="mb-4">
-        Bearbeiten
-      </Button>
-      {isEditable && (
-        <Button onClick={() => updateCharacterData(rows)} variant="contained" className="ml-4">
-          Speichern
-        </Button>
-      )}
+<div className="floating-button-group">
+  <Button
+    onClick={handleConfigCheck}
+    variant="contained"
+    color="primary"
+  >
+    Bearbeiten
+  </Button>
+  {isEditable && (
+    <Button
+      onClick={() => updateCharacterData(rows)}
+      variant="contained"
+      color="success"
+      style={{ marginLeft: "10px" }}
+    >
+      Speichern
+    </Button>
+  )}
+</div>
       <Table>
         <TableHead>
           <TableRow>
-            <TableCell>Position</TableCell>
+            <TableCell>Pos.</TableCell>
             <TableCell>Charakter</TableCell>
             <TableCell>Main & Second</TableCell>
             <TableCell>Alternative Charaktere</TableCell>
@@ -185,18 +209,24 @@ const CharacterTable = () => {
         <TableBody>
   {rows.map((row, index) => (
     <TableRowComponent
-      key={row.id}
-      data={row}
-      index={index}
-      moveRow={moveRow}
-      isEditable={isEditable}
-      present={row.present}
-      setPresent={(value) => {
-        const updated = [...rows];
-        updated[index] = { ...updated[index], present: value };
-        setRows(updated);
-      }}
-    />
+  key={row.id}
+  data={row}
+  index={index}
+  moveRow={moveRow}
+  isEditable={isEditable}
+  present={row.present}
+  item={row.item}
+  setPresent={(value) => {
+    const updated = [...rows];
+    updated[index] = { ...updated[index], present: value };
+    setRows(updated);
+  }}
+  setItem={(value) => {
+    const updated = [...rows];
+    updated[index] = { ...updated[index], item: value };
+    setRows(updated);
+  }}
+/>
   ))}
 </TableBody>
       </Table>

@@ -1,10 +1,59 @@
-.animated-row {
-    transition: all 200ms ease;
-    position: relative;
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+  }
+  
+  .MuiTableCell-root {
+    background-color: #2b2b2b !important;
+    color: #ffffff !important;
+    border: none;
+    font-size: 0.95rem;
+  }
+  
+  .MuiTableRow-root:hover .MuiTableCell-root {
+    background-color: #2a2a2a !important;
+    transition: background-color 0.2s ease;
+  }
+  
+  .MuiTableHead-root .MuiTableCell-root {
+    background-color: #2d2d2d !important;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .MuiCheckbox-root {
+    color: #a548c4 !important;
+  }
+  
+  input[type="text"] {
+    background-color: #2a2a2a;
+    border: 1px solid #5b5b5b;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 6px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .animated-row {
+    transition: transform 0.2s ease;
   }
   
   .dragging {
-    opacity: 0.5;
+    opacity: 0.8;
   }
   
   .drop-target::after {
@@ -14,7 +63,31 @@
     left: 0;
     right: 0;
     height: 4px;
-    background-color: #ff0077;
-    border-radius: 10px;
+    background-color: #90caf9;
+    border-radius: 2px;
+  }
+  
+  .floating-button-group {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+  }
+  
+  .drop-target {
+    position: relative;
+  }
+  
+  .drop-target::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #c52ee3;
+    border-radius: 2px;
   }
   
