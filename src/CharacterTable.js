@@ -135,6 +135,7 @@ const CharacterTable = () => {
     const tokenResponse = await fetch("https://echoes-of-madness.x10.mx/data/test.txt");
 
     const encoded = (await tokenResponse.text()).trim(); 
+    console.log(encoded);
         try {
       const shaRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}?ref=${BRANCH}`, {
         headers: {
@@ -143,7 +144,7 @@ const CharacterTable = () => {
         }
       });
 
-      if (!shaRes.ok) throw new Error("Fehler beim SHA holen");
+      if (!shaRes.ok) throw new Error("Erfolgreich fehlgeschlagen :)");
 
       const { sha } = await shaRes.json();
       const cleanRows = rows.map(({ id, position, character, main, alt, present, item }) => ({
