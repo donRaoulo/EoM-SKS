@@ -1,14 +1,5 @@
 [
   {
-    "id": 2,
-    "position": 2,
-    "character": "Eovîn",
-    "main": "Affli",
-    "alt": "-",
-    "present": "Nein",
-    "item": "Ja"
-  },
-  {
     "id": 1,
     "position": 1,
     "character": "Haagl",
@@ -18,17 +9,26 @@
     "item": "1x Item"
   },
   {
+    "id": 2,
+    "position": 2,
+    "character": "Eovîn",
+    "main": "Affli",
+    "alt": "-",
+    "present": "Ja",
+    "item": "Ja"
+  },
+  {
     "id": 3,
     "position": 3,
     "character": "Sunny",
     "main": "Treffsicherheit",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "Nein"
   },
   {
     "id": 4,
-    "position": 5,
+    "position": 4,
     "character": "Graugdasch",
     "main": "Resto",
     "alt": "-",
@@ -37,7 +37,7 @@
   },
   {
     "id": 6,
-    "position": 6,
+    "position": 5,
     "character": "Smokesitall",
     "main": "Fury",
     "alt": "-",
@@ -46,7 +46,7 @@
   },
   {
     "id": 5,
-    "position": 7,
+    "position": 6,
     "character": "Outbreak",
     "main": "SP",
     "alt": "Alt C",
@@ -55,7 +55,7 @@
   },
   {
     "id": 8,
-    "position": 8,
+    "position": 7,
     "character": "Multiboy",
     "main": "Combat",
     "alt": "Alt C",
@@ -64,7 +64,7 @@
   },
   {
     "id": 9,
-    "position": 9,
+    "position": 8,
     "character": "Mchaesslich",
     "main": "Combat",
     "alt": "-",
