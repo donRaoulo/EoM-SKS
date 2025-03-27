@@ -7,7 +7,6 @@ import "./CharacterTable.css"; // Für Animation
 
 const ItemType = "ROW";
 const CONFIG = "pw123";
-const TOKEN = "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"
 const GITHUB_REPO = "donRaoulo/EoM-SKS"; // Dein GitHub-Repo
 //const WORKFLOW_FILENAME = "update-json.yml"; // oder .yml
 const BRANCH = "main";
@@ -133,11 +132,13 @@ const CharacterTable = () => {
 
   const updateCharacterData = async (rows) => {
     const path = "public/characterData.json";
-    const encoded = "Z2hwX2V2dFJwS2xENllvbUI5M213Rm1MdXE4V1VscFJJNzE2NDhDNA==";
-    try {
+    const tokenResponse = await fetch("https://echoes-of-madness.x10.mx/data/test.txt");
+
+    const encoded = (await tokenResponse.text()).trim(); 
+        try {
       const shaRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}?ref=${BRANCH}`, {
         headers: {
-          Authorization: `token ${atob(encoded)}`,
+          Authorization: `token ${encoded}`,
           Accept: "application/vnd.github.v3+json"
         }
       });
@@ -155,7 +156,7 @@ const CharacterTable = () => {
       const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, {
         method: "PUT",
         headers: {
-          Authorization: `token ${TOKEN}`,
+          Authorization: `token ${encoded}`,
           Accept: "application/vnd.github.v3+json",
           "Content-Type": "application/json"
         },
