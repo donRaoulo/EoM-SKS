@@ -1,21 +1,21 @@
 [
   {
-    "id": 1,
-    "position": 1,
-    "character": "Haagl",
-    "main": "UH/Tank",
-    "alt": "-",
-    "present": "Ja",
-    "item": "1x Item"
-  },
-  {
     "id": 2,
-    "position": 2,
+    "position": 1,
     "character": "Eovîn",
     "main": "Affli",
     "alt": "-",
     "present": "Ja",
     "item": "Ja"
+  },
+  {
+    "id": 1,
+    "position": 2,
+    "character": "Haagl",
+    "main": "UH/Tank",
+    "alt": "-",
+    "present": "Ja",
+    "item": "1x Item"
   },
   {
     "id": 3,
@@ -50,7 +50,7 @@
     "character": "Outbreak",
     "main": "SP",
     "alt": "Alt C",
-    "present": "Ja",
+    "present": "Nein",
     "item": "Nein"
   },
   {
