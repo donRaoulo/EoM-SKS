@@ -22,7 +22,7 @@ const TableRowComponent = ({
   setItem
 }) => {
   const ref = React.useRef(null);
-  const { position, character, main, alt } = data;
+  const { character } = data;
 
   const [{ isOver }, drop] = useDrop({
     accept: ItemType,
