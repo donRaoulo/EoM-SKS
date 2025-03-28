@@ -22,6 +22,7 @@ const TableRowComponent = ({
   setItem
 }) => {
   const ref = React.useRef(null);
+  const { position, character, main, alt } = data;
 
   const [{ isOver }, drop] = useDrop({
     accept: ItemType,
@@ -54,15 +55,15 @@ const TableRowComponent = ({
   return (
     <TableRow ref={ref} className={className}>
       <TableCell>{data.position}</TableCell>
-      <TableCell>
-  <a
-    href={`https://db.rising-gods.de/?profile=eu.rising-gods.${encodeURIComponent(character)}`}
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{ color: "#90caf9", textDecoration: "underline", cursor: "pointer" }}
-  >
-    {character}
-  </a>
+<TableCell>
+<a
+  href={`https://db.rising-gods.de/?profile=eu.rising-gods.${encodeURIComponent(character)}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ color: "#90caf9", textDecoration: "underline", cursor: "pointer" }}
+>
+  {character}
+</a>
 </TableCell>
       <TableCell>{data.main}</TableCell>
       <TableCell>{data.alt}</TableCell>
