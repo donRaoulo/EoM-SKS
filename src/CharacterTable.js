@@ -54,7 +54,16 @@ const TableRowComponent = ({
   return (
     <TableRow ref={ref} className={className}>
       <TableCell>{data.position}</TableCell>
-      <TableCell>{data.character}</TableCell>
+      <TableCell>
+  <a
+    href={`https://db.rising-gods.de/?profile=eu.rising-gods.${encodeURIComponent(character)}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: "#90caf9", textDecoration: "underline", cursor: "pointer" }}
+  >
+    {character}
+  </a>
+</TableCell>
       <TableCell>{data.main}</TableCell>
       <TableCell>{data.alt}</TableCell>
       <TableCell>
