@@ -140,7 +140,7 @@ const CharacterTable = () => {
   const [isEditable, setIsEditable] = useState(false);
 
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + "/characterData.json")
+    fetch(`${process.env.PUBLIC_URL}/characterData.json?nocache=${Date.now()}`)
       .then((res) => res.json())
       .then((data) => setRows(data))
       .catch((err) => console.error("Fehler beim Laden der JSON-Datei", err));
