@@ -58,6 +58,13 @@ const TableRowComponent = ({
     }
   };
 
+  const getTextColor = (bgColor) => {
+    if (!bgColor) return "#000";
+    const rgb = bgColor.match(/\d+/g).map(Number);
+    const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
+    return brightness > 128 ? "#000" : "#fff";
+  };
+
   const [{ isOver }, drop] = useDrop({
     accept: ItemType,
     hover: (draggedItem) => {
@@ -98,7 +105,7 @@ const TableRowComponent = ({
   }
   style={{
     backgroundColor: getColorByClass(klasse),
-    color: "#fff",
+    color: getTextColor(getColorByClass(klasse)),
     textTransform: "none",
     fontSize: "0.75rem",
     padding: "2px 10px"
