@@ -2,7 +2,7 @@
   {
     "id": 1,
     "position": 1,
-    "character": "[Àrwén](https://db.rising-gods.de/?profile=eu.rising-gods.)",
+    "character": "Àrwén",
     "main": "Affli",
     "alt": "[Eovîn](https://db.rising-gods.de/?profile=eu.rising-gods.) (Affli)",
     "present": "Ja",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "position": 2,
-    "character": "[Háágl](https://db.rising-gods.de/?profile=eu.rising-gods.)",
+    "character": "Háágl",
     "main": "UH/Tank; rollt UH",
     "alt": "-",
     "present": "Nein",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "position": 3,
-    "character": "[Merveille](https://db.rising-gods.de/?profile=eu.rising-gods.)",
+    "character": "Merveille",
     "main": "Treffsicherheit",
     "alt": "-",
     "present": "Nein",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "position": 4,
-    "character": "[Graugdasch](https://db.rising-gods.de/?profile=eu.rising-gods.)",
+    "character": "Graugdasch",
     "main": "Resto/VS; rollt Resto",
     "alt": "-",
     "present": "Nein",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "position": 5,
-    "character": "[Smokesitall](https://db.rising-gods.de/?profile=eu.rising-gods.)",
+    "character": "Smokesitall",
     "main": "Fury",
     "alt": "-",
     "present": "Nein",
