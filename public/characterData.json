@@ -3,260 +3,260 @@
     "id": 1,
     "position": 1,
     "character": "Àrwén",
-    "klasse": "Hexenmeister",
     "main": "Dämo",
     "alt": "[Eovîn](https://db.rising-gods.de/?profile=eu.rising-gods.) (Affli)",
     "present": "Ja",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Hexenmeister"
   },
   {
     "id": 2,
     "position": 2,
     "character": "Háágl",
-    "klasse": "Druide",
     "main": "UH/Tank; rollt UH",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": "ja",
+    "klasse": "Druide"
   },
   {
     "id": 3,
     "position": 3,
     "character": "Merveille",
-    "klasse": "Jäger",
     "main": "Treffsicherheit",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Jäger"
   },
   {
     "id": 4,
     "position": 4,
     "character": "Graugdasch",
-    "klasse": "Schamane",
     "main": "Resto/VS; rollt Resto",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Schamane"
   },
   {
     "id": 5,
     "position": 5,
     "character": "Smokesitall",
-    "klasse": "Krieger",
     "main": "Fury",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Krieger"
   },
   {
     "id": 6,
     "position": 6,
     "character": "Outbreak",
-    "klasse": "Priester",
     "main": "SP",
     "alt": "-",
     "present": "Ja",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Priester"
   },
   {
     "id": 7,
     "position": 7,
     "character": "Multiboy",
-    "klasse": "Schurke",
     "main": "Combat",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Schurke"
   },
   {
     "id": 8,
     "position": 8,
     "character": "Mchaesslich",
-    "klasse": "Druide",
     "main": "Combat",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Druide"
   },
   {
     "id": 9,
     "position": 9,
     "character": "Faedrak",
-    "klasse": "Krieger",
     "main": "Fury (1. SM Splitter)",
     "alt": "Phytha (Resto), [Corani](https://db.rising-gods.de/?profile=eu.rising-gods.) (Dämo), [Senjera](https://db.rising-gods.de/?profile=eu.rising-gods.) (SP), [Saivez](https://db.rising-gods.de/?profile=eu.rising-gods.) (HPala)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Krieger"
   },
   {
     "id": 10,
     "position": 10,
     "character": "Hiería",
-    "klasse": "Druide",
     "main": "Eule",
     "alt": "[Fresa](https://db.rising-gods.de/?profile=eu.rising-gods.) (Ele)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Druide"
   },
   {
     "id": 11,
     "position": 11,
     "character": "Chrisson",
-    "klasse": "Paladin",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "[Könnteheilen](https://db.rising-gods.de/?profile=eu.rising-gods.) (SP)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Paladin"
   },
   {
     "id": 12,
     "position": 12,
     "character": "Moophie",
-    "klasse": "Druide",
     "main": "Baum/Eule; rollt Baum",
     "alt": "[Shieldow](https://db.rising-gods.de/?profile=eu.rising-gods.) (Diszi/SP; rollt SP)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Druide"
   },
   {
     "id": 13,
     "position": 13,
     "character": "Alabuu",
-    "klasse": "Hexenmeister",
     "main": "Dämo",
     "alt": "[Alibär](https://db.rising-gods.de/?profile=eu.rising-gods.Alibär) (UH)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Hexenmeister"
   },
   {
     "id": 14,
     "position": 14,
     "character": "Patrota",
-    "klasse": "Magier",
     "main": "Fmage",
     "alt": "[Batna](https://db.rising-gods.de/?profile=eu.rising-gods.Batna) (SP), [Amizo](https://db.rising-gods.de/?profile=eu.rising-gods.Amizo) (UH)",
     "present": "Ja",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Magier"
   },
   {
     "id": 15,
     "position": 15,
     "character": "Dopehealz",
-    "klasse": "Schamane",
     "main": "Resto",
     "alt": "[Nvm](https://db.rising-gods.de/?profile=eu.rising-gods.Nvm) (Fmage)",
     "present": "Ja",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Schamane"
   },
   {
     "id": 16,
     "position": 16,
     "character": "Chrønøs",
-    "klasse": "Druide",
     "main": "Eule/Bär; rollt Eule",
     "alt": "[Karkaroff](https://db.rising-gods.de/?profile=eu.rising-gods.Karkaroff) (Ele/Resto; rollt Ele)",
     "present": "Ja",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Druide"
   },
   {
     "id": 17,
     "position": 17,
     "character": "Flereigam",
-    "klasse": "Magier",
     "main": "Fmage",
     "alt": "[Blinkeydk](https://db.rising-gods.de/?profile=eu.rising-gods.Blinkeydk) (UH; 2. SM Splitter)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Magier"
   },
   {
     "id": 18,
     "position": 18,
     "character": "Babsy",
-    "klasse": "Paladin",
     "main": "Retri",
     "alt": "[Voodooerika](https://db.rising-gods.de/?profile=eu.rising-gods.Voodooerika) (SP)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Paladin"
   },
   {
     "id": 19,
     "position": 19,
     "character": "Freetag",
-    "klasse": "Todesritter",
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "[Dingstag](https://db.rising-gods.de/?profile=eu.rising-gods.Dingstag) (Pala Tank; 4. SM Splitter); alles außer [Vingardium](https://db.rising-gods.de/?profile=eu.rising-gods.Vingardium), [Diensthund](https://db.rising-gods.de/?profile=eu.rising-gods.Diensthund) & [Suntag](https://db.rising-gods.de/?profile=eu.rising-gods.Suntag)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Todesritter"
   },
   {
     "id": 20,
     "position": 20,
     "character": "Burning",
-    "klasse": "Druide",
     "main": "Cat",
     "alt": "[Meldojin](https://db.rising-gods.de/?profile=eu.rising-gods.Meldojin) (SP), [Dörlilili](https://db.rising-gods.de/?profile=eu.rising-gods.Dörlilili) (Blut DK)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Druide"
   },
   {
     "id": 21,
     "position": 21,
     "character": "Beautý",
-    "klasse": "Priester",
     "main": "SP/Diszi; rollt SP",
     "alt": "[Lágêrthá](https://db.rising-gods.de/?profile=eu.rising-gods.Lágêrthá) (UH), [Snîckêrs](https://db.rising-gods.de/?profile=eu.rising-gods.Snîckêrs) (Ele/Resto; rollt Ele), [Liebstê](https://db.rising-gods.de/?profile=eu.rising-gods.Liebstê) (Eule)",
     "present": "Ja",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Priester"
   },
   {
     "id": 22,
     "position": 22,
     "character": "Firmware",
-    "klasse": "Druide",
     "main": "Eule/Baum; rollt Eule",
     "alt": "[Debugmode](https://db.rising-gods.de/?profile=eu.rising-gods.Debugmode) (Resto/Ele), [Lòcknar](https://db.rising-gods.de/?profile=eu.rising-gods.Lòcknar) (Warri Tank/Fury)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Druide"
   },
   {
     "id": 23,
     "position": 23,
     "character": "Golreg",
-    "klasse": "Hexenmeister",
     "main": "Affli/Dämo; rollt Affli",
     "alt": "[Varosh](https://db.rising-gods.de/?profile=eu.rising-gods.Varosh) (Hpala/Tank), [Gerlog](https://db.rising-gods.de/?profile=eu.rising-gods.Gerlog) (Resto/Ele)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Hexenmeister"
   },
   {
     "id": 24,
     "position": 24,
     "character": "Sélkét",
-    "klasse": "Paladin",
     "main": "Retri (2. SM Splitter)",
     "alt": "[Zadrazil](https://db.rising-gods.de/?profile=eu.rising-gods.Zadrazil) (Fury), [Asmódäus](https://db.rising-gods.de/?profile=eu.rising-gods.Asmódäus) (SP), [Morfydd](https://db.rising-gods.de/?profile=eu.rising-gods.Morfydd) (Dämo)",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Paladin"
   },
   {
     "id": 25,
     "position": 25,
     "character": "Shadowdevíl",
-    "klasse": "Krieger",
     "main": "Fury",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Krieger"
   },
   {
     "id": 26,
     "position": 26,
     "character": "Solédad",
-    "klasse": "Priester",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": "Nein",
+    "klasse": "Priester"
   }
 ]
