@@ -5,7 +5,7 @@
     "character": "Eovîn",
     "main": "Affli",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "Ja"
   },
   {
@@ -32,7 +32,7 @@
     "character": "Graugdasch",
     "main": "Resto",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "Nein"
   },
   {
