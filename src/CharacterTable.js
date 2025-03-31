@@ -22,15 +22,17 @@ const TableRowComponent = ({
   data,
   index,
   moveRow,
-  moveRowToBottom,
   isEditable,
   present,
   setPresent,
   item,
-  setItem
+  setItem,
+  moveToBottom,
+  moveOneDown,
+  moveFiveDown
 }) => {
   const ref = React.useRef(null);
-  const { character, klasse } = data;
+  const { character} = data;
 
   const getColorByClass = (klasse) => {
     switch ((klasse || "").toLowerCase()) {
@@ -63,14 +65,18 @@ const TableRowComponent = ({
         draggedItem.index = index;
       }
     },
-    collect: (monitor) => ({ isOver: monitor.isOver({ shallow: true }) })
+    collect: (monitor) => ({
+      isOver: monitor.isOver({ shallow: true })
+    })
   });
 
   const [{ isDragging }, drag] = useDrag({
     type: ItemType,
     item: { index },
     canDrag: isEditable && data.present !== "Nein",
-    collect: (monitor) => ({ isDragging: monitor.isDragging() })
+    collect: (monitor) => ({
+      isDragging: monitor.isDragging()
+    })
   });
 
   if (isEditable && data.present !== "Nein") drag(drop(ref));
@@ -79,30 +85,84 @@ const TableRowComponent = ({
     isOver && isEditable && data.present !== "Nein" ? "drop-target" : ""
   }`;
 
+  const getDisplayName = (character) => {
+    return character.replace(/\s*\(.*?\)/, "").trim();
+  };
+
+  const getDisplayAlts = (alt) => {
+    return alt
+      .split(",")                         // Trenne an jedem Komma
+      .map(entry => entry.replace(/\s*\(.*?\)/, "").trim()) // Entferne Klassen
+      .join(", ");                        // Füge alles wieder zusammen
+  };
+  
+  const extractClass = (character) => {
+    const match = character.match(/\(([^)]+)\)/);
+    return match ? match[1].toLowerCase() : "";
+  };
+
   return (
     <TableRow ref={ref} className={className}>
       <TableCell align="center">{data.position}</TableCell>
       <TableCell>
+      <Fab
+  variant="extended"
+  size="small"
+  onClick={() =>
+    window.open(
+      `https://db.rising-gods.de/?profile=eu.rising-gods.${encodeURIComponent(getDisplayName(character))}`,
+      "_blank"
+    )
+  }
+  style={{
+    backgroundColor: getColorByClass(extractClass(character)),
+    color: getTextColor(getColorByClass(extractClass(character))),
+    textTransform: "none",
+    fontSize: "0.75rem",
+    padding: "2px 10px"
+  }}
+>
+  {getDisplayName(character)}
+</Fab>
+      </TableCell>
+      <TableCell>{data.main}</TableCell>
+      <TableCell>
+  <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
+    {data.alt.split(",").map((entry, i) => {
+      const nameMatch = entry.match(/^([^()]+)\s*\(/);
+      const classMatch = entry.match(/\(([^)]+)\)/);
+      const name = nameMatch ? nameMatch[1].trim() : entry.trim();
+      const klasse = classMatch ? classMatch[1].trim() : "";
+
+      const bgColor = getColorByClass(klasse);
+      const textColor = getTextColor(bgColor);
+
+      return (
         <Fab
+          key={i}
           variant="extended"
           size="small"
           onClick={() =>
-            window.open(`https://db.rising-gods.de/?profile=eu.rising-gods.${encodeURIComponent(character)}`, "_blank")
+            window.open(
+              `https://db.rising-gods.de/?profile=eu.rising-gods.${encodeURIComponent(name)}`,
+              "_blank"
+            )
           }
           style={{
-            backgroundColor: getColorByClass(klasse),
-            color: getTextColor(getColorByClass(klasse)),
+            backgroundColor: bgColor,
+            color: textColor,
+            fontSize: "0.7rem",
+            height: "26px",
             textTransform: "none",
-            fontSize: "0.75rem",
             padding: "2px 10px"
           }}
         >
-          {character}
+          {name}
         </Fab>
-      </TableCell>
-      <TableCell>{data.main}</TableCell>
-      <TableCell>{data.alt}</TableCell>
-      <TableCell>
+      );
+    })}
+  </div>
+</TableCell>     <TableCell>
         {isEditable ? (
           <Checkbox
             checked={present === "Ja"}
@@ -125,12 +185,33 @@ const TableRowComponent = ({
         )}
       </TableCell>
       {isEditable && (
-        <TableCell>
-          <Button size="small" variant="outlined" onClick={() => moveRowToBottom(index)}>
-            ↓ nach unten
-          </Button>
-        </TableCell>
-      )}
+  <TableCell>
+    <div style={{ display: "flex", gap: "6px" }}>
+      <Button
+        variant="contained"
+        color="error"
+        onClick={() => moveOneDown(index)}
+      >
+        ↓1
+      </Button>
+      <Button
+        variant="contained"
+        color="error"
+        onClick={() => moveFiveDown(index)}
+      >
+        ↓5
+      </Button>
+      <Button
+        variant="contained"
+        color="error"
+        onClick={() => moveToBottom(index)}
+      >
+        ↓↓↓↓↓
+      </Button>
+    </div>
+  </TableCell>
+)}
+
     </TableRow>
   );
 };
@@ -160,33 +241,62 @@ const CharacterTable = () => {
     const newRows = [];
     let mIndex = 0;
     for (let i = 0; i < rows.length; i++) {
-      if (rows[i].present === "Nein") newRows.push(rows[i]);
-      else newRows.push(newMovable[mIndex++]);
+      if (rows[i].present === "Nein") {
+        newRows.push(rows[i]);
+      } else {
+        newRows.push(newMovable[mIndex]);
+        mIndex++;
+      }
     }
 
     newRows.forEach((r, i) => (r.position = i + 1));
     setRows(newRows);
   };
 
-  const moveRowToBottom = (fromIndex) => {
-    const movable = rows.filter(r => r.present !== "Nein");
-    const fromMovableIndex = movable.findIndex(r => r === rows[fromIndex]);
-    if (fromMovableIndex === -1) return;
+  const moveToBottom = (fromIndex) => {
+      const movable = rows.filter(r => r.present !== "Nein");
+      const fromMovableIndex = movable.findIndex(r => r === rows[fromIndex]);
+      if (fromMovableIndex === -1) return;
+  
+      const newMovable = [...movable];
+      const [movedRow] = newMovable.splice(fromMovableIndex, 1);
+      newMovable.push(movedRow);
+  
+      const newRows = [];
+      let mIndex = 0;
+      for (let i = 0; i < rows.length; i++) {
+        if (rows[i].present === "Nein") newRows.push(rows[i]);
+        else newRows.push(newMovable[mIndex++]);
+      }
+  
+      newRows.forEach((r, i) => (r.position = i + 1));
+      setRows(newRows);
+    };
 
-    const newMovable = [...movable];
-    const [movedRow] = newMovable.splice(fromMovableIndex, 1);
-    newMovable.push(movedRow);
+    const moveOneDown = (index) => {
+      if (index >= rows.length - 1) return;
+    
+      const updated = [...rows];
+      const temp = updated[index];
+      updated[index] = updated[index + 1];
+      updated[index + 1] = temp;
+    
+      // Positionen neu setzen
+      updated.forEach((r, i) => (r.position = i + 1));
+      setRows(updated);
+    };
 
-    const newRows = [];
-    let mIndex = 0;
-    for (let i = 0; i < rows.length; i++) {
-      if (rows[i].present === "Nein") newRows.push(rows[i]);
-      else newRows.push(newMovable[mIndex++]);
-    }
-
-    newRows.forEach((r, i) => (r.position = i + 1));
-    setRows(newRows);
-  };
+    const moveFiveDown = (index) => {
+      const updated = [...rows];
+      const newIndex = Math.min(index + 5, updated.length - 1);
+    
+      const [movedRow] = updated.splice(index, 1);
+      updated.splice(newIndex, 0, movedRow);
+    
+      // Positionen neu setzen
+      updated.forEach((r, i) => (r.position = i + 1));
+      setRows(updated);
+    };
 
   const handleConfigCheck = () => {
     const input = prompt("Passwort eingeben:");
@@ -194,10 +304,71 @@ const CharacterTable = () => {
     else alert("Falsches Passwort!");
   };
 
+  const updateCharacterData = async (rows) => {
+    const path = "public/characterData.json";
+    const tokenResponse = await fetch("https://echoes-of-madness.x10.mx/data/test.txt");
+    const encoded = (await tokenResponse.text()).trim();
+
+    try {
+      const shaRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}?ref=${BRANCH}`, {
+        headers: {
+          Authorization: `token ${encoded}`,
+          Accept: "application/vnd.github.v3+json"
+        }
+      });
+
+      if (!shaRes.ok) throw new Error("Fehler beim SHA-Request");
+
+      const { sha } = await shaRes.json();
+      const cleanRows = rows.map(({ id, position, character, main, alt, present, item, klasse }) => ({
+        id, position, character, main, alt, present, item, klasse
+      }));
+
+      const content = JSON.stringify(cleanRows, null, 2);
+      const base64Content = btoa(unescape(encodeURIComponent(content)));
+
+      const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, {
+        method: "PUT",
+        headers: {
+          Authorization: `token ${encoded}`,
+          Accept: "application/vnd.github.v3+json",
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          message: "Update characterData.json via Web UI",
+          content: base64Content,
+          sha,
+          branch: BRANCH
+        })
+      });
+
+      if (res.ok) alert("✅ SKS Liste erfolgreich gespeichert!");
+      else alert("❌ Fehler beim Speichern:\n" + await res.text());
+    } catch (err) {
+      alert("❌ Fehler:\n" + err.message);
+    }
+  };
+
   return (
     <DndProvider backend={HTML5Backend}>
       <div className="floating-button-group">
-        <Button onClick={handleConfigCheck} variant="contained" color="primary">Bearbeiten</Button>
+        <Button
+          onClick={handleConfigCheck}
+          variant="contained"
+          color="primary"
+        >
+          Bearbeiten
+        </Button>
+        {isEditable && (
+          <Button
+            onClick={() => updateCharacterData(rows)}
+            variant="contained"
+            color="success"
+            style={{ marginLeft: "10px" }}
+          >
+            Speichern
+          </Button>
+        )}
       </div>
 
       <Table>
@@ -209,7 +380,7 @@ const CharacterTable = () => {
             <TableCell>Alternative Charaktere</TableCell>
             <TableCell>Anwesend</TableCell>
             <TableCell>Item erhalten</TableCell>
-            {isEditable && <TableCell></TableCell>}
+            
           </TableRow>
         </TableHead>
         <TableBody>
@@ -219,8 +390,10 @@ const CharacterTable = () => {
               data={row}
               index={index}
               moveRow={moveRow}
-              moveRowToBottom={moveRowToBottom}
               isEditable={isEditable}
+              moveToBottom={moveToBottom}
+              moveOneDown={moveOneDown}
+              moveFiveDown={moveFiveDown}
               present={row.present}
               item={row.item}
               setPresent={(value) => {
