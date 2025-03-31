@@ -213,6 +213,16 @@ const CharacterTable = () => {
   const [rows, setRows] = useState([]);
   const [isEditable, setIsEditable] = useState(false);
 
+  const [showForm, setShowForm] = useState(false);
+  const [newRow, setNewRow] = useState({
+    character: "",
+    main: "",
+    alt: "",
+    present: "Nein",
+    item: "Nein"
+  });
+
+
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/characterData.json?nocache=${Date.now()}`)
       .then((res) => res.json())
@@ -403,6 +413,62 @@ const CharacterTable = () => {
           ))}
         </TableBody>
       </Table>
+      {isEditable && (
+  <div style={{ marginTop: "20px" }}>
+  {!showForm ? (
+    <Button
+      variant="contained"
+      color="secondary"
+      onClick={() => setShowForm(true)}
+    >
+      + Neuen Charakter hinzufügen
+    </Button>
+  ) : (
+    <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginTop: "10px" }}>
+      <input
+        type="text"
+        placeholder="Charakter + Klasse (z.B. Batna (Prister))"
+        value={newRow.character}
+        onChange={(e) => setNewRow({ ...newRow, character: e.target.value })}
+      />
+      <input
+        type="text"
+        placeholder="Main Specc"
+        value={newRow.main}
+        onChange={(e) => setNewRow({ ...newRow, main: e.target.value })}
+      />
+      <input
+        type="text"
+        placeholder="Alternative Char (z.B. Amizo (Todesritter), ...)"
+        value={newRow.alt}
+        onChange={(e) => setNewRow({ ...newRow, alt: e.target.value })}
+      />
+      <Button
+        variant="contained"
+        color="success"
+        onClick={() => {
+          const newId = Math.max(...rows.map(r => r.id)) + 1;
+          const newPosition = rows.length + 1;
+
+          const updated = [
+            ...rows,
+            {
+              id: newId,
+              position: newPosition,
+              ...newRow
+            }
+          ];
+          setRows(updated);
+          setShowForm(false);
+          setNewRow({ character: "", main: "", alt: "", present: "Nein", item: "Nein" });
+        }}
+      >
+        Speichern
+        </Button>
+      </div>
+    )}
+  </div>
+)}
     </DndProvider>
   );
 };
