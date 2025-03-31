@@ -88,13 +88,6 @@ const TableRowComponent = ({
   const getDisplayName = (character) => {
     return character.replace(/\s*\(.*?\)/, "").trim();
   };
-
-  const getDisplayAlts = (alt) => {
-    return alt
-      .split(",")                         // Trenne an jedem Komma
-      .map(entry => entry.replace(/\s*\(.*?\)/, "").trim()) // Entferne Klassen
-      .join(", ");                        // Füge alles wieder zusammen
-  };
   
   const extractClass = (character) => {
     const match = character.match(/\(([^)]+)\)/);
