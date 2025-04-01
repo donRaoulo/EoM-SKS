@@ -6,7 +6,7 @@
     "main": "SP",
     "alt": "-",
     "present": "Ja",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "main": "UH/Tank; rollt UH",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "main": "Treffsicherheit",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "main": "Resto/VS; rollt Resto",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "main": "Fury",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 1,
@@ -51,7 +51,7 @@
     "main": "Dämo",
     "alt": "Eovîn (Hexenmeister)",
     "present": "Ja",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "main": "Combat",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "main": "Combat",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "main": "Fury (1. SM Splitter)",
     "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "main": "Eule",
     "alt": "Fresa (Schamane)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
     "present": "Ja",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
     "main": "Resto",
     "alt": "Nvm (Magier)",
     "present": "Ja",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 16,
@@ -141,8 +141,8 @@
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
     "present": "Ja",
-    "item": "Nein"
-   },
+    "item": ""
+  },
   {
     "id": 17,
     "position": 17,
@@ -150,7 +150,7 @@
     "main": "Fmage",
     "alt": "Blinkeydk (Todesritter)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "main": "Retri",
     "alt": "Voodooerika (Priester)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 20,
@@ -177,7 +177,7 @@
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 21,
@@ -186,7 +186,7 @@
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
     "present": "Ja",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 22,
@@ -195,7 +195,7 @@
     "main": "Eule/Baum; rollt Eule",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 23,
@@ -204,7 +204,7 @@
     "main": "Affli/Dämo; rollt Affli",
     "alt": "Varosh (Paladin), Gerlog (Schamane)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 24,
@@ -213,7 +213,7 @@
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 25,
@@ -222,7 +222,7 @@
     "main": "Fury",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   },
   {
     "id": 26,
@@ -231,6 +231,6 @@
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
     "present": "Nein",
-    "item": "Nein"
+    "item": ""
   }
 ]
