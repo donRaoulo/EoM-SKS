@@ -6,8 +6,7 @@
     "main": "UH/Tank; rollt UH",
     "alt": "-",
     "present": "Ja",
-    "item": ":)",
-    "bemerkung": ""
+    "item": ""
   },
   {
     "id": 6,
@@ -15,6 +14,7 @@
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "-",
+    "bemerkung": "",
     "present": "Nein",
     "item": ""
   },
@@ -24,8 +24,9 @@
     "character": "Golreg (Hexenmeister)",
     "main": "Affli/Dämo; rollt Affli",
     "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
+    "bemerkung": "auf SP dabei",
     "present": "Ja",
-    "item": "auf SP dabei"
+    "item": ""
   },
   {
     "id": 26,
@@ -33,6 +34,7 @@
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
+    "bemerkung": "",
     "present": "Nein",
     "item": ""
   },
@@ -42,6 +44,7 @@
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -51,8 +54,9 @@
     "character": "Klötenrómer (Krieger)",
     "main": "Fury",
     "alt": "-",
+    "bemerkung": "Splittersammler",
     "present": "Ja",
-    "item": "Splittersammler"
+    "item": ""
   },
   {
     "id": 1,
@@ -60,6 +64,7 @@
     "character": "Àrwén (Hexenmeister)",
     "main": "Affli",
     "alt": "Eovîn (Hexenmeister)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -69,6 +74,7 @@
     "character": "Faedrak (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
+    "bemerkung": "",
     "present": "Nein",
     "item": ""
   },
@@ -78,6 +84,7 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
+    "bemerkung": "",
     "present": "Nein",
     "item": ""
   },
@@ -87,6 +94,7 @@
     "character": "Babsy (Paladin)",
     "main": "Retri",
     "alt": "Voodooerika (Priester)",
+    "bemerkung": "",
     "present": "Nein",
     "item": ""
   },
@@ -96,6 +104,7 @@
     "character": "Freetag (Todesritter)",
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -105,6 +114,7 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto/VS; rollt Resto",
     "alt": "-",
+    "bemerkung": "",
     "present": "Nein",
     "item": ""
   },
@@ -114,6 +124,7 @@
     "character": "Flereigam (Magier)",
     "main": "Fmage",
     "alt": "Blinkeydk (Todesritter)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -123,6 +134,7 @@
     "character": "Brummelblitz (Schamane)",
     "main": "Resto/Ele; rollt Resto",
     "alt": "-",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -132,6 +144,7 @@
     "character": "Jînxî (Paladin)",
     "main": "Hpala/Retro; rollt Hpala",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -141,6 +154,7 @@
     "character": "Firmware (Druide)",
     "main": "Eule/Baum; rollt Eule",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -150,6 +164,7 @@
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -159,6 +174,7 @@
     "character": "Hiería (Druide)",
     "main": "Eule",
     "alt": "Fresa (Schamane)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -168,6 +184,7 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury",
     "alt": "-",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -177,6 +194,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -186,6 +204,7 @@
     "character": "Multiboy (Schurke)",
     "main": "Combat",
     "alt": "-",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -195,6 +214,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -204,6 +224,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -213,6 +234,7 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -222,6 +244,7 @@
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -231,6 +254,7 @@
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -240,6 +264,7 @@
     "character": "Mchaesslich (Schurke)",
     "main": "Combat",
     "alt": "-",
+    "bemerkung": "",
     "present": "Nein",
     "item": ""
   },
@@ -249,6 +274,7 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
+    "bemerkung": "",
     "present": "Ja",
     "item": ""
   },
@@ -258,7 +284,8 @@
     "character": "Xalindra (Hexenmeister)",
     "main": "Dämo",
     "alt": "-",
+    "bemerkung": "muss noch rollen",
     "present": "Ja",
-    "item": "muss noch rollen"
+    "item": ""
   }
 ]
