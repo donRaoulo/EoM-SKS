@@ -198,18 +198,7 @@ const handleClose = () => {
   </div>
 </TableCell>  
 
-<TableCell>
-  {isEditable ? (
-    <input
-      type="text"
-      value={data.bemerkung || ""}
-      onChange={(e) => setBemerkung(e.target.value)}
-      style={{ width: "100%" }}
-    />
-  ) : (
-    data.bemerkung
-  )}
-</TableCell>
+
 
    <TableCell>
         {isEditable ? (
@@ -233,6 +222,19 @@ const handleClose = () => {
           item
         )}
       </TableCell>
+
+      <TableCell>
+  {isEditable ? (
+    <input
+      type="text"
+      value={data.bemerkung || ""}
+      onChange={(e) => setBemerkung(e.target.value)}
+      style={{ width: "100%" }}
+    />
+  ) : (
+    data.bemerkung
+  )}
+</TableCell>
       {isEditable && (
   <TableCell>
     <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
@@ -516,8 +518,8 @@ const CharacterTable = () => {
             <TableCell>Charakter</TableCell>
             <TableCell>Main & Second</TableCell>
             <TableCell>Alternative Charaktere</TableCell>
-            <TableCell>Bemerkung</TableCell>
             <TableCell>Anwesend</TableCell>
+            <TableCell>Bemerkung</TableCell>
             <TableCell>Item erhalten</TableCell>
             
           </TableRow>
