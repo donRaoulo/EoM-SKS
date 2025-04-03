@@ -22,7 +22,7 @@
     "position": 3,
     "character": "Golreg (Hexenmeister)",
     "main": "Affli/Dämo; rollt Affli",
-    "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester), NIEMALS Diszi oder Tank sonst Schmerzensgeld von Laura",
+    "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
     "present": "Ja",
     "item": ""
   },
@@ -234,17 +234,8 @@
     "item": ""
   },
   {
-    "id": 8,
-    "position": 27,
-    "character": "Mchaesslich (Schurke)",
-    "main": "Combat",
-    "alt": "-",
-    "present": "Nein",
-    "item": ""
-  },
-  {
     "id": 20,
-    "position": 28,
+    "position": 27,
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
@@ -253,11 +244,20 @@
   },
   {
     "id": 29,
-    "position": 29,
+    "position": 28,
     "character": "Xalindra (Hexenmeister)",
     "main": "Dämo",
     "alt": "-",
     "present": "Ja",
+    "item": ""
+  },
+  {
+    "id": 8,
+    "position": 29,
+    "character": "Mchaesslich (Schurke)",
+    "main": "Combat",
+    "alt": "-",
+    "present": "Nein",
     "item": ""
   }
 ]
