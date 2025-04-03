@@ -27,9 +27,13 @@ const TableRowComponent = ({
   setPresent,
   item,
   setItem,
+  bemerkung,
+  setBemerkung,
   moveToBottom,
   moveOneDown,
-  moveFiveDown
+  moveOneUp,
+  moveFiveDown,
+  moveFiveUp
 }) => {
   const ref = React.useRef(null);
   const { character} = data;
@@ -155,7 +159,22 @@ const TableRowComponent = ({
       );
     })}
   </div>
-</TableCell>     <TableCell>
+</TableCell>  
+
+<TableCell>
+  {isEditable ? (
+    <input
+      type="text"
+      value={data.bemerkung || ""}
+      onChange={(e) => setBemerkung(e.target.value)}
+      style={{ width: "100%" }}
+    />
+  ) : (
+    data.bemerkung
+  )}
+</TableCell>
+
+   <TableCell>
         {isEditable ? (
           <Checkbox
             checked={present === "Ja"}
@@ -179,28 +198,81 @@ const TableRowComponent = ({
       </TableCell>
       {isEditable && (
   <TableCell>
-    <div style={{ display: "flex", gap: "6px" }}>
-      <Button
-        variant="contained"
-        color="error"
-        onClick={() => moveOneDown(index)}
-      >
-        ↓1
-      </Button>
-      <Button
-        variant="contained"
-        color="error"
-        onClick={() => moveFiveDown(index)}
-      >
-        ↓5
-      </Button>
-      <Button
-        variant="contained"
-        color="error"
-        onClick={() => moveToBottom(index)}
-      >
-        ↓↓↓↓↓
-      </Button>
+    <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
+    <div style={{ display: "flex", gap: "2px" }}>
+        <Button
+          variant="contained"
+          color="success"
+          size="small"
+          onClick={() => moveOneUp(index)}
+          style={{
+            minWidth: "30px",
+            padding: "2px 4px",
+            lineHeight: "1",
+            fontSize: "0.9rem"
+          }}
+        >
+          ↑ 1
+        </Button>
+        <Button
+          variant="contained"
+          color="success"
+          size="small"
+          onClick={() => moveFiveUp(index)}
+          style={{
+            minWidth: "30px",
+            padding: "2px 4px",
+            lineHeight: "1",
+            fontSize: "0.9rem"
+          }}
+        >
+          ↑ 5
+        </Button>
+      </div>
+      <div style={{ display: "flex", gap: "2px" }}>
+        <Button
+          variant="contained"
+          color="warning"
+          size="small"
+          onClick={() => moveOneDown(index)}
+          style={{
+            minWidth: "30px",
+            padding: "2px 2px",
+            lineHeight: "1.1",
+            fontSize: "0.9rem"
+          }}
+        >
+          ↓ 1
+        </Button>
+        <Button
+          variant="contained"
+          color="warning"
+          size="small"
+          onClick={() => moveFiveDown(index)}
+          style={{
+            minWidth: "30px",
+            padding: "2px 4px",
+            lineHeight: "1",
+            fontSize: "0.9rem"
+          }}
+        >
+          ↓ 5
+        </Button>
+        <Button
+          variant="contained"
+          color="error"
+          size="small"
+          onClick={() => moveToBottom(index)}
+          style={{
+            minWidth: "30px",
+            padding: "2px 4px",
+            lineHeight: "1",
+            fontSize: "0.9rem"
+          }}
+        >
+          ↓↓↓↓↓
+        </Button>
+      </div>
     </div>
   </TableCell>
 )}
@@ -289,9 +361,35 @@ const CharacterTable = () => {
       setRows(updated);
     };
 
+    const moveOneUp = (index) => {
+      if (index <= 0) return;
+    
+      const updated = [...rows];
+      const temp = updated[index];
+      updated[index] = updated[index - 1];
+      updated[index - 1] = temp;
+    
+      updated.forEach((r, i) => (r.position = i + 1));
+      setRows(updated);
+    };
+
     const moveFiveDown = (index) => {
       const updated = [...rows];
       const newIndex = Math.min(index + 5, updated.length - 1);
+    
+      const [movedRow] = updated.splice(index, 1);
+      updated.splice(newIndex, 0, movedRow);
+    
+      // Positionen neu setzen
+      updated.forEach((r, i) => (r.position = i + 1));
+      setRows(updated);
+    };
+
+    const moveFiveUp = (index) => {
+      if (index <= 0) return;
+    
+      const updated = [...rows];
+      const newIndex = Math.max(index - 5, 0);
     
       const [movedRow] = updated.splice(index, 1);
       updated.splice(newIndex, 0, movedRow);
@@ -381,6 +479,7 @@ const CharacterTable = () => {
             <TableCell>Charakter</TableCell>
             <TableCell>Main & Second</TableCell>
             <TableCell>Alternative Charaktere</TableCell>
+            <TableCell>Bemerkung</TableCell>
             <TableCell>Anwesend</TableCell>
             <TableCell>Item erhalten</TableCell>
             
@@ -396,7 +495,9 @@ const CharacterTable = () => {
               isEditable={isEditable}
               moveToBottom={moveToBottom}
               moveOneDown={moveOneDown}
+              moveOneUp={moveOneUp}
               moveFiveDown={moveFiveDown}
+              moveFiveUp={moveFiveUp}
               present={row.present}
               item={row.item}
               setPresent={(value) => {
@@ -407,6 +508,12 @@ const CharacterTable = () => {
               setItem={(value) => {
                 const updated = [...rows];
                 updated[index] = { ...updated[index], item: value };
+                setRows(updated);
+              }}
+              bemerkung={row.item}
+              setBemerkung={(value) => {
+                const updated = [...rows];
+                updated[index] = { ...updated[index], bemerkung: value };
                 setRows(updated);
               }}
             />
