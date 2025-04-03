@@ -9,7 +9,8 @@ import {
   TableRow,
   Button,
   Checkbox,
-  Fab
+  Fab,
+  Menu, MenuItem
 } from "@mui/material";
 import "./CharacterTable.css";
 
@@ -33,10 +34,18 @@ const TableRowComponent = ({
   moveOneDown,
   moveOneUp,
   moveFiveDown,
-  moveFiveUp
+  moveFiveUp,
+  onDelete 
 }) => {
   const ref = React.useRef(null);
   const { character} = data;
+
+  const [anchorEl, setAnchorEl] = useState(null);
+
+
+const handleClose = () => {
+  setAnchorEl(null);
+};
 
   const getColorByClass = (klasse) => {
     switch ((klasse || "").toLowerCase()) {
@@ -101,27 +110,55 @@ const TableRowComponent = ({
   return (
     <TableRow ref={ref} className={className}>
       <TableCell align="center">{data.position}</TableCell>
-      <TableCell>
-      <Fab
-  variant="extended"
-  size="small"
-  onClick={() =>
-    window.open(
-      `https://db.rising-gods.de/?profile=eu.rising-gods.${encodeURIComponent(getDisplayName(character))}`,
-      "_blank"
-    )
-  }
-  style={{
-    backgroundColor: getColorByClass(extractClass(character)),
-    color: getTextColor(getColorByClass(extractClass(character))),
-    textTransform: "none",
-    fontSize: "0.75rem",
-    padding: "2px 10px"
+      <TableCell
+  onContextMenu={(e) => {
+    if (!isEditable) return; // Nur im Bearbeitungsmodus aktiv
+    e.preventDefault();
+    setAnchorEl(e.currentTarget);
   }}
 >
-  {getDisplayName(character)}
-</Fab>
-      </TableCell>
+  <Fab
+    variant="extended"
+    size="small"
+    onClick={() =>
+      window.open(
+        `https://db.rising-gods.de/?profile=eu.rising-gods.${encodeURIComponent(getDisplayName(character))}`,
+        "_blank"
+      )
+    }
+    style={{
+      backgroundColor: getColorByClass(extractClass(character)),
+      color: getTextColor(getColorByClass(extractClass(character))),
+      textTransform: "none",
+      fontSize: "0.75rem",
+      padding: "2px 10px"
+    }}
+  >
+    {getDisplayName(character)}
+  </Fab>
+
+  {/* Kontextmenü – nur im Bearbeitungsmodus nutzbar */}
+  <Menu
+    anchorEl={anchorEl}
+    open={Boolean(anchorEl)}
+    onClose={handleClose}
+    onClick={handleClose}
+  >
+    <MenuItem
+      onClick={() => {
+        handleClose();
+        if (isEditable && window.confirm("Charakter wirklich löschen?")) {
+          onDelete(index); // ← Funktion muss über Props kommen
+        }
+      }}
+      disabled={!isEditable}
+    >
+      🗑️ Löschen
+    </MenuItem>
+  </Menu>
+</TableCell>
+
+
       <TableCell>{data.main}</TableCell>
       <TableCell>
   <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
@@ -397,7 +434,7 @@ const CharacterTable = () => {
       // Positionen neu setzen
       updated.forEach((r, i) => (r.position = i + 1));
       setRows(updated);
-    };
+    };    
 
   const handleConfigCheck = () => {
     const input = prompt("Passwort eingeben:");
@@ -498,6 +535,12 @@ const CharacterTable = () => {
               moveOneUp={moveOneUp}
               moveFiveDown={moveFiveDown}
               moveFiveUp={moveFiveUp}
+              onDelete={(index) => {
+                const updated = [...rows];
+                updated.splice(index, 1);
+                updated.forEach((r, i) => (r.position = i + 1));
+                setRows(updated);
+              }}
               present={row.present}
               item={row.item}
               setPresent={(value) => {
