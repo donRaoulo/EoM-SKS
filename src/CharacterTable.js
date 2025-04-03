@@ -215,6 +215,18 @@ const handleClose = () => {
         )}
       </TableCell>
       <TableCell>
+  {isEditable ? (
+    <input
+      type="text"
+      value={bemerkung || ""}
+      onChange={(e) => setBemerkung(e.target.value)}
+      style={{ width: "100%" }}
+    />
+  ) : (
+    bemerkung
+  )}
+</TableCell>
+      <TableCell>
         {isEditable ? (
           <input
             type="text"
@@ -227,18 +239,7 @@ const handleClose = () => {
         )}
       </TableCell>
 
-      <TableCell>
-  {isEditable ? (
-    <input
-      type="text"
-      value={data.bemerkung || ""}
-      onChange={(e) => setBemerkung(e.target.value)}
-      style={{ width: "100%" }}
-    />
-  ) : (
-    data.bemerkung
-  )}
-</TableCell>
+
       {isEditable && (
   <TableCell>
     <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
