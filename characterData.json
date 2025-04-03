@@ -234,8 +234,17 @@
     "item": ""
   },
   {
-    "id": 20,
+    "id": 8,
     "position": 27,
+    "character": "Mchaesslich (Schurke)",
+    "main": "Combat",
+    "alt": "-",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 20,
+    "position": 28,
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
@@ -244,20 +253,11 @@
   },
   {
     "id": 29,
-    "position": 28,
+    "position": 29,
     "character": "Xalindra (Hexenmeister)",
     "main": "Dämo",
     "alt": "-",
     "present": "Ja",
-    "item": ""
-  },
-  {
-    "id": 8,
-    "position": 29,
-    "character": "Mchaesslich (Schurke)",
-    "main": "Combat",
-    "alt": "-",
-    "present": "Nein",
     "item": ""
   }
 ]
