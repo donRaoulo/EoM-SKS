@@ -22,7 +22,7 @@
     "position": 3,
     "character": "Golreg (Hexenmeister)",
     "main": "Affli/Dämo; rollt Affli",
-    "alt": "Varosh (Paladin), Gerlog (Schamane)",
+    "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
     "present": "Nein",
     "item": ""
   },
@@ -248,6 +248,15 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 29,
+    "position": 29,
+    "character": "Xalindra (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "-",
     "present": "Nein",
     "item": ""
   }
