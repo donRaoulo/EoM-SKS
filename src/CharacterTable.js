@@ -12,6 +12,10 @@ import {
   Fab,
   Menu, MenuItem
 } from "@mui/material";
+import {
+  Select,
+  FormControl
+} from "@mui/material";
 import "./CharacterTable.css";
 
 const ItemType = "ROW";
@@ -333,13 +337,30 @@ const CharacterTable = () => {
     item: "Nein"
   });
 
+const [availableBackups, setAvailableBackups] = useState([]);
+const [selectedBackup, setSelectedBackup] = useState("");
 
-  useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/characterData.json?nocache=${Date.now()}`)
-      .then((res) => res.json())
-      .then((data) => setRows(data))
-      .catch((err) => console.error("Fehler beim Laden der JSON-Datei", err));
-  }, []);
+useEffect(() => {
+  // Lade aktuelle Daten
+  fetch(`${process.env.PUBLIC_URL}/characterData.json?nocache=${Date.now()}`)
+    .then((res) => res.json())
+    .then((data) => setRows(data))
+    .catch((err) => console.error("Fehler beim Laden der JSON-Datei", err));
+
+  // Lade Backup-Dateien
+  fetch("https://api.github.com/repos/donRaoulo/EoM-SKS/contents/public/history?ref=main")
+    .then((res) => res.json())
+    .then((files) => {
+      const backups = files
+        .filter((file) => file.name.endsWith(".json"))
+        .map((file) => file.name.replace(".json", ""))
+        .sort()
+        .reverse(); // neuestes oben
+      setAvailableBackups(backups);
+      setSelectedBackup("Aktuell");
+    })
+    .catch((err) => console.error("Fehler beim Laden der Backups", err));
+}, []);
 
   const moveRow = (fromIndex, toIndex) => {
     const movable = rows.filter(r => r.present !== "Nein");
@@ -489,27 +510,137 @@ const CharacterTable = () => {
     }
   };
 
+  const saveToHistory = async () => {
+    const now = new Date();
+    const timestamp = `${String(now.getDate()).padStart(2, "0")}.${String(now.getMonth() + 1).padStart(2, "0")}.${now.getFullYear()}_${String(now.getHours()).padStart(2, "0")}-${String(now.getMinutes()).padStart(2, "0")}`;
+    const path = `public/history/${timestamp}.json`;
+  
+    const tokenResponse = await fetch("https://echoes-of-madness.x10.mx/data/test.txt");
+    const encoded = (await tokenResponse.text()).trim();
+  
+    try {
+      const content = JSON.stringify(rows, null, 2);
+      const base64Content = btoa(unescape(encodeURIComponent(content)));
+  
+      const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, {
+        method: "PUT",
+        headers: {
+          Authorization: `token ${encoded}`,
+          Accept: "application/vnd.github.v3+json",
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          message: `📦 Backup vom ${timestamp}`,
+          content: base64Content,
+          branch: BRANCH
+        })
+      });
+  
+      if (res.ok) {
+        alert("✅ Raid erfolgreich gespeichert!");
+      } else {
+        alert("❌ Fehler beim Speichern:\n" + await res.text());
+      }
+    } catch (err) {
+      alert("❌ Fehler:\n" + err.message);
+    }
+  };
+
+
+  
+  
+
   return (
     <DndProvider backend={HTML5Backend}>
-      <div className="floating-button-group">
-        <Button
-          onClick={handleConfigCheck}
-          variant="contained"
-          color="primary"
-        >
-          Bearbeiten
-        </Button>
-        {isEditable && (
-          <Button
-            onClick={() => updateCharacterData(rows)}
-            variant="contained"
-            color="success"
-            style={{ marginLeft: "10px" }}
-          >
-            Speichern
-          </Button>
-        )}
-      </div>
+<div className="floating-button-group">
+    <Button
+      onClick={handleConfigCheck}
+      variant="contained"
+      color="primary"
+    >
+      Bearbeiten
+    </Button>
+    
+    {isEditable && (
+      <Button
+        onClick={saveToHistory}
+        variant="outlined"
+        color="secondary"
+      >
+        Raid abschließen
+      </Button>
+    )}
+
+  {isEditable && (
+    <Button
+      onClick={() => updateCharacterData(rows)}
+      variant="contained"
+      color="success"
+    >
+      Speichern
+    </Button>
+  )}
+</div>
+
+{availableBackups.length > 0 && (
+<FormControl fullWidth size="small" sx={{ 
+  backgroundColor: "#1e1e2f", 
+  borderRadius: 2, 
+  '& .MuiInputLabel-root': { color: 'white' },
+  '& .MuiOutlinedInput-root': {
+    color: 'white',
+    '& fieldset': {
+      borderColor: '#666'
+    },
+    '&:hover fieldset': {
+      borderColor: '#888'
+    },
+    '&.Mui-focused fieldset': {
+      borderColor: '#bbb'
+    }
+  },
+  '& .MuiSelect-icon': {
+    color: 'white'
+  }
+}}>
+  <Select
+    labelId="backup-label"
+    value={selectedBackup}
+    onChange={async (e) => {
+      const backupName = e.target.value;
+      setSelectedBackup(backupName);
+      let url;
+
+      if (backupName === "Aktuell") {
+        url = `${process.env.PUBLIC_URL}/characterData.json?nocache=${Date.now()}`;
+      } else {
+        url = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/public/history/${backupName}.json`;
+      }
+
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
+        setRows(data);
+      } catch (err) {
+        alert("❌ Fehler beim Laden des Raids");
+      }
+    }}
+  >
+    <MenuItem value="Aktuell">📌 Aktuell</MenuItem>
+    {availableBackups.map((name) => {
+  const datePart = name.split("_")[0]; // z. B. "03.04.2025"
+  const [day, month, yearFull] = datePart.split(".");
+  const shortDate = `${day}.${month}.${yearFull.slice(2)}`; // z. B. "03.04.25"
+  return (
+    <MenuItem key={name} value={name}>
+      {shortDate}
+    </MenuItem>
+  );
+})}
+  </Select>
+</FormControl>
+
+)}
 
       <Table>
         <TableHead>
@@ -555,7 +686,7 @@ const CharacterTable = () => {
                 updated[index] = { ...updated[index], item: value };
                 setRows(updated);
               }}
-              bemerkung={row.item}
+              bemerkung={row.bemerkung}
               setBemerkung={(value) => {
                 const updated = [...rows];
                 updated[index] = { ...updated[index], bemerkung: value };
@@ -565,6 +696,9 @@ const CharacterTable = () => {
           ))}
         </TableBody>
       </Table>
+
+
+
       {isEditable && (
   <div style={{ marginTop: "20px" }}>
   {!showForm ? (
