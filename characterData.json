@@ -1,18 +1,36 @@
 [
   {
-    "id": 1,
-    "position": 7,
-    "character": "Àrwén (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "Eovîn (Hexenmeister)",
-    "present": "Ja",
-    "item": ""
-  },
-  {
     "id": 2,
     "position": 1,
     "character": "Háágl (Druide)",
     "main": "UH/Tank; rollt UH",
+    "alt": "-",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 6,
+    "position": 2,
+    "character": "Outbreak (Priester)",
+    "main": "SP",
+    "alt": "-",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 23,
+    "position": 3,
+    "character": "Golreg (Hexenmeister)",
+    "main": "Affli/Dämo; rollt Affli",
+    "alt": "Varosh (Paladin), Gerlog (Schamane)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 26,
+    "position": 4,
+    "character": "Solédad (Priester)",
+    "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
     "present": "Nein",
     "item": ""
@@ -27,47 +45,20 @@
     "item": ""
   },
   {
-    "id": 4,
-    "position": 12,
-    "character": "Graugdasch (Schamane)",
-    "main": "Resto/VS; rollt Resto",
-    "alt": "-",
-    "present": "Nein",
-    "item": ""
-  },
-  {
     "id": 5,
     "position": 6,
     "character": "Klötenrómer (Krieger)",
     "main": "Fury",
     "alt": "-",
-    "present": "Ja",
-    "item": ""
-  },
-  {
-    "id": 6,
-    "position": 2,
-    "character": "Outbreak (Priester)",
-    "main": "SP",
-    "alt": "-",
-    "present": "Ja",
-    "item": ""
-  },
-  {
-    "id": 7,
-    "position": 21,
-    "character": "Multiboy (Schurke)",
-    "main": "Combat",
-    "alt": "-",
     "present": "Nein",
     "item": ""
   },
   {
-    "id": 8,
-    "position": 27,
-    "character": "Mchaesslich (Schurke)",
-    "main": "Combat",
-    "alt": "-",
+    "id": 1,
+    "position": 7,
+    "character": "Àrwén (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "Eovîn (Hexenmeister)",
     "present": "Nein",
     "item": ""
   },
@@ -81,74 +72,11 @@
     "item": ""
   },
   {
-    "id": 10,
-    "position": 18,
-    "character": "Hiería (Druide)",
-    "main": "Eule",
-    "alt": "Fresa (Schamane)",
-    "present": "Nein",
-    "item": ""
-  },
-  {
-    "id": 11,
-    "position": 22,
-    "character": "Chrisson (Paladin)",
-    "main": "Pala Tank/Hpala; rollt Tank",
-    "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
-    "item": ""
-  },
-  {
-    "id": 12,
-    "position": 26,
-    "character": "Moophie (Druide)",
-    "main": "Baum/Eule; rollt Baum",
-    "alt": "Shieldow (Priester)",
-    "present": "Nein",
-    "item": ""
-  },
-  {
     "id": 13,
     "position": 9,
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
-    "present": "Nein",
-    "item": ""
-  },
-  {
-    "id": 14,
-    "position": 25,
-    "character": "Patrota (Magier)",
-    "main": "Fmage",
-    "alt": "Batna (Priester), Amizo (Todesritter)",
-    "present": "Ja",
-    "item": ""
-  },
-  {
-    "id": 15,
-    "position": 24,
-    "character": "Dopehealz (Schamane)",
-    "main": "Resto",
-    "alt": "Nvm (Magier)",
-    "present": "Ja",
-    "item": ""
-  },
-  {
-    "id": 16,
-    "position": 23,
-    "character": "Chrønøs (Druide)",
-    "main": "Eule/Bär; rollt Eule",
-    "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
-    "item": ""
-  },
-  {
-    "id": 17,
-    "position": 13,
-    "character": "Flereigam (Magier)",
-    "main": "Fmage",
-    "alt": "Blinkeydk (Todesritter)",
     "present": "Nein",
     "item": ""
   },
@@ -171,65 +99,20 @@
     "item": ""
   },
   {
-    "id": 20,
-    "position": 28,
-    "character": "Burning (Druide)",
-    "main": "Cat",
-    "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
-    "present": "Nein",
-    "item": ""
-  },
-  {
-    "id": 21,
-    "position": 17,
-    "character": "Beautý (Priester)",
-    "main": "SP/Diszi; rollt SP",
-    "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Ja",
-    "item": ""
-  },
-  {
-    "id": 22,
-    "position": 16,
-    "character": "Firmware (Druide)",
-    "main": "Eule/Baum; rollt Eule",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Nein",
-    "item": ""
-  },
-  {
-    "id": 23,
-    "position": 3,
-    "character": "Golreg (Hexenmeister)",
-    "main": "Affli/Dämo; rollt Affli",
-    "alt": "Varosh (Paladin), Gerlog (Schamane)",
-    "present": "Nein",
-    "item": ""
-  },
-  {
-    "id": 24,
-    "position": 20,
-    "character": "Sélkét (Paladin)",
-    "main": "Retri (2. SM Splitter)",
-    "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Nein",
-    "item": ""
-  },
-  {
-    "id": 25,
-    "position": 19,
-    "character": "Shadowdevíl (Krieger)",
-    "main": "Fury",
+    "id": 4,
+    "position": 12,
+    "character": "Graugdasch (Schamane)",
+    "main": "Resto/VS; rollt Resto",
     "alt": "-",
     "present": "Nein",
     "item": ""
   },
   {
-    "id": 26,
-    "position": 4,
-    "character": "Solédad (Priester)",
-    "main": "Diszi/SP, rollt Diszi",
-    "alt": "-",
+    "id": 17,
+    "position": 13,
+    "character": "Flereigam (Magier)",
+    "main": "Fmage",
+    "alt": "Blinkeydk (Todesritter)",
     "present": "Nein",
     "item": ""
   },
@@ -248,6 +131,123 @@
     "character": "Jînxî (Paladin)",
     "main": "Hpala/Retro; rollt Hpala",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 22,
+    "position": 16,
+    "character": "Firmware (Druide)",
+    "main": "Eule/Baum; rollt Eule",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 21,
+    "position": 17,
+    "character": "Beautý (Priester)",
+    "main": "SP/Diszi; rollt SP",
+    "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 10,
+    "position": 18,
+    "character": "Hiería (Druide)",
+    "main": "Eule",
+    "alt": "Fresa (Schamane)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 25,
+    "position": 19,
+    "character": "Shadowdevíl (Krieger)",
+    "main": "Fury",
+    "alt": "-",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 24,
+    "position": 20,
+    "character": "Sélkét (Paladin)",
+    "main": "Retri (2. SM Splitter)",
+    "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 7,
+    "position": 21,
+    "character": "Multiboy (Schurke)",
+    "main": "Combat",
+    "alt": "-",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 11,
+    "position": 22,
+    "character": "Chrisson (Paladin)",
+    "main": "Pala Tank/Hpala; rollt Tank",
+    "alt": "Könnteheilen (Priester)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 16,
+    "position": 23,
+    "character": "Chrønøs (Druide)",
+    "main": "Eule/Bär; rollt Eule",
+    "alt": "Karkaroff (Schamane)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 15,
+    "position": 24,
+    "character": "Dopehealz (Schamane)",
+    "main": "Resto",
+    "alt": "Nvm (Magier)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 14,
+    "position": 25,
+    "character": "Patrota (Magier)",
+    "main": "Fmage",
+    "alt": "Batna (Priester), Amizo (Todesritter)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 12,
+    "position": 26,
+    "character": "Moophie (Druide)",
+    "main": "Baum/Eule; rollt Baum",
+    "alt": "Shieldow (Priester)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 8,
+    "position": 27,
+    "character": "Mchaesslich (Schurke)",
+    "main": "Combat",
+    "alt": "-",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 20,
+    "position": 28,
+    "character": "Burning (Druide)",
+    "main": "Cat",
+    "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
     "present": "Nein",
     "item": ""
   }
