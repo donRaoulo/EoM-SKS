@@ -5,7 +5,7 @@
     "character": "Háágl (Todesritter)",
     "main": "UH/Tank; rollt UH",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -22,8 +22,8 @@
     "position": 3,
     "character": "Golreg (Hexenmeister)",
     "main": "Affli/Dämo; rollt Affli",
-    "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); NIEMALS Diszi oder Tank, sonst Schmerzensgeld von Laura",
-    "present": "Nein",
+    "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -41,7 +41,7 @@
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -50,7 +50,7 @@
     "character": "Klötenrómer (Krieger)",
     "main": "Fury",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -59,7 +59,7 @@
     "character": "Àrwén (Hexenmeister)",
     "main": "Affli",
     "alt": "Eovîn (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -95,7 +95,7 @@
     "character": "Freetag (Todesritter)",
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -113,7 +113,7 @@
     "character": "Flereigam (Magier)",
     "main": "Fmage",
     "alt": "Blinkeydk (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -122,7 +122,7 @@
     "character": "Brummelblitz (Schamane)",
     "main": "Resto/Ele; rollt Resto",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -131,7 +131,7 @@
     "character": "Jînxî (Paladin)",
     "main": "Hpala/Retro; rollt Hpala",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -140,7 +140,7 @@
     "character": "Firmware (Druide)",
     "main": "Eule/Baum; rollt Eule",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -149,7 +149,7 @@
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -158,7 +158,7 @@
     "character": "Hiería (Druide)",
     "main": "Eule",
     "alt": "Fresa (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -167,7 +167,7 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -176,7 +176,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -185,7 +185,7 @@
     "character": "Multiboy (Schurke)",
     "main": "Combat",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -194,7 +194,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -203,7 +203,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -212,7 +212,7 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -221,7 +221,7 @@
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -230,7 +230,7 @@
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -248,7 +248,7 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -257,7 +257,7 @@
     "character": "Xalindra (Hexenmeister)",
     "main": "Dämo",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   }
 ]
