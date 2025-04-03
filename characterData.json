@@ -6,7 +6,8 @@
     "main": "UH/Tank; rollt UH",
     "alt": "-",
     "present": "Ja",
-    "item": ":)"
+    "item": ":)",
+    "bemerkung": "Test"
   },
   {
     "id": 6,
