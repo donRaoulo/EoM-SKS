@@ -460,8 +460,8 @@ const CharacterTable = () => {
       if (!shaRes.ok) throw new Error("Fehler beim SHA-Request");
 
       const { sha } = await shaRes.json();
-      const cleanRows = rows.map(({ id, position, character, main, alt, present, item, klasse }) => ({
-        id, position, character, main, alt, present, item, klasse
+      const cleanRows = rows.map(({ id, position, character, main, alt, present, item, klasse, bemerkung }) => ({
+        id, position, character, main, alt, present, item, klasse, bemerkung
       }));
 
       const content = JSON.stringify(cleanRows, null, 2);
