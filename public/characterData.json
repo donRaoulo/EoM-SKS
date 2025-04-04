@@ -49,14 +49,14 @@
     "bemerkung": ""
   },
   {
-    "id": 29,
+    "id": 16,
     "position": 6,
-    "character": "Xalindra (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "-",
+    "character": "Chrønøs (Druide)",
+    "main": "Eule/Bär; rollt Eule",
+    "alt": "Karkaroff (Schamane)",
     "present": "Ja",
-    "item": "8. Item Casterrücken",
-    "bemerkung": "muss noch rollen"
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 18,
@@ -79,13 +79,13 @@
     "bemerkung": ""
   },
   {
-    "id": 1,
+    "id": 28,
     "position": 9,
-    "character": "Haimdali (Hexenmeister)",
-    "main": "Affli",
-    "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
+    "character": "Jînxî (Paladin)",
+    "main": "Hpala/Retro; rollt Hpala",
+    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
     "present": "Ja",
-    "item": "6. Item HC Token",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -109,14 +109,14 @@
     "bemerkung": ""
   },
   {
-    "id": 19,
+    "id": 21,
     "position": 12,
-    "character": "Freetag (Todesritter)",
-    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
-    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
+    "character": "Beautý (Priester)",
+    "main": "SP/Diszi; rollt SP",
+    "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
     "present": "Ja",
-    "item": "9. Item Tankring",
-    "bemerkung": "Heute Dingstag (Pala Tank)"
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 4,
@@ -129,48 +129,8 @@
     "bemerkung": ""
   },
   {
-    "id": 17,
-    "position": 14,
-    "character": "Flereigam (Magier)",
-    "main": "Fmage",
-    "alt": "Blinkeydk (Todesritter)",
-    "present": "Ja",
-    "item": "7. BQ Hals",
-    "bemerkung": ""
-  },
-  {
-    "id": 16,
-    "position": 15,
-    "character": "Chrønøs (Druide)",
-    "main": "Eule/Bär; rollt Eule",
-    "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 28,
-    "position": 16,
-    "character": "Jînxî (Paladin)",
-    "main": "Hpala/Retro; rollt Hpala",
-    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 21,
-    "position": 17,
-    "character": "Beautý (Priester)",
-    "main": "SP/Diszi; rollt SP",
-    "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 10,
-    "position": 18,
+    "position": 14,
     "character": "Hiería (Druide)",
     "main": "Eule",
     "alt": "Fresa (Schamane)",
@@ -179,18 +139,8 @@
     "bemerkung": ""
   },
   {
-    "id": 24,
-    "position": 19,
-    "character": "Sélkét (Paladin)",
-    "main": "Retri (2. SM Splitter)",
-    "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Ja",
-    "item": "5. Item, Treter der Einöde",
-    "bemerkung": ""
-  },
-  {
     "id": 7,
-    "position": 20,
+    "position": 15,
     "character": "Multiboy (Schurke)",
     "main": "Combat",
     "alt": "-",
@@ -200,7 +150,7 @@
   },
   {
     "id": 11,
-    "position": 21,
+    "position": 16,
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
@@ -210,7 +160,7 @@
   },
   {
     "id": 14,
-    "position": 22,
+    "position": 17,
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
@@ -219,24 +169,74 @@
     "bemerkung": ""
   },
   {
-    "id": 12,
-    "position": 23,
-    "character": "Moophie (Druide)",
-    "main": "Baum/Eule; rollt Baum",
-    "alt": "Shieldow (Priester)",
-    "present": "Ja",
-    "item": "1. Item Amulett der Knochenschildwache; 10. Item Sonnenuhr",
-    "bemerkung": ""
-  },
-  {
     "id": 20,
-    "position": 24,
+    "position": 18,
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
     "present": "Ja",
-    "item": "2. Item Schlächterumhang des Schattengewölbes",
+    "item": "2. Item, Schlächterumhang des Schattengewölbes",
     "bemerkung": ""
+  },
+  {
+    "id": 22,
+    "position": 19,
+    "character": "Firmware (Druide)",
+    "main": "Eule/Baum; rollt Eule",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "present": "Ja",
+    "item": "3. Item, Ring des Schnellen Aufstiegs",
+    "bemerkung": ""
+  },
+  {
+    "id": 25,
+    "position": 20,
+    "character": "Shadowdevíl (Krieger)",
+    "main": "Fury",
+    "alt": "-",
+    "present": "Ja",
+    "item": "4. Item, Toskks maximierte Handgelenksschützer",
+    "bemerkung": "Questmacher"
+  },
+  {
+    "id": 24,
+    "position": 21,
+    "character": "Sélkét (Paladin)",
+    "main": "Retri (2. SM Splitter)",
+    "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
+    "present": "Ja",
+    "item": "5. Item, Treter der Einöde",
+    "bemerkung": ""
+  },
+  {
+    "id": 1,
+    "position": 22,
+    "character": "Haimdali (Hexenmeister)",
+    "main": "Affli",
+    "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
+    "present": "Ja",
+    "item": "6. Item HC Token",
+    "bemerkung": ""
+  },
+  {
+    "id": 17,
+    "position": 23,
+    "character": "Flereigam (Magier)",
+    "main": "Fmage",
+    "alt": "Blinkeydk (Todesritter)",
+    "present": "Ja",
+    "item": "7. Purpurroter Halsreif der Blutkönigin",
+    "bemerkung": ""
+  },
+  {
+    "id": 29,
+    "position": 24,
+    "character": "Xalindra (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "-",
+    "present": "Ja",
+    "item": "8. Item Zerfetztes Cape des Frostbinders",
+    "bemerkung": "muss noch rollen"
   },
   {
     "id": 15,
@@ -249,24 +249,24 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
+    "id": 19,
     "position": 26,
-    "character": "Firmware (Druide)",
-    "main": "Eule/Baum; rollt Eule",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "character": "Freetag (Todesritter)",
+    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
+    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
     "present": "Ja",
-    "item": "3. Item, Ring des Schnellen Aufstiegs",
-    "bemerkung": ""
+    "item": "9. Item, Deviums ewigkalter Ring",
+    "bemerkung": "Heute Dingstag (Pala Tank)"
   },
   {
-    "id": 25,
+    "id": 12,
     "position": 27,
-    "character": "Shadowdevíl (Krieger)",
-    "main": "Fury",
-    "alt": "-",
+    "character": "Moophie (Druide)",
+    "main": "Baum/Eule; rollt Baum",
+    "alt": "Shieldow (Priester)",
     "present": "Ja",
-    "item": "4. Item Tosks",
-    "bemerkung": "Questmacher"
+    "item": "1. Item, Amulett der Knochenschildwache; 10. Item, Sonnenuhr der ewigen Abenddämmerung",
+    "bemerkung": ""
   },
   {
     "id": 27,
