@@ -139,18 +139,8 @@
     "bemerkung": ""
   },
   {
-    "id": 27,
-    "position": 15,
-    "character": "Brummelblitz (Schamane)",
-    "main": "Resto/Ele; rollt Resto",
-    "alt": "-",
-    "present": "Ja",
-    "item": "10. Item, Trauma",
-    "bemerkung": ""
-  },
-  {
     "id": 16,
-    "position": 16,
+    "position": 15,
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
@@ -160,7 +150,7 @@
   },
   {
     "id": 28,
-    "position": 17,
+    "position": 16,
     "character": "Jînxî (Paladin)",
     "main": "Hpala/Retro; rollt Hpala",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
@@ -169,18 +159,8 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
-    "position": 18,
-    "character": "Firmware (Druide)",
-    "main": "Eule/Baum; rollt Eule",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
-    "item": "3. Item, Ring des Schnellen Aufstiegs",
-    "bemerkung": ""
-  },
-  {
     "id": 21,
-    "position": 19,
+    "position": 17,
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
@@ -190,7 +170,7 @@
   },
   {
     "id": 10,
-    "position": 20,
+    "position": 18,
     "character": "Hiería (Druide)",
     "main": "Eule",
     "alt": "Fresa (Schamane)",
@@ -199,18 +179,8 @@
     "bemerkung": ""
   },
   {
-    "id": 25,
-    "position": 21,
-    "character": "Shadowdevíl (Krieger)",
-    "main": "Fury",
-    "alt": "-",
-    "present": "Ja",
-    "item": "4. Item Tosks",
-    "bemerkung": "Questmacher"
-  },
-  {
     "id": 24,
-    "position": 22,
+    "position": 19,
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
@@ -220,7 +190,7 @@
   },
   {
     "id": 7,
-    "position": 23,
+    "position": 20,
     "character": "Multiboy (Schurke)",
     "main": "Combat",
     "alt": "-",
@@ -230,13 +200,43 @@
   },
   {
     "id": 11,
-    "position": 24,
+    "position": 21,
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
     "present": "Ja",
     "item": "",
     "bemerkung": "Heute Hpala"
+  },
+  {
+    "id": 14,
+    "position": 22,
+    "character": "Patrota (Magier)",
+    "main": "Fmage",
+    "alt": "Batna (Priester), Amizo (Todesritter)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 12,
+    "position": 23,
+    "character": "Moophie (Druide)",
+    "main": "Baum/Eule; rollt Baum",
+    "alt": "Shieldow (Priester)",
+    "present": "Ja",
+    "item": "1. Item Amulett der Knochenschildwache",
+    "bemerkung": ""
+  },
+  {
+    "id": 20,
+    "position": 24,
+    "character": "Burning (Druide)",
+    "main": "Cat",
+    "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
+    "present": "Ja",
+    "item": "2. Item Schlächterumhang des Schattengewölbes",
+    "bemerkung": ""
   },
   {
     "id": 15,
@@ -249,43 +249,43 @@
     "bemerkung": ""
   },
   {
-    "id": 14,
+    "id": 22,
     "position": 26,
-    "character": "Patrota (Magier)",
-    "main": "Fmage",
-    "alt": "Batna (Priester), Amizo (Todesritter)",
+    "character": "Firmware (Druide)",
+    "main": "Eule/Baum; rollt Eule",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
-    "item": "",
+    "item": "3. Item, Ring des Schnellen Aufstiegs",
     "bemerkung": ""
   },
   {
-    "id": 12,
+    "id": 25,
     "position": 27,
-    "character": "Moophie (Druide)",
-    "main": "Baum/Eule; rollt Baum",
-    "alt": "Shieldow (Priester)",
+    "character": "Shadowdevíl (Krieger)",
+    "main": "Fury",
+    "alt": "-",
     "present": "Ja",
-    "item": "1. Item Amulett der Knochenschildwache",
+    "item": "4. Item Tosks",
+    "bemerkung": "Questmacher"
+  },
+  {
+    "id": 27,
+    "position": 28,
+    "character": "Brummelblitz (Schamane)",
+    "main": "Resto/Ele; rollt Resto",
+    "alt": "-",
+    "present": "Ja",
+    "item": "10. Item, Trauma",
     "bemerkung": ""
   },
   {
     "id": 8,
-    "position": 28,
+    "position": 29,
     "character": "Mchaesslich (Schurke)",
     "main": "Combat",
     "alt": "-",
     "present": "Ja",
     "item": "12. Item, Gangaröse Gamaschen",
-    "bemerkung": ""
-  },
-  {
-    "id": 20,
-    "position": 29,
-    "character": "Burning (Druide)",
-    "main": "Cat",
-    "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
-    "present": "Ja",
-    "item": "2. Item Schlächterumhang des Schattengewölbes",
     "bemerkung": ""
   }
 ]
