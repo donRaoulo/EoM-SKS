@@ -55,7 +55,7 @@
     "main": "Dämo",
     "alt": "-",
     "present": "Ja",
-    "item": "",
+    "item": "8. Item Casterrücken",
     "bemerkung": "muss noch rollen"
   },
   {
@@ -85,7 +85,7 @@
     "main": "Affli",
     "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
     "present": "Ja",
-    "item": "",
+    "item": "6. Item HC Token",
     "bemerkung": ""
   },
   {
@@ -135,7 +135,7 @@
     "main": "Fmage",
     "alt": "Blinkeydk (Todesritter)",
     "present": "Ja",
-    "item": "",
+    "item": "7. BQ Hals",
     "bemerkung": ""
   },
   {
