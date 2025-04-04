@@ -55,7 +55,7 @@
     "main": "Dämo",
     "alt": "-",
     "present": "Ja",
-    "item": "8. Item Casterrücken",
+    "item": "",
     "bemerkung": "muss noch rollen"
   },
   {
@@ -85,7 +85,7 @@
     "main": "Affli",
     "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
     "present": "Ja",
-    "item": "6. Item HC Token",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -115,7 +115,7 @@
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
     "present": "Ja",
-    "item": "9. Item Tankring",
+    "item": "",
     "bemerkung": "Heute Dingstag (Pala Tank)"
   },
   {
@@ -135,7 +135,7 @@
     "main": "Fmage",
     "alt": "Blinkeydk (Todesritter)",
     "present": "Ja",
-    "item": "7. BQ Hals",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -145,7 +145,7 @@
     "main": "Resto/Ele; rollt Resto",
     "alt": "-",
     "present": "Ja",
-    "item": "",
+    "item": "10. Item, Trauma",
     "bemerkung": ""
   },
   {
@@ -215,7 +215,7 @@
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
     "present": "Ja",
-    "item": "5. Item, Treter der Einöde",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -265,7 +265,7 @@
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
     "present": "Ja",
-    "item": "1. Item Amulett der Knochenschildwache; 9. Item Sonnenuhr",
+    "item": "1. Item Amulett der Knochenschildwache",
     "bemerkung": ""
   },
   {
