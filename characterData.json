@@ -175,7 +175,7 @@
     "main": "Eule/Baum; rollt Eule",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
-    "item": "",
+    "item": "3. Item, Ring des Schnellen Aufstiegs",
     "bemerkung": ""
   },
   {
@@ -205,7 +205,7 @@
     "main": "Fury",
     "alt": "-",
     "present": "Ja",
-    "item": "",
+    "item": "4. Item Tosks",
     "bemerkung": "Questmacher"
   },
   {
@@ -265,7 +265,7 @@
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
     "present": "Ja",
-    "item": "1.Item",
+    "item": "1. Item Amulett der Knochenschildwache",
     "bemerkung": ""
   },
   {
@@ -285,7 +285,7 @@
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
     "present": "Ja",
-    "item": "2.item",
+    "item": "2. Item Schlächterumhang des Schattengewölbes",
     "bemerkung": ""
   }
 ]
