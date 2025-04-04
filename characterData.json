@@ -4,7 +4,7 @@
     "position": 1,
     "character": "Háágl (Todesritter)",
     "main": "UH/Tank; rollt UH",
-    "alt": "Huberts (Schurke)",
+    "alt": "-",
     "present": "Ja",
     "item": ""
   },
@@ -142,7 +142,7 @@
     "id": 28,
     "position": 15,
     "character": "Jînxî (Paladin)",
-    "main": "Hpala/Retri; rollt Hpala",
+    "main": "Hpala/Retro; rollt Hpala",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
     "present": "Ja",
     "item": "",
@@ -264,7 +264,7 @@
     "character": "Mchaesslich (Schurke)",
     "main": "Combat",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
