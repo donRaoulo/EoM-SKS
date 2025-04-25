@@ -5,7 +5,7 @@
     "character": "Háágl (Todesritter)",
     "main": "UH/Tank; rollt UH",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": ""
   },
   {
@@ -86,7 +86,7 @@
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "Hunter (Petitrichie)"
+    "bemerkung": ""
   },
   {
     "id": 9,
