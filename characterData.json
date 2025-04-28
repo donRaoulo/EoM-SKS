@@ -5,7 +5,7 @@
     "character": "Háágl (Todesritter)",
     "main": "UH/Tank; rollt UH",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": ""
   },
   {
@@ -64,7 +64,7 @@
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -84,7 +84,7 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -94,7 +94,7 @@
     "character": "Hiería (Druide)",
     "main": "Eule",
     "alt": "Fresa (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -104,7 +104,7 @@
     "character": "Multiboy (Schurke)",
     "main": "Combat",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -134,7 +134,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -144,7 +144,7 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -154,7 +154,7 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -174,7 +174,7 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -184,7 +184,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -194,7 +194,7 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -204,9 +204,9 @@
     "character": "Faedrak (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
-    "present": "Ja",
-    "item": "Aldrianas",
-    "bemerkung": "2. Listeitem"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 1,
@@ -224,9 +224,9 @@
     "character": "Flereigam (Magier)",
     "main": "Fmage",
     "alt": "Blinkeydk (Todesritter)",
-    "present": "Ja",
-    "item": "Ring des schnellen Aufstiegs + Siechtum",
-    "bemerkung": "1. Listeitem +  3. Listeitem"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 29,
@@ -244,9 +244,9 @@
     "character": "Babsy (Paladin)",
     "main": "Retri",
     "alt": "Voodooerika (Priester)",
-    "present": "Ja",
-    "item": "HC Token",
-    "bemerkung": "4. Listeitem"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 19,
