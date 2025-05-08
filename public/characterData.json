@@ -94,7 +94,7 @@
     "character": "Hiería (Druide)",
     "main": "Eule",
     "alt": "Fresa (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -144,7 +144,7 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -184,7 +184,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
