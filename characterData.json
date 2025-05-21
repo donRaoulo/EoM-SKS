@@ -114,7 +114,7 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -144,7 +144,7 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -264,7 +264,7 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -274,7 +274,7 @@
     "character": "Hiería (Druide)",
     "main": "Eule",
     "alt": "Fresa (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
