@@ -79,11 +79,11 @@
     "bemerkung": ""
   },
   {
-    "id": 13,
+    "id": 20,
     "position": 9,
-    "character": "Alabuu (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "Alibär (Todesritter)",
+    "character": "Burning (Druide)",
+    "main": "Cat",
+    "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -109,21 +109,21 @@
     "bemerkung": ""
   },
   {
-    "id": 20,
+    "id": 14,
     "position": 12,
-    "character": "Burning (Druide)",
-    "main": "Cat",
-    "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
+    "character": "Patrota (Magier)",
+    "main": "Fmage",
+    "alt": "Batna (Priester), Amizo (Todesritter)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 14,
+    "id": 4,
     "position": 13,
-    "character": "Patrota (Magier)",
-    "main": "Fmage",
-    "alt": "Batna (Priester), Amizo (Todesritter)",
+    "character": "Graugdasch (Schamane)",
+    "main": "Resto main, VS sec",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -159,11 +159,11 @@
     "bemerkung": ""
   },
   {
-    "id": 9,
+    "id": 22,
     "position": 17,
-    "character": "Faedrak (Krieger)",
-    "main": "Fury (1. SM Splitter)",
-    "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -184,7 +184,7 @@
     "character": "Spîderkuh (Magier)",
     "main": "Fmage",
     "alt": "Brummelblitz (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -199,11 +199,11 @@
     "bemerkung": ""
   },
   {
-    "id": 4,
+    "id": 10,
     "position": 21,
-    "character": "Graugdasch (Schamane)",
-    "main": "Resto main, VS sec",
-    "alt": "-",
+    "character": "Hiería (Druide)",
+    "main": "Eule",
+    "alt": "Fresa (Schamane)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -259,23 +259,23 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
+    "id": 13,
     "position": 27,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "character": "Alabuu (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "Alibär (Todesritter)",
     "present": "Ja",
-    "item": "",
+    "item": "1. Item Fauli Hosen",
     "bemerkung": ""
   },
   {
-    "id": 10,
+    "id": 9,
     "position": 28,
-    "character": "Hiería (Druide)",
-    "main": "Eule",
-    "alt": "Fresa (Schamane)",
+    "character": "Faedrak (Krieger)",
+    "main": "Fury (1. SM Splitter)",
+    "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
     "present": "Ja",
-    "item": "",
+    "item": "2. Item (BQ Kette)",
     "bemerkung": ""
   },
   {
