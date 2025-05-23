@@ -119,11 +119,11 @@
     "bemerkung": ""
   },
   {
-    "id": 4,
+    "id": 22,
     "position": 13,
-    "character": "Graugdasch (Schamane)",
-    "main": "Resto main, VS sec",
-    "alt": "-",
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -159,13 +159,13 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
+    "id": 13,
     "position": 17,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "character": "Alabuu (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "Alibär (Todesritter)",
     "present": "Ja",
-    "item": "",
+    "item": "1. Item Fauli Hosen",
     "bemerkung": ""
   },
   {
@@ -199,13 +199,13 @@
     "bemerkung": ""
   },
   {
-    "id": 10,
+    "id": 9,
     "position": 21,
-    "character": "Hiería (Druide)",
-    "main": "Eule",
-    "alt": "Fresa (Schamane)",
+    "character": "Faedrak (Krieger)",
+    "main": "Fury (1. SM Splitter)",
+    "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
     "present": "Ja",
-    "item": "",
+    "item": "2. Item (BQ Kette)",
     "bemerkung": ""
   },
   {
@@ -259,23 +259,23 @@
     "bemerkung": ""
   },
   {
-    "id": 13,
+    "id": 10,
     "position": 27,
-    "character": "Alabuu (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "Alibär (Todesritter)",
+    "character": "Hiería (Druide)",
+    "main": "Eule",
+    "alt": "Fresa (Schamane)",
     "present": "Ja",
-    "item": "1. Item Fauli Hosen",
+    "item": "3. Item (Sonnenuhr)",
     "bemerkung": ""
   },
   {
-    "id": 9,
+    "id": 4,
     "position": 28,
-    "character": "Faedrak (Krieger)",
-    "main": "Fury (1. SM Splitter)",
-    "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
+    "character": "Graugdasch (Schamane)",
+    "main": "Resto main, VS sec",
+    "alt": "-",
     "present": "Ja",
-    "item": "2. Item (BQ Kette)",
+    "item": "4. Item (HC Token)",
     "bemerkung": ""
   },
   {
@@ -287,5 +287,41 @@
     "present": "Nein",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 30,
+    "position": 30,
+    "character": "Roktaron (Schurke)",
+    "main": "Combat",
+    "alt": "",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 31,
+    "position": 31,
+    "character": "Mínjung (Druide)",
+    "main": "Cat main, Baum sec",
+    "alt": "Døtøt (Hexenmeister), Kôppnuss (Schurke)",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 32,
+    "position": 32,
+    "character": "Porthuhn (Magier)",
+    "main": "Fmage",
+    "alt": "",
+    "present": "Nein",
+    "item": ""
+  },
+  {
+    "id": 33,
+    "position": 33,
+    "character": "Awakeshaman (Schamane)",
+    "main": "Ele main, Resto sec",
+    "alt": "Hugger (Druide), Käilee (Paladin)",
+    "present": "Nein",
+    "item": ""
   }
 ]
