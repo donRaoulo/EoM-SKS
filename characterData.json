@@ -14,7 +14,7 @@
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -44,7 +44,7 @@
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -64,7 +64,7 @@
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -84,7 +84,7 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -104,7 +104,7 @@
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -114,7 +114,7 @@
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -124,7 +124,7 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -144,7 +144,7 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -154,7 +154,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -204,7 +204,7 @@
     "character": "Faedrak (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -224,7 +224,7 @@
     "character": "Flereigam (Magier)",
     "main": "Fmage",
     "alt": "Blinkeydk (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -264,7 +264,7 @@
     "character": "Hiería (Druide)",
     "main": "Eule",
     "alt": "Fresa (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -294,7 +294,7 @@
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -312,7 +312,7 @@
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
     "alt": "",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
