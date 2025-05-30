@@ -54,7 +54,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -74,7 +74,7 @@
     "character": "Klötenrómer (Krieger)",
     "main": "Fury",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -174,7 +174,7 @@
     "character": "Babsy (Paladin)",
     "main": "Retri",
     "alt": "Voodooerika (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -184,9 +184,9 @@
     "character": "Spîderkuh (Magier)",
     "main": "Fmage",
     "alt": "Brummelblitz (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Brummelblitz"
   },
   {
     "id": 15,
@@ -321,7 +321,7 @@
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   }
 ]
