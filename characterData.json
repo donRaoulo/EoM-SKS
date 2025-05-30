@@ -9,10 +9,10 @@
     "item": ""
   },
   {
-    "id": 6,
+    "id": 3,
     "position": 2,
-    "character": "Outbreak (Priester)",
-    "main": "SP",
+    "character": "Merveille (Jäger)",
+    "main": "Treffsicherheit",
     "alt": "-",
     "present": "Ja",
     "item": "",
@@ -39,18 +39,8 @@
     "bemerkung": ""
   },
   {
-    "id": 3,
-    "position": 5,
-    "character": "Merveille (Jäger)",
-    "main": "Treffsicherheit",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 16,
-    "position": 6,
+    "position": 5,
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
@@ -60,7 +50,7 @@
   },
   {
     "id": 20,
-    "position": 7,
+    "position": 6,
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
@@ -70,7 +60,7 @@
   },
   {
     "id": 14,
-    "position": 8,
+    "position": 7,
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
@@ -80,13 +70,23 @@
   },
   {
     "id": 25,
-    "position": 9,
+    "position": 8,
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 27,
+    "position": 9,
+    "character": "Spîderkuh (Magier)",
+    "main": "Fmage",
+    "alt": "Brummelblitz (Schamane)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "auf Brummelblitz"
   },
   {
     "id": 7,
@@ -99,18 +99,8 @@
     "bemerkung": ""
   },
   {
-    "id": 27,
-    "position": 11,
-    "character": "Spîderkuh (Magier)",
-    "main": "Fmage",
-    "alt": "Brummelblitz (Schamane)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Brummelblitz"
-  },
-  {
     "id": 9,
-    "position": 12,
+    "position": 11,
     "character": "Faedrak (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
@@ -120,10 +110,20 @@
   },
   {
     "id": 17,
-    "position": 13,
+    "position": 12,
     "character": "Flereigam (Magier)",
     "main": "Fmage",
     "alt": "Blinkeydk (Todesritter)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 10,
+    "position": 13,
+    "character": "Hiería (Druide)",
+    "main": "Eule",
+    "alt": "Fresa (Schamane)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -139,21 +139,20 @@
     "bemerkung": ""
   },
   {
-    "id": 10,
-    "position": 15,
-    "character": "Hiería (Druide)",
-    "main": "Eule",
-    "alt": "Fresa (Schamane)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 30,
-    "position": 16,
+    "position": 15,
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "",
+    "present": "Ja",
+    "item": ""
+  },
+  {
+    "id": 31,
+    "position": 16,
+    "character": "Mínjung (Druide)",
+    "main": "Cat main, Baum sec",
+    "alt": "Døtøt (Hexenmeister), Kôppnuss (Schurke)",
     "present": "Ja",
     "item": ""
   },
@@ -168,22 +167,23 @@
     "bemerkung": ""
   },
   {
-    "id": 31,
-    "position": 18,
-    "character": "Mínjung (Druide)",
-    "main": "Cat main, Baum sec",
-    "alt": "Døtøt (Hexenmeister), Kôppnuss (Schurke)",
-    "present": "Ja",
-    "item": ""
-  },
-  {
     "id": 33,
-    "position": 19,
+    "position": 18,
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
     "present": "Ja",
     "item": ""
+  },
+  {
+    "id": 18,
+    "position": 19,
+    "character": "Babsy (Paladin)",
+    "main": "Retri",
+    "alt": "Voodooerika (Priester)",
+    "present": "Ja",
+    "item": "1. Item (Lord Schild)",
+    "bemerkung": ""
   },
   {
     "id": 15,
@@ -196,14 +196,13 @@
     "bemerkung": ""
   },
   {
-    "id": 18,
+    "id": 32,
     "position": 21,
-    "character": "Babsy (Paladin)",
-    "main": "Retri",
-    "alt": "Voodooerika (Priester)",
+    "character": "Porthuhn (Magier)",
+    "main": "Fmage",
+    "alt": "",
     "present": "Ja",
-    "item": "1. Item (Lord Schild)",
-    "bemerkung": ""
+    "item": "2. Item (Ring des schnellen Aufstiegs)"
   },
   {
     "id": 1,
@@ -216,13 +215,14 @@
     "bemerkung": ""
   },
   {
-    "id": 32,
+    "id": 22,
     "position": 23,
-    "character": "Porthuhn (Magier)",
-    "main": "Fmage",
-    "alt": "",
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
-    "item": "2. Item (Ring des schnellen Aufstiegs)"
+    "item": "3. Item (HC Token)",
+    "bemerkung": ""
   },
   {
     "id": 29,
@@ -255,13 +255,13 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
+    "id": 5,
     "position": 27,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "character": "Klötenrómer (Krieger)",
+    "main": "Fury",
+    "alt": "-",
     "present": "Ja",
-    "item": "3. Item (HC Token)",
+    "item": "4. Item (saphirring)",
     "bemerkung": ""
   },
   {
@@ -285,18 +285,8 @@
     "bemerkung": ""
   },
   {
-    "id": 5,
-    "position": 30,
-    "character": "Klötenrómer (Krieger)",
-    "main": "Fury",
-    "alt": "-",
-    "present": "Ja",
-    "item": "4. Item (saphirring)",
-    "bemerkung": ""
-  },
-  {
     "id": 21,
-    "position": 31,
+    "position": 30,
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
@@ -306,7 +296,7 @@
   },
   {
     "id": 24,
-    "position": 32,
+    "position": 31,
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
@@ -316,12 +306,22 @@
   },
   {
     "id": 28,
-    "position": 33,
+    "position": 32,
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
     "present": "Ja",
     "item": "7. Item (HC Token)",
+    "bemerkung": ""
+  },
+  {
+    "id": 6,
+    "position": 33,
+    "character": "Outbreak (Priester)",
+    "main": "SP",
+    "alt": "-",
+    "present": "Ja",
+    "item": "8. Item (BQ Hals)",
     "bemerkung": ""
   }
 ]
