@@ -44,7 +44,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -124,7 +124,7 @@
     "character": "Mínjung (Druide)",
     "main": "Cat main, Baum sec",
     "alt": "Døtøt (Hexenmeister), Kôppnuss (Schurke)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -253,7 +253,7 @@
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Dingstag"
   },
   {
     "id": 24,
