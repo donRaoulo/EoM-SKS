@@ -14,7 +14,7 @@
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -24,7 +24,7 @@
     "character": "Golreg (Hexenmeister)",
     "main": "Affli/Dämo; rollt Affli",
     "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -54,7 +54,7 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -64,7 +64,7 @@
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -74,9 +74,9 @@
     "character": "Spîderkuh (Magier)",
     "main": "Fmage",
     "alt": "Brummelblitz (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Brummelblitz"
+    "bemerkung": ""
   },
   {
     "id": 9,
@@ -84,7 +84,7 @@
     "character": "Faedrak (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -104,7 +104,7 @@
     "character": "Flereigam (Magier)",
     "main": "Fmage",
     "alt": "Blinkeydk (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -114,7 +114,7 @@
     "character": "Mínjung (Druide)",
     "main": "Cat main, Baum sec",
     "alt": "Døtøt (Hexenmeister), Kôppnuss (Schurke)",
-    "present": "Ja",
+    "present": "Nein",
     "item": ""
   },
   {
@@ -123,7 +123,7 @@
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
-    "present": "Ja",
+    "present": "Nein",
     "item": ""
   },
   {
@@ -142,7 +142,7 @@
     "character": "Klötenrómer (Krieger)",
     "main": "Fury",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -162,7 +162,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -191,7 +191,7 @@
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -201,7 +201,7 @@
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -221,7 +221,7 @@
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "",
-    "present": "Ja",
+    "present": "Nein",
     "item": ""
   },
   {
@@ -250,7 +250,7 @@
     "character": "Hiería (Druide)",
     "main": "Eule",
     "alt": "Fresa (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -260,8 +260,8 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
-    "present": "Ja",
-    "item": "1. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -290,8 +290,8 @@
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Ja",
-    "item": "2. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -300,9 +300,9 @@
     "character": "Freetag (Todesritter)",
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
-    "present": "Ja",
-    "item": "3. Item (HC Token)",
-    "bemerkung": "auf Dingstag"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 25,
@@ -310,8 +310,8 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
-    "present": "Ja",
-    "item": "4. Item (Aldrianas)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -320,8 +320,8 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Ja",
-    "item": "5. Item (LK Kolben)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   }
 ]
