@@ -59,20 +59,10 @@
     "bemerkung": ""
   },
   {
-    "id": 27,
-    "position": 7,
-    "character": "Spîderkuh (Magier)",
-    "main": "Fmage",
-    "alt": "Brummelblitz (Schamane)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 7,
     "position": 8,
     "character": "Multiboy (Schurke)",
-    "main": "Combat",
+    "main": "BoE main, sec Combat",
     "alt": "-",
     "present": "Ja",
     "item": "",
@@ -172,7 +162,7 @@
     "position": 18,
     "character": "Outbreak (Priester)",
     "main": "SP",
-    "alt": "-",
+    "alt": "Themba (Katze), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -182,7 +172,7 @@
     "position": 19,
     "character": "Roktaron (Schurke)",
     "main": "Combat",
-    "alt": "",
+    "alt": "-",
     "present": "Ja",
     "item": ""
   },
@@ -251,7 +241,7 @@
     "position": 26,
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
-    "alt": "",
+    "alt": "-",
     "present": "Ja",
     "item": "1. Item (Knochenstachel)"
   },
