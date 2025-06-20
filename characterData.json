@@ -90,9 +90,9 @@
   {
     "id": 17,
     "position": 10,
-    "character": "Flereigam (Magier)",
-    "main": "Fmage",
-    "alt": "Blinkeydk (Todesritter)",
+    "character": "Blinkadin (Paladin)",
+    "main": "Tank main/Retri sec",
+    "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
     "present": "Ja",
     "item": "",
     "bemerkung": "ab Sindra & Blut dabei"
@@ -142,7 +142,7 @@
     "position": 15,
     "character": "Outbreak (Priester)",
     "main": "SP",
-    "alt": "Themba (Katze), Spitzl (Jäger), Yaina (Hexenmeister)",
+    "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -150,9 +150,9 @@
   {
     "id": 10,
     "position": 16,
-    "character": "Hiería (Druide)",
-    "main": "Eule",
-    "alt": "Fresa (Schamane)",
+    "character": "Gwinraw (Todesritter)",
+    "main": "Blut DD",
+    "alt": "Fresa (Schamane), Hiería (Druide)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -200,9 +200,9 @@
   {
     "id": 31,
     "position": 21,
-    "character": "Mínjung (Druide)",
-    "main": "Cat main, Baum sec",
-    "alt": "Døtøt (Hexenmeister), Kôppnuss (Schurke)",
+    "character": "Runénfaust (Todesritter)",
+    "main": "UH main/Blut Tank sec",
+    "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
     "present": "Ja",
     "item": ""
   },
