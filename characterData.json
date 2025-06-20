@@ -128,18 +128,8 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
-    "position": 14,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 28,
-    "position": 15,
+    "position": 14,
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
@@ -149,7 +139,7 @@
   },
   {
     "id": 6,
-    "position": 16,
+    "position": 15,
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "Themba (Katze), Spitzl (Jäger), Yaina (Hexenmeister)",
@@ -159,7 +149,7 @@
   },
   {
     "id": 10,
-    "position": 17,
+    "position": 16,
     "character": "Hiería (Druide)",
     "main": "Eule",
     "alt": "Fresa (Schamane)",
@@ -169,7 +159,7 @@
   },
   {
     "id": 21,
-    "position": 18,
+    "position": 17,
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
@@ -179,10 +169,20 @@
   },
   {
     "id": 25,
-    "position": 19,
+    "position": 18,
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 3,
+    "position": 19,
+    "character": "Merveille (Jäger)",
+    "main": "Treffsicherheit",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -198,14 +198,13 @@
     "bemerkung": ""
   },
   {
-    "id": 3,
+    "id": 31,
     "position": 21,
-    "character": "Merveille (Jäger)",
-    "main": "Treffsicherheit",
-    "alt": "-",
+    "character": "Mínjung (Druide)",
+    "main": "Cat main, Baum sec",
+    "alt": "Døtøt (Hexenmeister), Kôppnuss (Schurke)",
     "present": "Ja",
-    "item": "",
-    "bemerkung": ""
+    "item": ""
   },
   {
     "id": 29,
@@ -228,13 +227,14 @@
     "bemerkung": ""
   },
   {
-    "id": 31,
+    "id": 34,
     "position": 24,
-    "character": "Mínjung (Druide)",
-    "main": "Cat main, Baum sec",
-    "alt": "Døtøt (Hexenmeister), Kôppnuss (Schurke)",
+    "character": "Umtex (Schamane)",
+    "main": "Resto main/ Ele Sec",
+    "alt": "-",
     "present": "Ja",
-    "item": ""
+    "item": "1. Item (Abakus); 2. Item (Schmutznova)",
+    "bemerkung": ""
   },
   {
     "id": 13,
@@ -267,14 +267,13 @@
     "bemerkung": ""
   },
   {
-    "id": 34,
+    "id": 32,
     "position": 28,
-    "character": "Umtex (Schamane)",
-    "main": "Resto main/ Ele Sec",
+    "character": "Porthuhn (Magier)",
+    "main": "Fmage",
     "alt": "-",
     "present": "Ja",
-    "item": "1. Item (Abakus); 2. Item (Schmutznova)",
-    "bemerkung": ""
+    "item": "3. Item (Alptraumbeender)"
   },
   {
     "id": 19,
@@ -287,22 +286,23 @@
     "bemerkung": ""
   },
   {
-    "id": 32,
-    "position": 30,
-    "character": "Porthuhn (Magier)",
-    "main": "Fmage",
-    "alt": "-",
-    "present": "Ja",
-    "item": "3. Item (Alptraumbeender)"
-  },
-  {
     "id": 30,
-    "position": 31,
+    "position": 30,
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "-",
     "present": "Ja",
     "item": "4. Item (Saphirring)"
+  },
+  {
+    "id": 22,
+    "position": 31,
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "present": "Ja",
+    "item": "5. Item (Casterbeine)",
+    "bemerkung": ""
   },
   {
     "id": 15,
