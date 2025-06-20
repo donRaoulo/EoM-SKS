@@ -184,7 +184,7 @@
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Ersatzbank"
   },
   {
     "id": 1,
@@ -291,7 +291,7 @@
     "character": "Mínjung (Druide)",
     "main": "Cat main, Baum sec",
     "alt": "Døtøt (Hexenmeister), Kôppnuss (Schurke)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -310,8 +310,8 @@
     "character": "Umtex (Schamane)",
     "main": "Resto main/ Ele Sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""  
+    "bemerkung": ""
   }
 ]
