@@ -60,7 +60,7 @@
   },
   {
     "id": 7,
-    "position": 8,
+    "position": 7,
     "character": "Multiboy (Schurke)",
     "main": "BoE main, sec Combat",
     "alt": "-",
@@ -70,7 +70,7 @@
   },
   {
     "id": 9,
-    "position": 9,
+    "position": 8,
     "character": "Faedrak (Krieger)",
     "main": "Fury",
     "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
@@ -80,7 +80,7 @@
   },
   {
     "id": 33,
-    "position": 10,
+    "position": 9,
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
@@ -89,7 +89,7 @@
   },
   {
     "id": 17,
-    "position": 11,
+    "position": 10,
     "character": "Flereigam (Magier)",
     "main": "Fmage",
     "alt": "Blinkeydk (Todesritter)",
@@ -99,7 +99,7 @@
   },
   {
     "id": 5,
-    "position": 12,
+    "position": 11,
     "character": "Klötenrómer (Krieger)",
     "main": "Fury",
     "alt": "-",
@@ -109,7 +109,7 @@
   },
   {
     "id": 24,
-    "position": 13,
+    "position": 12,
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
@@ -119,7 +119,7 @@
   },
   {
     "id": 11,
-    "position": 14,
+    "position": 13,
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
@@ -129,7 +129,7 @@
   },
   {
     "id": 22,
-    "position": 15,
+    "position": 14,
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
@@ -139,17 +139,17 @@
   },
   {
     "id": 28,
-    "position": 17,
+    "position": 15,
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Ersatzbank"
   },
   {
     "id": 6,
-    "position": 18,
+    "position": 16,
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "Themba (Katze), Spitzl (Jäger), Yaina (Hexenmeister)",
@@ -158,17 +158,8 @@
     "bemerkung": ""
   },
   {
-    "id": 30,
-    "position": 19,
-    "character": "Roktaron (Schurke)",
-    "main": "Combat",
-    "alt": "-",
-    "present": "Ja",
-    "item": ""
-  },
-  {
     "id": 10,
-    "position": 20,
+    "position": 17,
     "character": "Hiería (Druide)",
     "main": "Eule",
     "alt": "Fresa (Schamane)",
@@ -178,7 +169,7 @@
   },
   {
     "id": 21,
-    "position": 21,
+    "position": 18,
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
@@ -187,18 +178,8 @@
     "bemerkung": "Ersatzbank"
   },
   {
-    "id": 1,
-    "position": 22,
-    "character": "Haimdali (Hexenmeister)",
-    "main": "Affli",
-    "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
-    "present": "Nein",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 25,
-    "position": 23,
+    "position": 19,
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
@@ -207,8 +188,28 @@
     "bemerkung": ""
   },
   {
+    "id": 1,
+    "position": 20,
+    "character": "Haimdali (Hexenmeister)",
+    "main": "Affli",
+    "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 3,
+    "position": 21,
+    "character": "Merveille (Jäger)",
+    "main": "Treffsicherheit",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
     "id": 29,
-    "position": 24,
+    "position": 22,
     "character": "Xalindra (Hexenmeister)",
     "main": "Dämo",
     "alt": "-",
@@ -218,7 +219,7 @@
   },
   {
     "id": 12,
-    "position": 25,
+    "position": 23,
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
@@ -227,17 +228,17 @@
     "bemerkung": ""
   },
   {
-    "id": 32,
-    "position": 26,
-    "character": "Porthuhn (Magier)",
-    "main": "Fmage",
-    "alt": "-",
+    "id": 31,
+    "position": 24,
+    "character": "Mínjung (Druide)",
+    "main": "Cat main, Baum sec",
+    "alt": "Døtøt (Hexenmeister), Kôppnuss (Schurke)",
     "present": "Ja",
     "item": ""
   },
   {
     "id": 13,
-    "position": 27,
+    "position": 25,
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
@@ -247,7 +248,7 @@
   },
   {
     "id": 4,
-    "position": 28,
+    "position": 26,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
@@ -257,7 +258,7 @@
   },
   {
     "id": 8,
-    "position": 29,
+    "position": 27,
     "character": "Mchaesslich (Schurke)",
     "main": "Combat",
     "alt": "-",
@@ -266,18 +267,18 @@
     "bemerkung": ""
   },
   {
-    "id": 3,
-    "position": 30,
-    "character": "Merveille (Jäger)",
-    "main": "Treffsicherheit",
+    "id": 34,
+    "position": 28,
+    "character": "Umtex (Schamane)",
+    "main": "Resto main/ Ele Sec",
     "alt": "-",
     "present": "Ja",
-    "item": "",
+    "item": "1. Item (Abakus); 2. Item (Schmutznova)",
     "bemerkung": ""
   },
   {
     "id": 19,
-    "position": 31,
+    "position": 29,
     "character": "Freetag (Todesritter)",
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
@@ -286,31 +287,30 @@
     "bemerkung": ""
   },
   {
-    "id": 31,
-    "position": 32,
-    "character": "Mínjung (Druide)",
-    "main": "Cat main, Baum sec",
-    "alt": "Døtøt (Hexenmeister), Kôppnuss (Schurke)",
+    "id": 32,
+    "position": 30,
+    "character": "Porthuhn (Magier)",
+    "main": "Fmage",
+    "alt": "-",
     "present": "Ja",
-    "item": ""
+    "item": "3. Item (Alptraumbeender)"
+  },
+  {
+    "id": 30,
+    "position": 31,
+    "character": "Roktaron (Schurke)",
+    "main": "Combat",
+    "alt": "-",
+    "present": "Ja",
+    "item": "4. Item (Saphirring)"
   },
   {
     "id": 15,
-    "position": 33,
+    "position": 32,
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
     "present": "Nein",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 34,
-    "position": 34,
-    "character": "Umtex (Schamane)",
-    "main": "Resto main/ Ele Sec",
-    "alt": "-",
-    "present": "Ja",
     "item": "",
     "bemerkung": ""
   }
