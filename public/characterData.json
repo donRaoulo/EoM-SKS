@@ -14,7 +14,7 @@
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -34,7 +34,7 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -54,7 +54,7 @@
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -84,7 +84,7 @@
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
-    "present": "Ja",
+    "present": "Nein",
     "item": ""
   },
   {
@@ -93,9 +93,9 @@
     "character": "Blinkadin (Paladin)",
     "main": "Tank main/Hpala sec",
     "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "ab Sindra & Blut dabei"
+    "bemerkung": ""
   },
   {
     "id": 5,
@@ -133,9 +133,9 @@
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": ""
   },
   {
     "id": 6,
@@ -143,7 +143,7 @@
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -153,7 +153,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -163,9 +163,9 @@
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": ""
   },
   {
     "id": 25,
@@ -173,7 +173,7 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -183,7 +183,7 @@
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -203,7 +203,7 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Ja",
+    "present": "Nein",
     "item": ""
   },
   {
@@ -232,8 +232,8 @@
     "character": "Umtex (Schamane)",
     "main": "Resto main/ Ele Sec",
     "alt": "-",
-    "present": "Ja",
-    "item": "1. Item (Abakus); 2. Item (Schmutznova)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -272,8 +272,8 @@
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
     "alt": "-",
-    "present": "Ja",
-    "item": "3. Item (Alptraumbeender)"
+    "present": "Nein",
+    "item": ""
   },
   {
     "id": 19,
@@ -291,8 +291,8 @@
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "-",
-    "present": "Ja",
-    "item": "4. Item (Saphirring)"
+    "present": "Nein",
+    "item": ""
   },
   {
     "id": 22,
@@ -300,8 +300,8 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
-    "item": "5. Item (Casterbeine)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
