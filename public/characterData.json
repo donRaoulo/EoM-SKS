@@ -128,18 +128,8 @@
     "bemerkung": ""
   },
   {
-    "id": 10,
-    "position": 14,
-    "character": "Gwinraw (Todesritter)",
-    "main": "Blut DD",
-    "alt": "Fresa (Schamane), Hiería (Druide)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 25,
-    "position": 15,
+    "position": 14,
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
@@ -149,10 +139,20 @@
   },
   {
     "id": 8,
-    "position": 16,
+    "position": 15,
     "character": "Mchaesslich (Schurke)",
     "main": "Combat",
     "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 22,
+    "position": 16,
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -168,14 +168,13 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
+    "id": 31,
     "position": 18,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "character": "Runénfaust (Todesritter)",
+    "main": "UH main/Blut Tank sec",
+    "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
     "present": "Ja",
-    "item": "",
-    "bemerkung": ""
+    "item": "2: Maghars kalte Auge "
   },
   {
     "id": 3,
@@ -198,13 +197,14 @@
     "bemerkung": ""
   },
   {
-    "id": 31,
+    "id": 17,
     "position": 21,
-    "character": "Runénfaust (Todesritter)",
-    "main": "UH main/Blut Tank sec",
-    "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
+    "character": "Blinkadin (Paladin)",
+    "main": "Tank main/Hpala sec",
+    "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
     "present": "Ja",
-    "item": "2: Maghars kalte Auge "
+    "item": "3: Armschinen Dunkle Abrechnung",
+    "bemerkung": ""
   },
   {
     "id": 29,
@@ -257,14 +257,13 @@
     "bemerkung": ""
   },
   {
-    "id": 17,
+    "id": 30,
     "position": 27,
-    "character": "Blinkadin (Paladin)",
-    "main": "Tank main/Hpala sec",
-    "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
+    "character": "Roktaron (Schurke)",
+    "main": "Combat",
+    "alt": "-",
     "present": "Ja",
-    "item": "3: Armschinen Dunkle Abrechnung",
-    "bemerkung": ""
+    "item": "1: Pelzstiefel 4: Blutgiftklinge  5: Aldrianas"
   },
   {
     "id": 32,
@@ -286,22 +285,23 @@
     "bemerkung": ""
   },
   {
-    "id": 30,
-    "position": 30,
-    "character": "Roktaron (Schurke)",
-    "main": "Combat",
-    "alt": "-",
-    "present": "Ja",
-    "item": "1: Pelzstiefel 4: Blutgiftklinge  5: Aldrianas"
-  },
-  {
     "id": 9,
-    "position": 31,
+    "position": 30,
     "character": "Faedrak (Krieger)",
     "main": "Fury",
     "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
     "present": "Ja",
     "item": "6: Saphirring",
+    "bemerkung": ""
+  },
+  {
+    "id": 10,
+    "position": 31,
+    "character": "Gwinraw (Todesritter)",
+    "main": "Blut DD",
+    "alt": "Fresa (Schamane), Hiería (Druide)",
+    "present": "Ja",
+    "item": "7: HC token",
     "bemerkung": ""
   },
   {
@@ -311,7 +311,7 @@
     "main": "Resto",
     "alt": "Nvm (Magier)",
     "present": "Nein",
-    "item": "5",
+    "item": "",
     "bemerkung": ""
   }
 ]
