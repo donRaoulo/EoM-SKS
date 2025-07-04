@@ -5,8 +5,9 @@
     "character": "Háágl (Todesritter)",
     "main": "UH/Tank; rollt UH",
     "alt": "-",
-    "present": "Nein",
-    "item": ""
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "Als tank"
   },
   {
     "id": 26,
@@ -24,9 +25,9 @@
     "character": "Golreg (Hexenmeister)",
     "main": "Affli/Dämo; rollt Affli",
     "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Als hpala"
   },
   {
     "id": 20,
@@ -34,9 +35,9 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Als fury"
   },
   {
     "id": 16,
@@ -64,7 +65,7 @@
     "character": "Multiboy (Schurke)",
     "main": "BoE main, sec Combat",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -93,7 +94,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -113,7 +114,7 @@
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -123,7 +124,7 @@
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -133,7 +134,7 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -163,9 +164,9 @@
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Als diszi"
   },
   {
     "id": 31,
@@ -202,7 +203,7 @@
     "character": "Blinkadin (Paladin)",
     "main": "Tank main/Hpala sec",
     "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -262,7 +263,7 @@
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -300,7 +301,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
