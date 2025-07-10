@@ -5,9 +5,9 @@
     "character": "Háágl (Todesritter)",
     "main": "UH/Tank; rollt UH",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "Als tank"
+    "bemerkung": ""
   },
   {
     "id": 26,
@@ -27,7 +27,7 @@
     "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
     "present": "Ja",
     "item": "",
-    "bemerkung": "Als hpala"
+    "bemerkung": ""
   },
   {
     "id": 20,
@@ -35,9 +35,9 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "Als fury"
+    "bemerkung": ""
   },
   {
     "id": 16,
@@ -45,7 +45,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -55,7 +55,7 @@
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -65,7 +65,7 @@
     "character": "Multiboy (Schurke)",
     "main": "BoE main, sec Combat",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -104,7 +104,7 @@
     "character": "Klötenrómer (Krieger)",
     "main": "Fury",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -114,7 +114,7 @@
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -134,9 +134,9 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "als resto"
+    "bemerkung": ""
   },
   {
     "id": 8,
@@ -156,7 +156,7 @@
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "Als diszi"
+    "bemerkung": ""
   },
   {
     "id": 17,
@@ -166,7 +166,7 @@
     "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "als resto"
+    "bemerkung": ""
   },
   {
     "id": 31,
@@ -183,7 +183,7 @@
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -205,6 +205,16 @@
     "alt": "-",
     "present": "Ja",
     "item": ""
+  },
+  {
+    "id": 29,
+    "position": 22,
+    "character": "Xalindra (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "-",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 12,
@@ -252,7 +262,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -262,8 +272,8 @@
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
-    "present": "Ja",
-    "item": "1: königlicher purpurumhang",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -293,7 +303,7 @@
     "main": "Combat",
     "alt": "-",
     "present": "Ja",
-    "item": "2: Astrylianas Gurt"
+    "item": ""
   },
   {
     "id": 15,
