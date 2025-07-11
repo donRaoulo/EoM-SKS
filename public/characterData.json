@@ -232,7 +232,7 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -262,7 +262,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
