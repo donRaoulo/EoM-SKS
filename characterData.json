@@ -174,8 +174,9 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Nein",
-    "item": ""
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "Auf kôppnuss"
   },
   {
     "id": 3,
