@@ -305,5 +305,14 @@
     "present": "Nein",
     "item": "",
     "bemerkung": ""
-  }
+  },
+  {
+    "id": 32,
+    "position": 32,
+    "character": "Fluten (Schamane)",
+    "main": "Resto main; Ele sec",
+    "alt": "Cøldasîce (Schurke), Teuflischx (Hexenmeister), Spreader (Todesritter), Asîlaydyîng (Jäger)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""  }
 ]
