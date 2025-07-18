@@ -96,7 +96,7 @@
     "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Baum (Mínjung)"
   },
   {
     "id": 3,
@@ -124,7 +124,7 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -154,7 +154,7 @@
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": ""
   },
   {
@@ -173,9 +173,9 @@
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Resto (Tsunado)"
   },
   {
     "id": 30,
@@ -284,7 +284,7 @@
     "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Resto (Phytha)"
+    "bemerkung": ""
   },
   {
     "id": 14,
