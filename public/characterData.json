@@ -50,18 +50,8 @@
     "bemerkung": ""
   },
   {
-    "id": 5,
-    "position": 6,
-    "character": "Klötenrómer (Krieger)",
-    "main": "Fury main; Tank sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 7,
-    "position": 7,
+    "position": 6,
     "character": "Multiboy (Schurke)",
     "main": "BoE main, sec Combat",
     "alt": "-",
@@ -71,7 +61,7 @@
   },
   {
     "id": 21,
-    "position": 8,
+    "position": 7,
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
@@ -81,7 +71,7 @@
   },
   {
     "id": 33,
-    "position": 9,
+    "position": 8,
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
@@ -90,7 +80,7 @@
   },
   {
     "id": 31,
-    "position": 10,
+    "position": 9,
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
@@ -100,12 +90,22 @@
   },
   {
     "id": 3,
-    "position": 11,
+    "position": 10,
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
     "present": "Nein",
     "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 5,
+    "position": 11,
+    "character": "Klötenrómer (Krieger)",
+    "main": "Fury main; Tank sec",
+    "alt": "-",
+    "present": "Ja",
+    "item": "Umjmeldung auf Tank vor Raid",
     "bemerkung": ""
   },
   {
