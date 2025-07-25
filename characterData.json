@@ -30,14 +30,14 @@
     "bemerkung": ""
   },
   {
-    "id": 24,
+    "id": 21,
     "position": 4,
-    "character": "Sélkét (Paladin)",
-    "main": "Retri (2. SM Splitter)",
-    "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
+    "character": "Beautý (Priester)",
+    "main": "SP/Diszi; rollt SP",
+    "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Diszi"
   },
   {
     "id": 7,
@@ -60,14 +60,14 @@
     "bemerkung": ""
   },
   {
-    "id": 21,
+    "id": 6,
     "position": 7,
-    "character": "Beautý (Priester)",
-    "main": "SP/Diszi; rollt SP",
-    "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
+    "character": "Outbreak (Priester)",
+    "main": "SP",
+    "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Diszi"
+    "bemerkung": ""
   },
   {
     "id": 33,
@@ -79,11 +79,11 @@
     "item": ""
   },
   {
-    "id": 6,
+    "id": 22,
     "position": 9,
-    "character": "Outbreak (Priester)",
-    "main": "SP",
-    "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -99,11 +99,11 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
+    "id": 25,
     "position": 11,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "character": "Shadowdevíl (Krieger)",
+    "main": "Fury (1. SM Splitter)",
+    "alt": "Shadowshót (Jäger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -119,23 +119,23 @@
     "bemerkung": ""
   },
   {
-    "id": 25,
-    "position": 13,
-    "character": "Shadowdevíl (Krieger)",
-    "main": "Fury (1. SM Splitter)",
-    "alt": "Shadowshót (Jäger)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 30,
-    "position": 14,
+    "position": 13,
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "-",
     "present": "Ja",
     "item": ""
+  },
+  {
+    "id": 13,
+    "position": 14,
+    "character": "Alabuu (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "Alibär (Todesritter)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 8,
@@ -178,11 +178,11 @@
     "bemerkung": ""
   },
   {
-    "id": 13,
+    "id": 28,
     "position": 19,
-    "character": "Alabuu (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "Alibär (Todesritter)",
+    "character": "Jînxî (Paladin)",
+    "main": "Retri main, Tank sec",
+    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -218,11 +218,11 @@
     "bemerkung": ""
   },
   {
-    "id": 28,
+    "id": 14,
     "position": 23,
-    "character": "Jînxî (Paladin)",
-    "main": "Retri main, Tank sec",
-    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
+    "character": "Patrota (Magier)",
+    "main": "Fmage",
+    "alt": "Batna (Priester), Amizo (Todesritter)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -238,20 +238,20 @@
     "bemerkung": ""
   },
   {
-    "id": 14,
+    "id": 2,
     "position": 25,
-    "character": "Patrota (Magier)",
-    "main": "Fmage",
-    "alt": "Batna (Priester), Amizo (Todesritter)",
+    "character": "Háágl (Todesritter)",
+    "main": "Main Tank; sec UH",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 2,
+    "id": 5,
     "position": 26,
-    "character": "Háágl (Todesritter)",
-    "main": "Main Tank; sec UH",
+    "character": "Klötenrómer (Krieger)",
+    "main": "Tank main; Fury sec",
     "alt": "-",
     "present": "Ja",
     "item": "",
@@ -278,23 +278,23 @@
     "bemerkung": ""
   },
   {
-    "id": 5,
+    "id": 9,
     "position": 29,
-    "character": "Klötenrómer (Krieger)",
+    "character": "Faedrak (Krieger)",
     "main": "Tank main; Fury sec",
-    "alt": "-",
+    "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 15,
+    "id": 24,
     "position": 30,
-    "character": "Dopehealz (Schamane)",
-    "main": "Resto",
-    "alt": "Nvm (Magier)",
+    "character": "Sélkét (Paladin)",
+    "main": "Retri (2. SM Splitter)",
+    "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
     "present": "Ja",
-    "item": "",
+    "item": "1. Item (Bryntroll)",
     "bemerkung": ""
   },
   {
@@ -308,13 +308,13 @@
     "bemerkung": ""
   },
   {
-    "id": 9,
+    "id": 15,
     "position": 32,
-    "character": "Faedrak (Krieger)",
-    "main": "Tank main; Fury sec",
-    "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
+    "character": "Dopehealz (Schamane)",
+    "main": "Resto",
+    "alt": "Nvm (Magier)",
     "present": "Ja",
-    "item": "",
+    "item": "2. Item (Lords Auge)",
     "bemerkung": ""
   }
 ]
