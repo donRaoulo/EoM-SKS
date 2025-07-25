@@ -79,11 +79,11 @@
     "item": ""
   },
   {
-    "id": 22,
+    "id": 13,
     "position": 9,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "character": "Alabuu (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "Alibär (Todesritter)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -99,11 +99,11 @@
     "bemerkung": ""
   },
   {
-    "id": 25,
+    "id": 28,
     "position": 11,
-    "character": "Shadowdevíl (Krieger)",
-    "main": "Fury (1. SM Splitter)",
-    "alt": "Shadowshót (Jäger)",
+    "character": "Jînxî (Paladin)",
+    "main": "Retri main, Tank sec",
+    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -119,20 +119,21 @@
     "bemerkung": ""
   },
   {
-    "id": 30,
+    "id": 14,
     "position": 13,
-    "character": "Roktaron (Schurke)",
-    "main": "Combat",
-    "alt": "-",
+    "character": "Patrota (Magier)",
+    "main": "Fmage",
+    "alt": "Batna (Priester), Amizo (Todesritter)",
     "present": "Ja",
-    "item": ""
+    "item": "",
+    "bemerkung": ""
   },
   {
-    "id": 13,
+    "id": 5,
     "position": 14,
-    "character": "Alabuu (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "Alibär (Todesritter)",
+    "character": "Klötenrómer (Krieger)",
+    "main": "Tank main; Fury sec",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -178,11 +179,11 @@
     "bemerkung": ""
   },
   {
-    "id": 28,
+    "id": 9,
     "position": 19,
-    "character": "Jînxî (Paladin)",
-    "main": "Retri main, Tank sec",
-    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
+    "character": "Faedrak (Krieger)",
+    "main": "Tank main; Fury sec",
+    "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -218,13 +219,13 @@
     "bemerkung": ""
   },
   {
-    "id": 14,
+    "id": 24,
     "position": 23,
-    "character": "Patrota (Magier)",
-    "main": "Fmage",
-    "alt": "Batna (Priester), Amizo (Todesritter)",
+    "character": "Sélkét (Paladin)",
+    "main": "Retri (2. SM Splitter)",
+    "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
     "present": "Ja",
-    "item": "",
+    "item": "1. Item (Bryntroll)",
     "bemerkung": ""
   },
   {
@@ -238,24 +239,23 @@
     "bemerkung": ""
   },
   {
-    "id": 2,
+    "id": 15,
     "position": 25,
-    "character": "Háágl (Todesritter)",
-    "main": "Main Tank; sec UH",
-    "alt": "-",
+    "character": "Dopehealz (Schamane)",
+    "main": "Resto",
+    "alt": "Nvm (Magier)",
     "present": "Ja",
-    "item": "",
+    "item": "2. Item (Lords Auge)",
     "bemerkung": ""
   },
   {
-    "id": 5,
+    "id": 30,
     "position": 26,
-    "character": "Klötenrómer (Krieger)",
-    "main": "Tank main; Fury sec",
+    "character": "Roktaron (Schurke)",
+    "main": "Combat",
     "alt": "-",
     "present": "Ja",
-    "item": "",
-    "bemerkung": ""
+    "item": "3. Item (Aldrianas)"
   },
   {
     "id": 26,
@@ -278,23 +278,23 @@
     "bemerkung": ""
   },
   {
-    "id": 9,
+    "id": 22,
     "position": 29,
-    "character": "Faedrak (Krieger)",
-    "main": "Tank main; Fury sec",
-    "alt": "Phytha (Schamane), Corani (Hexenmeister), Senjera (Priester), Saivez (Paladin)",
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
-    "item": "",
+    "item": "5. Item (Spindel)",
     "bemerkung": ""
   },
   {
-    "id": 24,
+    "id": 25,
     "position": 30,
-    "character": "Sélkét (Paladin)",
-    "main": "Retri (2. SM Splitter)",
-    "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
+    "character": "Shadowdevíl (Krieger)",
+    "main": "Fury (1. SM Splitter)",
+    "alt": "Shadowshót (Jäger)",
     "present": "Ja",
-    "item": "1. Item (Bryntroll)",
+    "item": "6. Item (Saphirring)",
     "bemerkung": ""
   },
   {
@@ -308,13 +308,13 @@
     "bemerkung": ""
   },
   {
-    "id": 15,
+    "id": 2,
     "position": 32,
-    "character": "Dopehealz (Schamane)",
-    "main": "Resto",
-    "alt": "Nvm (Magier)",
+    "character": "Háágl (Todesritter)",
+    "main": "Main Tank; sec UH",
+    "alt": "-",
     "present": "Ja",
-    "item": "2. Item (Lords Auge)",
+    "item": "4. Item (Tankgürtel), 7. Item (Fangzahn)",
     "bemerkung": ""
   }
 ]
