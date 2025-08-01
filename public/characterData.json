@@ -35,7 +35,7 @@
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -55,9 +55,9 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Baum (Mínjung)"
   },
   {
     "id": 6,
