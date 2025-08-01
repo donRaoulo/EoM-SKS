@@ -5,9 +5,9 @@
     "character": "Golreg (Hexenmeister)",
     "main": "Affli/Dämo; rollt Affli",
     "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "Hpala (Varosh)"
+    "bemerkung": ""
   },
   {
     "id": 16,
@@ -37,7 +37,7 @@
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Diszi"
+    "bemerkung": ""
   },
   {
     "id": 7,
@@ -84,7 +84,7 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -104,7 +104,7 @@
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -154,9 +154,9 @@
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": "kam nicht trotz Anmeldung"
+    "bemerkung": ""
   },
   {
     "id": 11,
@@ -164,7 +164,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -225,7 +225,7 @@
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
     "present": "Ja",
-    "item": "1. Item (Bryntroll)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -234,7 +234,7 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -245,7 +245,7 @@
     "main": "Resto",
     "alt": "Nvm (Magier)",
     "present": "Ja",
-    "item": "2. Item (Lords Auge)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -255,7 +255,7 @@
     "main": "Combat",
     "alt": "-",
     "present": "Ja",
-    "item": "3. Item (Aldrianas)"
+    "item": ""
   },
   {
     "id": 26,
@@ -283,8 +283,8 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
-    "item": "5. Item (Spindel)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -293,8 +293,8 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
-    "present": "Ja",
-    "item": "6. Item (Saphirring)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -314,7 +314,7 @@
     "main": "Main Tank; sec UH",
     "alt": "-",
     "present": "Ja",
-    "item": "4. Item (Tankgürtel), 7. Item (Fangzahn)",
+    "item": "",
     "bemerkung": ""
   }
 ]
