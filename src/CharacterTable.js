@@ -216,28 +216,34 @@ const handleClose = () => {
       </TableCell>
       <TableCell>
   {isEditable ? (
-    <input
-      type="text"
-      value={bemerkung || ""}
+    <textarea
+      value={item}
       onChange={(e) => setBemerkung(e.target.value)}
-      style={{ width: "100%" }}
+      style={{
+        width: "200%",       // doppelte Breite
+        minHeight: "4em",    // macht es mehrzeilig
+        resize: "vertical",  // optional: Benutzer darf Größe ändern
+      }}
     />
   ) : (
     bemerkung
   )}
 </TableCell>
-      <TableCell>
-        {isEditable ? (
-          <input
-            type="text"
-            value={item}
-            onChange={(e) => setItem(e.target.value)}
-            style={{ width: "100%" }}
-          />
-        ) : (
-          item
-        )}
-      </TableCell>
+<TableCell colSpan={2}> {/* optional: zwei Spalten zusammenfassen */}
+  {isEditable ? (
+    <textarea
+      value={item}
+      onChange={(e) => setItem(e.target.value)}
+      style={{
+        width: "200%",       // doppelte Breite
+        minHeight: "4em",    // macht es mehrzeilig
+        resize: "vertical",  // optional: Benutzer darf Größe ändern
+      }}
+    />
+  ) : (
+    item
+  )}
+</TableCell>
 
 
       {isEditable && (
@@ -352,11 +358,18 @@ useEffect(() => {
   fetch("https://api.github.com/repos/donRaoulo/EoM-SKS/contents/public/history?ref=main")
     .then((res) => res.json())
     .then((files) => {
-      const backups = files
-        .filter((file) => file.name.endsWith(".json"))
-        .map((file) => file.name.replace(".json", ""))
-        .sort()
-        .reverse(); // neuestes oben
+    const backups = files
+      .filter((file) => file.name.endsWith(".json"))
+      .map((file) => file.name.replace(".json", ""))
+      .sort((a, b) => {
+        const [dayA, monthA, yearA] = a.split(".").map(Number);
+        const [dayB, monthB, yearB] = b.split(".").map(Number);
+
+        const dateA = new Date(yearA, monthA - 1, dayA);
+        const dateB = new Date(yearB, monthB - 1, dayB);
+
+        return dateB - dateA; // neuestes oben
+      });
       setAvailableBackups(backups);
       setSelectedBackup("Aktuell");
     })
@@ -539,6 +552,18 @@ useEffect(() => {
   
       if (res.ok) {
         alert("✅ Raid erfolgreich gespeichert!");
+
+
+  const resetRows = rows.map(row => ({
+    ...row,
+    bemerkung: "",      // oder default-Wert
+    present: false,     // oder true, je nachdem
+    item: ""            // oder "Nein", "Ja", etc.
+  }));
+
+  setRows(resetRows);
+updateCharacterData(rows)
+
       } else {
         alert("❌ Fehler beim Speichern:\n" + await res.text());
       }
