@@ -358,18 +358,22 @@ useEffect(() => {
   fetch("https://api.github.com/repos/donRaoulo/EoM-SKS/contents/public/history?ref=main")
     .then((res) => res.json())
     .then((files) => {
-    const backups = files
-      .filter((file) => file.name.endsWith(".json"))
-      .map((file) => file.name.replace(".json", ""))
-      .sort((a, b) => {
-        const [dayA, monthA, yearA] = a.split(".").map(Number);
-        const [dayB, monthB, yearB] = b.split(".").map(Number);
+const backups = files
+  .filter((file) => file.name.endsWith(".json"))
+  .map((file) => file.name.replace(".json", ""))
+  .sort((a, b) => {
+    // nur den Teil vor dem "_" nehmen
+    const datePartA = a.split("_")[0]; // z.B. "03.08.2025"
+    const datePartB = b.split("_")[0]; // z.B. "25.07.2025"
 
-        const dateA = new Date(yearA, monthA - 1, dayA);
-        const dateB = new Date(yearB, monthB - 1, dayB);
+    const [dayA, monthA, yearA] = datePartA.split(".").map(Number);
+    const [dayB, monthB, yearB] = datePartB.split(".").map(Number);
 
-        return dateB - dateA; // neuestes oben
-      });
+    // richtiger Vergleich: Jahr → Monat → Tag
+    if (yearA !== yearB) return yearB - yearA;
+    if (monthA !== monthB) return monthB - monthA;
+    return dayB - dayA;
+  });
       setAvailableBackups(backups);
       setSelectedBackup("Aktuell");
     })
