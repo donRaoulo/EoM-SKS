@@ -204,7 +204,7 @@ const handleClose = () => {
 
 
 
-   <TableCell>
+   <TableCell style={{ width: "50px" }}>
         {isEditable ? (
           <Checkbox
             checked={present === "Ja"}
@@ -214,15 +214,15 @@ const handleClose = () => {
           present
         )}
       </TableCell>
-      <TableCell>
+      <TableCell style={{ width: "200px" }}>
   {isEditable ? (
     <textarea
-      value={item}
+value={bemerkung || ""}
       onChange={(e) => setBemerkung(e.target.value)}
       style={{
-        width: "200%",       // doppelte Breite
-        minHeight: "4em",    // macht es mehrzeilig
-        resize: "vertical",  // optional: Benutzer darf Größe ändern
+        width: "100%",       // doppelte Breite
+        minHeight: "2em",    // macht es mehrzeilig
+        resize: "both",  // optional: Benutzer darf Größe ändern
       }}
     />
   ) : (
@@ -235,8 +235,8 @@ const handleClose = () => {
       value={item}
       onChange={(e) => setItem(e.target.value)}
       style={{
-        width: "200%",       // doppelte Breite
-        minHeight: "4em",    // macht es mehrzeilig
+        width: "100%",       // doppelte Breite
+        minHeight: "2em",    // macht es mehrzeilig
         resize: "vertical",  // optional: Benutzer darf Größe ändern
       }}
     />
@@ -667,8 +667,8 @@ updateCharacterData(rows)
 </FormControl>
 
 )}
-
-      <Table>
+<div style={{ width: "100%", overflowX: "auto" }}>
+      <Table style={{ minWidth: "1000px" }}>
         <TableHead>
           <TableRow>
             <TableCell align="center">Pos.</TableCell>
@@ -722,7 +722,7 @@ updateCharacterData(rows)
           ))}
         </TableBody>
       </Table>
-
+</div>
 
 
       {isEditable && (

@@ -11,7 +11,7 @@ body {
   }
   
   table {
-    width: 100%;
+    width: 120%;
     border-collapse: separate;
     border-spacing: 0 8px;
   }
@@ -44,7 +44,7 @@ body {
     border-radius: 4px;
     color: #ffffff;
     padding: 6px;
-    width: 100%;
+    width: 150%;
     box-sizing: border-box;
   }
   
