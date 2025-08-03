@@ -214,7 +214,7 @@ const handleClose = () => {
           present
         )}
       </TableCell>
-      <TableCell style={{ width: "200px" }}>
+      <TableCell style={{ width: "150px" }}>
   {isEditable ? (
     <textarea
 value={bemerkung || ""}
@@ -229,7 +229,7 @@ value={bemerkung || ""}
     bemerkung
   )}
 </TableCell>
-<TableCell colSpan={2}> {/* optional: zwei Spalten zusammenfassen */}
+<TableCell style={{ width: "150px" }}> {/* optional: zwei Spalten zusammenfassen */}
   {isEditable ? (
     <textarea
       value={item}
