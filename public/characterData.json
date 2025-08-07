@@ -149,18 +149,8 @@
     "bemerkung": ""
   },
   {
-    "id": 11,
-    "position": 16,
-    "character": "Chrisson (Paladin)",
-    "main": "Pala Tank/Hpala; rollt Tank",
-    "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 1,
-    "position": 18,
+    "position": 16,
     "character": "Haimdali (Hexenmeister)",
     "main": "Affli",
     "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
@@ -169,8 +159,18 @@
     "bemerkung": ""
   },
   {
+    "id": 11,
+    "position": 17,
+    "character": "Chrisson (Paladin)",
+    "main": "Pala Tank/Hpala; rollt Tank",
+    "alt": "Könnteheilen (Priester)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
     "id": 4,
-    "position": 19,
+    "position": 18,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
@@ -180,7 +180,7 @@
   },
   {
     "id": 17,
-    "position": 20,
+    "position": 19,
     "character": "Blinkadin (Paladin)",
     "main": "Tank main/Hpala sec",
     "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
@@ -190,7 +190,7 @@
   },
   {
     "id": 10,
-    "position": 21,
+    "position": 20,
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
@@ -200,7 +200,7 @@
   },
   {
     "id": 34,
-    "position": 22,
+    "position": 21,
     "character": "Umtex (Schamane)",
     "main": "Resto main/ Ele Sec",
     "alt": "-",
@@ -210,7 +210,7 @@
   },
   {
     "id": 15,
-    "position": 23,
+    "position": 22,
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
@@ -220,7 +220,7 @@
   },
   {
     "id": 22,
-    "position": 24,
+    "position": 23,
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
@@ -230,7 +230,7 @@
   },
   {
     "id": 2,
-    "position": 25,
+    "position": 24,
     "character": "Háágl (Todesritter)",
     "main": "Main Tank; sec UH",
     "alt": "-",
@@ -240,7 +240,7 @@
   },
   {
     "id": 32,
-    "position": 26,
+    "position": 25,
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
     "alt": "-",
@@ -250,7 +250,7 @@
   },
   {
     "id": 26,
-    "position": 27,
+    "position": 26,
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
@@ -260,7 +260,7 @@
   },
   {
     "id": 19,
-    "position": 28,
+    "position": 27,
     "character": "Freetag (Todesritter)",
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
@@ -270,7 +270,7 @@
   },
   {
     "id": 24,
-    "position": 29,
+    "position": 28,
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
@@ -280,7 +280,7 @@
   },
   {
     "id": 25,
-    "position": 30,
+    "position": 29,
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
@@ -290,7 +290,7 @@
   },
   {
     "id": 32,
-    "position": 31,
+    "position": 30,
     "character": "Fluten (Schamane)",
     "main": "Resto main; Ele sec",
     "alt": "Cøldasîce (Schurke), Teuflischx (Hexenmeister), Spreader (Todesritter), Asîlaydyîng (Jäger)",
@@ -300,7 +300,7 @@
   },
   {
     "id": 30,
-    "position": 32,
+    "position": 31,
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "-",
@@ -309,7 +309,7 @@
   },
   {
     "id": 9,
-    "position": 33,
+    "position": 32,
     "character": "Kommalrübär (Druide)",
     "main": "Baum main; Bär sec",
     "alt": "-",
