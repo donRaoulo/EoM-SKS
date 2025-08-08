@@ -45,7 +45,7 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -166,7 +166,7 @@
     "alt": "Könnteheilen (Priester)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Hpala"
+    "bemerkung": ""
   },
   {
     "id": 4,
@@ -236,7 +236,7 @@
     "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Ersatzbank"
   },
   {
     "id": 32,
@@ -313,8 +313,8 @@
     "character": "Kommalrübär (Druide)",
     "main": "Baum main; Bär sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Fury (Defaya)"
   }
 ]
