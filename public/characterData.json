@@ -17,7 +17,7 @@
     "alt": "Meldojin (Priester), Dörlilili (Todesritter)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Ele"
+    "bemerkung": "auf Ele (Fresa)"
   },
   {
     "id": 21,
@@ -27,7 +27,7 @@
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Eule (Liebstê)"
   },
   {
     "id": 7,
@@ -164,9 +164,9 @@
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Hpala"
   },
   {
     "id": 4,
@@ -174,7 +174,7 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -256,7 +256,7 @@
     "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf SP"
   },
   {
     "id": 19,
