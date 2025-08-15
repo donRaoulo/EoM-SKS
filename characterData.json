@@ -238,21 +238,21 @@
     "item": ""
   },
   {
-    "id": 9,
+    "id": 14,
     "position": 25,
-    "character": "Kommalrübär (Druide)",
-    "main": "Baum main; Bär sec",
-    "alt": "-",
+    "character": "Patrota (Magier)",
+    "main": "Fmage",
+    "alt": "Batna (Priester), Amizo (Todesritter)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 14,
+    "id": 3,
     "position": 26,
-    "character": "Patrota (Magier)",
-    "main": "Fmage",
-    "alt": "Batna (Priester), Amizo (Todesritter)",
+    "character": "Merveille (Jäger)",
+    "main": "Treffsicherheit",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -268,21 +268,21 @@
     "bemerkung": ""
   },
   {
-    "id": 3,
+    "id": 28,
     "position": 28,
-    "character": "Merveille (Jäger)",
-    "main": "Treffsicherheit",
-    "alt": "-",
+    "character": "Jînxî (Paladin)",
+    "main": "Retri main, Tank sec",
+    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 28,
+    "id": 15,
     "position": 29,
-    "character": "Jînxî (Paladin)",
-    "main": "Retri main, Tank sec",
-    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
+    "character": "Dopehealz (Schamane)",
+    "main": "Resto",
+    "alt": "Nvm (Magier)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -298,14 +298,13 @@
     "bemerkung": ""
   },
   {
-    "id": 15,
+    "id": 36,
     "position": 31,
-    "character": "Dopehealz (Schamane)",
-    "main": "Resto",
-    "alt": "Nvm (Magier)",
+    "character": "Anopa (Priester)",
+    "main": "Diszi main, SP Sec",
+    "alt": "",
     "present": "Ja",
-    "item": "",
-    "bemerkung": ""
+    "item": ""
   },
   {
     "id": 32,
@@ -318,21 +317,22 @@
     "bemerkung": ""
   },
   {
-    "id": 36,
-    "position": 33,
-    "character": "Anopa (Priester)",
-    "main": "Diszi main, SP Sec",
-    "alt": "",
-    "present": "Ja",
-    "item": ""
-  },
-  {
     "id": 37,
-    "position": 34,
+    "position": 33,
     "character": "Angèlus (Todesritter)",
     "main": "FDK DD main; FDK Tank sec",
     "alt": "-",
     "present": "Ja",
     "item": ""
+  },
+  {
+    "id": 9,
+    "position": 34,
+    "character": "Kommalrübär (Druide)",
+    "main": "Baum main; Bär sec",
+    "alt": "-",
+    "present": "Ja",
+    "item": "1. Item (Lord Ring)",
+    "bemerkung": ""
   }
 ]
