@@ -316,5 +316,23 @@
     "present": "Nein",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 36,
+    "position": 33,
+    "character": "Anopa (Priester)",
+    "main": "Diszi main, SP Sec",
+    "alt": "",
+    "present": "Ja",
+    "item": ""
+  },
+  {
+    "id": 37,
+    "position": 34,
+    "character": "Angelùs (Todesritter)",
+    "main": "FDK DD main, FDK Tank sec",
+    "alt": "",
+    "present": "Ja",
+    "item": ""
   }
 ]
