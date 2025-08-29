@@ -190,18 +190,8 @@
     "bemerkung": ""
   },
   {
-    "id": 9,
-    "position": 20,
-    "character": "Kommalrübär (Druide)",
-    "main": "Baum main; Bär sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 35,
-    "position": 21,
+    "position": 20,
     "character": "Fluten (Schamane)",
     "main": "Resto main; Ele sec",
     "alt": "Cøldasîce (Schurke), Teuflischx (Hexenmeister), Spreader (Todesritter), Asîlaydyîng (Jäger)",
@@ -211,7 +201,7 @@
   },
   {
     "id": 31,
-    "position": 22,
+    "position": 21,
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
@@ -221,7 +211,7 @@
   },
   {
     "id": 21,
-    "position": 23,
+    "position": 22,
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
@@ -231,7 +221,7 @@
   },
   {
     "id": 2,
-    "position": 24,
+    "position": 23,
     "character": "Háágl (Todesritter)",
     "main": "Main Tank; sec UH",
     "alt": "-",
@@ -241,9 +231,19 @@
   },
   {
     "id": 30,
-    "position": 25,
+    "position": 24,
     "character": "Roktaron (Schurke)",
     "main": "Combat",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 26,
+    "position": 25,
+    "character": "Solédad (Priester)",
+    "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
     "present": "Ja",
     "item": "",
@@ -260,11 +260,11 @@
     "bemerkung": ""
   },
   {
-    "id": 26,
+    "id": 15,
     "position": 27,
-    "character": "Solédad (Priester)",
-    "main": "Diszi/SP, rollt Diszi",
-    "alt": "-",
+    "character": "Dopehealz (Schamane)",
+    "main": "Resto",
+    "alt": "Nvm (Magier)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -280,11 +280,11 @@
     "bemerkung": ""
   },
   {
-    "id": 15,
+    "id": 5,
     "position": 29,
-    "character": "Dopehealz (Schamane)",
-    "main": "Resto",
-    "alt": "Nvm (Magier)",
+    "character": "Klötenrómer (Krieger)",
+    "main": "Tank main; Fury sec",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -300,18 +300,8 @@
     "bemerkung": ""
   },
   {
-    "id": 5,
-    "position": 31,
-    "character": "Klötenrómer (Krieger)",
-    "main": "Tank main; Fury sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 4,
-    "position": 32,
+    "position": 31,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
@@ -321,7 +311,7 @@
   },
   {
     "id": 10,
-    "position": 33,
+    "position": 32,
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
@@ -331,12 +321,22 @@
   },
   {
     "id": 3,
-    "position": 34,
+    "position": 33,
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
     "present": "Ja",
     "item": "4. Item (Sindra Hals)",
+    "bemerkung": ""
+  },
+  {
+    "id": 9,
+    "position": 34,
+    "character": "Kommalrübär (Druide)",
+    "main": "Baum main; Bär sec",
+    "alt": "-",
+    "present": "Ja",
+    "item": "5. Item (Rat Brust)",
     "bemerkung": ""
   }
 ]
