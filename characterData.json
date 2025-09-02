@@ -334,7 +334,17 @@
     "position": 34,
     "character": "Anopa (Priester)",
     "main": "Diszi main, SP Sec",
-    "alt": "",
+    "alt": "-",
+    "present": false,
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 38,
+    "position": 35,
+    "character": "Tschelati (Schamane)",
+    "main": "Resto",
+    "alt": "-",
     "present": false,
     "item": "",
     "bemerkung": ""
