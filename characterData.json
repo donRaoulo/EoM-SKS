@@ -25,7 +25,7 @@
     "character": "Multiboy (Schurke)",
     "main": "BoE main, sec Combat",
     "alt": "-",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -205,7 +205,7 @@
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "-",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
