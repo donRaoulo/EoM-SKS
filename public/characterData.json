@@ -73,7 +73,7 @@
     "id": 7,
     "position": 8,
     "character": "Multiboy (Schurke)",
-    "main": "BoE Combat",
+    "main": "BoE main, sec Combat",
     "alt": "-",
     "present": "Ja",
     "item": "-5 Plätze zu Raidbeginn für Main Combat",
@@ -290,18 +290,8 @@
     "bemerkung": ""
   },
   {
-    "id": 38,
-    "position": 30,
-    "character": "Tschelati (Schamane)",
-    "main": "Resto",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 9,
-    "position": 31,
+    "position": 30,
     "character": "Kommalrübär (Druide)",
     "main": "Baum main; Bär sec",
     "alt": "-",
@@ -311,7 +301,7 @@
   },
   {
     "id": 11,
-    "position": 32,
+    "position": 31,
     "character": "Chrisson (Paladin)",
     "main": "Pala Tank/Hpala; rollt Tank",
     "alt": "Könnteheilen (Priester)",
@@ -321,7 +311,7 @@
   },
   {
     "id": 4,
-    "position": 33,
+    "position": 32,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
@@ -331,7 +321,7 @@
   },
   {
     "id": 2,
-    "position": 34,
+    "position": 33,
     "character": "Háágl (Todesritter)",
     "main": "Main Tank; sec UH",
     "alt": "-",
@@ -341,12 +331,22 @@
   },
   {
     "id": 36,
-    "position": 35,
+    "position": 34,
     "character": "Anopa (Priester)",
     "main": "Diszi main, SP Sec",
     "alt": "-",
     "present": "Ja",
     "item": "6. Item (Rat Hände)",
+    "bemerkung": ""
+  },
+  {
+    "id": 38,
+    "position": 35,
+    "character": "Tschelati (Schamane)",
+    "main": "Resto",
+    "alt": "-",
+    "present": "Ja",
+    "item": "7. Item (Blutspritzers Handgelenke)",
     "bemerkung": ""
   }
 ]
