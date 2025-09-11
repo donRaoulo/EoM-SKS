@@ -300,18 +300,8 @@
     "bemerkung": ""
   },
   {
-    "id": 11,
-    "position": 31,
-    "character": "Chrisson (Paladin)",
-    "main": "Pala Tank/Hpala; rollt Tank",
-    "alt": "Könnteheilen (Priester)",
-    "present": "Ja",
-    "item": "3. Item (Fangzahn)",
-    "bemerkung": ""
-  },
-  {
     "id": 4,
-    "position": 32,
+    "position": 31,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
@@ -321,7 +311,7 @@
   },
   {
     "id": 2,
-    "position": 33,
+    "position": 32,
     "character": "Háágl (Todesritter)",
     "main": "Main Tank; sec UH",
     "alt": "-",
@@ -331,7 +321,7 @@
   },
   {
     "id": 36,
-    "position": 34,
+    "position": 33,
     "character": "Anopa (Priester)",
     "main": "Diszi main, SP Sec",
     "alt": "-",
@@ -341,12 +331,22 @@
   },
   {
     "id": 38,
-    "position": 35,
+    "position": 34,
     "character": "Tschelati (Schamane)",
     "main": "Resto",
     "alt": "-",
     "present": "Ja",
     "item": "7. Item (Blutspritzers Handgelenke)",
+    "bemerkung": ""
+  },
+  {
+    "id": 11,
+    "position": 35,
+    "character": "Chrisson (Paladin)",
+    "main": "Hpala main, Tank sec",
+    "alt": "Könnteheilen (Priester)",
+    "present": "Ja",
+    "item": "3. Item (Fangzahn);-5 Plätze für Ummelden auf Hpala statt Pala Tank",
     "bemerkung": ""
   }
 ]
