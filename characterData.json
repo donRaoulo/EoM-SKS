@@ -65,7 +65,7 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -73,7 +73,7 @@
     "id": 7,
     "position": 8,
     "character": "Multiboy (Schurke)",
-    "main": "Main Combat",
+    "main": "BoE main, sec Combat",
     "alt": "-",
     "present": "Ja",
     "item": "-5 Plätze zu Raidbeginn für Main Combat",
