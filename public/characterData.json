@@ -17,7 +17,7 @@
     "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Dämo (Kotzreiz)"
+    "bemerkung": "auf Kotzreiz (Dämo)"
   },
   {
     "id": 6,
@@ -35,7 +35,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
+    "present": false,
     "item": "",
     "bemerkung": ""
   },
@@ -75,8 +75,8 @@
     "character": "Multiboy (Schurke)",
     "main": "BoE main, sec Combat",
     "alt": "-",
-    "present": "Ja",
-    "item": "-5 Plätze zu Raidbeginn für Main Combat",
+    "present": false,
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -85,7 +85,7 @@
     "character": "Haimdali (Hexenmeister)",
     "main": "Affli",
     "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
-    "present": "Ja",
+    "present": false,
     "item": "",
     "bemerkung": ""
   },
@@ -185,9 +185,9 @@
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Ja",
+    "present": false,
     "item": "",
-    "bemerkung": "auf fury (Svenika)"
+    "bemerkung": ""
   },
   {
     "id": 30,
@@ -215,7 +215,7 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -296,7 +296,7 @@
     "main": "Baum main; Bär sec",
     "alt": "-",
     "present": "Ja",
-    "item": "1. Item (SF Rücken)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -306,7 +306,7 @@
     "main": "Resto main, VS sec",
     "alt": "-",
     "present": "Ja",
-    "item": "4. Item (HC Token)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -316,7 +316,7 @@
     "main": "Main Tank; sec UH",
     "alt": "-",
     "present": "Ja",
-    "item": "2. Item (HC Token), 5 Item (Tankrücken)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -326,7 +326,7 @@
     "main": "Diszi main, SP Sec",
     "alt": "-",
     "present": "Ja",
-    "item": "6. Item (Rat Hände)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -336,7 +336,7 @@
     "main": "Resto",
     "alt": "-",
     "present": "Ja",
-    "item": "7. Item (Blutspritzers Handgelenke)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -346,7 +346,7 @@
     "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
     "present": "Ja",
-    "item": "3. Item (Fangzahn);-5 Plätze für Ummelden auf Hpala statt Pala Tank",
+    "item": "",
     "bemerkung": ""
   }
 ]
