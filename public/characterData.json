@@ -27,7 +27,7 @@
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Yaina (Affli)"
   },
   {
     "id": 16,
@@ -185,7 +185,7 @@
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -305,9 +305,9 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Mumpus (Cat)"
   },
   {
     "id": 2,
@@ -348,5 +348,14 @@
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 39,
+    "position": 36,
+    "character": "Daenara (Paladin)",
+    "main": "Hpala",
+    "alt": "Neratonix, Xennoc, etc.",
+    "present": "Ja",
+    "item": ""
   }
 ]
