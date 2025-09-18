@@ -190,8 +190,18 @@
     "bemerkung": ""
   },
   {
-    "id": 26,
+    "id": 28,
     "position": 20,
+    "character": "Jînxî (Paladin)",
+    "main": "Retri main, Tank sec",
+    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {    
+    "id": 26,
+    "position": 21,
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
@@ -201,7 +211,7 @@
   },
   {
     "id": 3,
-    "position": 21,
+    "position": 22,
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
@@ -211,21 +221,11 @@
   },
   {
     "id": 37,
-    "position": 22,
+    "position": 23,
     "character": "Angèlus (Todesritter)",
     "main": "FDK DD main; FDK Tank sec",
     "alt": "-",
     "present": false,
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 28,
-    "position": 23,
-    "character": "Jînxî (Paladin)",
-    "main": "Retri main, Tank sec",
-    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
