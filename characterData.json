@@ -180,23 +180,23 @@
     "bemerkung": ""
   },
   {
-    "id": 15,
-    "position": 19,
-    "character": "Dopehealz (Schamane)",
-    "main": "Resto",
-    "alt": "Nvm (Magier)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 5,
-    "position": 20,
+    "position": 19,
     "character": "Klötenrómer (Krieger)",
     "main": "Tank main; Fury sec",
     "alt": "-",
     "present": false,
     "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 26,
+    "position": 20,
+    "character": "Solédad (Priester)",
+    "main": "Diszi/SP, rollt Diszi",
+    "alt": "-",
+    "present": false,
+    "item": "Korrektur, kein Schild!",
     "bemerkung": ""
   },
   {
@@ -270,12 +270,12 @@
     "bemerkung": ""
   },
   {
-    "id": 26,
+    "id": 15,
     "position": 28,
-    "character": "Solédad (Priester)",
-    "main": "Diszi/SP, rollt Diszi",
-    "alt": "-",
-    "present": false,
+    "character": "Dopehealz (Schamane)",
+    "main": "Resto",
+    "alt": "Nvm (Magier)",
+    "present": "Ja",
     "item": "1. Item (Lord Schild)",
     "bemerkung": ""
   },
