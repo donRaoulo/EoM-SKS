@@ -215,7 +215,7 @@
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -225,7 +225,7 @@
     "character": "Angèlus (Todesritter)",
     "main": "FDK DD main; FDK Tank sec",
     "alt": "-",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -245,7 +245,7 @@
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -255,7 +255,7 @@
     "character": "Tschelati (Schamane)",
     "main": "Resto",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -265,7 +265,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -305,7 +305,7 @@
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -315,7 +315,7 @@
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -335,7 +335,7 @@
     "character": "Daenara (Paladin)",
     "main": "Hpala",
     "alt": "Neratonix, Xennoc, etc.",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
