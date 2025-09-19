@@ -270,18 +270,8 @@
     "bemerkung": ""
   },
   {
-    "id": 36,
-    "position": 28,
-    "character": "Anopa (Priester)",
-    "main": "Diszi main, SP Sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 6,
-    "position": 29,
+    "position": 28,
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
@@ -291,9 +281,19 @@
   },
   {
     "id": 9,
-    "position": 30,
+    "position": 29,
     "character": "Kommalrübär (Druide)",
     "main": "Baum main; Bär sec",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 4,
+    "position": 30,
+    "character": "Graugdasch (Schamane)",
+    "main": "Resto main, VS sec",
     "alt": "-",
     "present": "Ja",
     "item": "",
@@ -320,14 +320,14 @@
     "bemerkung": ""
   },
   {
-    "id": 4,
+    "id": 2,
     "position": 33,
-    "character": "Graugdasch (Schamane)",
-    "main": "Resto main, VS sec",
+    "character": "Háágl (Todesritter)",
+    "main": "Main Tank; sec UH",
     "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "-5 Plätze vor Raid für Ummelden auf UH"
   },
   {
     "id": 39,
@@ -339,23 +339,23 @@
     "item": ""
   },
   {
-    "id": 2,
-    "position": 35,
-    "character": "Háágl (Todesritter)",
-    "main": "Main Tank; sec UH",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "-5 Plätze vor Raid für Ummelden auf UH"
-  },
-  {
     "id": 25,
-    "position": 36,
+    "position": 35,
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
     "present": "Ja",
     "item": "1. Item (HC Token)",
+    "bemerkung": ""
+  },
+  {
+    "id": 36,
+    "position": 36,
+    "character": "Anopa (Priester)",
+    "main": "Diszi main, SP Sec",
+    "alt": "-",
+    "present": "Ja",
+    "item": "2. Item (Diszi Handgelenke)",
     "bemerkung": ""
   }
 ]
