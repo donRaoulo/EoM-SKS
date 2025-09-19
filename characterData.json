@@ -25,7 +25,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -35,7 +35,7 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -45,7 +45,7 @@
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -55,7 +55,7 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -65,7 +65,7 @@
     "character": "Multiboy (Schurke)",
     "main": "Main Combat",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -75,7 +75,7 @@
     "character": "Haimdali (Hexenmeister)",
     "main": "Affli",
     "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -85,7 +85,7 @@
     "character": "Blinkadin (Paladin)",
     "main": "Tank main/Hpala sec",
     "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -95,7 +95,7 @@
     "character": "Mchaesslich (Schurke)",
     "main": "Combat",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
