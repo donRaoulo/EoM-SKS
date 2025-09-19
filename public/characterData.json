@@ -190,21 +190,21 @@
     "bemerkung": ""
   },
   {
-    "id": 26,
+    "id": 10,
     "position": 20,
-    "character": "Solédad (Priester)",
-    "main": "Diszi/SP, rollt Diszi",
-    "alt": "-",
+    "character": "Gwinraw (Todesritter)",
+    "main": "Blut DD",
+    "alt": "Fresa (Schamane), Hiería (Druide)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 10,
+    "id": 38,
     "position": 21,
-    "character": "Gwinraw (Todesritter)",
-    "main": "Blut DD",
-    "alt": "Fresa (Schamane), Hiería (Druide)",
+    "character": "Tschelati (Schamane)",
+    "main": "Resto",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -230,14 +230,14 @@
     "bemerkung": ""
   },
   {
-    "id": 38,
+    "id": 15,
     "position": 24,
-    "character": "Tschelati (Schamane)",
+    "character": "Dopehealz (Schamane)",
     "main": "Resto",
-    "alt": "-",
+    "alt": "Nvm (Magier)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Mage (Nvm)"
   },
   {
     "id": 33,
@@ -250,14 +250,14 @@
     "bemerkung": ""
   },
   {
-    "id": 15,
+    "id": 6,
     "position": 26,
-    "character": "Dopehealz (Schamane)",
-    "main": "Resto",
-    "alt": "Nvm (Magier)",
+    "character": "Outbreak (Priester)",
+    "main": "SP",
+    "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Mage (Nvm)"
+    "bemerkung": ""
   },
   {
     "id": 11,
@@ -270,18 +270,8 @@
     "bemerkung": ""
   },
   {
-    "id": 6,
-    "position": 28,
-    "character": "Outbreak (Priester)",
-    "main": "SP",
-    "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 9,
-    "position": 29,
+    "position": 28,
     "character": "Kommalrübär (Druide)",
     "main": "Baum main; Bär sec",
     "alt": "-",
@@ -291,13 +281,23 @@
   },
   {
     "id": 4,
-    "position": 30,
+    "position": 29,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 2,
+    "position": 30,
+    "character": "Háágl (Todesritter)",
+    "main": "Main Tank; sec UH",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "-5 Plätze vor Raid für Ummelden auf UH"
   },
   {
     "id": 32,
@@ -320,14 +320,14 @@
     "bemerkung": ""
   },
   {
-    "id": 2,
+    "id": 25,
     "position": 33,
-    "character": "Háágl (Todesritter)",
-    "main": "Main Tank; sec UH",
-    "alt": "-",
+    "character": "Shadowdevíl (Krieger)",
+    "main": "Fury (1. SM Splitter)",
+    "alt": "Shadowshót (Jäger)",
     "present": "Ja",
-    "item": "",
-    "bemerkung": "-5 Plätze vor Raid für Ummelden auf UH"
+    "item": "1. Item (HC Token)",
+    "bemerkung": ""
   },
   {
     "id": 39,
@@ -339,23 +339,23 @@
     "item": ""
   },
   {
-    "id": 25,
-    "position": 35,
-    "character": "Shadowdevíl (Krieger)",
-    "main": "Fury (1. SM Splitter)",
-    "alt": "Shadowshót (Jäger)",
-    "present": "Ja",
-    "item": "1. Item (HC Token)",
-    "bemerkung": ""
-  },
-  {
     "id": 36,
-    "position": 36,
+    "position": 35,
     "character": "Anopa (Priester)",
     "main": "Diszi main, SP Sec",
     "alt": "-",
     "present": "Ja",
     "item": "2. Item (Diszi Handgelenke)",
+    "bemerkung": ""
+  },
+  {
+    "id": 26,
+    "position": 36,
+    "character": "Solédad (Priester)",
+    "main": "Diszi/SP, rollt Diszi",
+    "alt": "-",
+    "present": "Ja",
+    "item": "3. Item (Vali Rücken)",
     "bemerkung": ""
   }
 ]
