@@ -115,7 +115,7 @@
     "character": "Umtex (Schamane)",
     "main": "Resto main/ Ele Sec",
     "alt": "-",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -135,7 +135,7 @@
     "character": "Freetag (Todesritter)",
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -155,7 +155,7 @@
     "character": "Fluten (Schamane)",
     "main": "Resto main; Ele sec",
     "alt": "Cøldasîce (Schurke), Teuflischx (Hexenmeister), Spreader (Todesritter), Asîlaydyîng (Jäger)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -165,7 +165,7 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
