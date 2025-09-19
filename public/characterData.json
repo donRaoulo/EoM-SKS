@@ -170,18 +170,8 @@
     "bemerkung": ""
   },
   {
-    "id": 5,
-    "position": 18,
-    "character": "Klötenrómer (Krieger)",
-    "main": "Tank main; Fury sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 28,
-    "position": 19,
+    "position": 18,
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
@@ -191,7 +181,7 @@
   },
   {
     "id": 10,
-    "position": 20,
+    "position": 19,
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
@@ -201,13 +191,23 @@
   },
   {
     "id": 38,
-    "position": 21,
+    "position": 20,
     "character": "Tschelati (Schamane)",
     "main": "Resto",
     "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 15,
+    "position": 21,
+    "character": "Dopehealz (Schamane)",
+    "main": "Resto",
+    "alt": "Nvm (Magier)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "auf Mage (Nvm)"
   },
   {
     "id": 3,
@@ -230,14 +230,14 @@
     "bemerkung": ""
   },
   {
-    "id": 15,
+    "id": 6,
     "position": 24,
-    "character": "Dopehealz (Schamane)",
-    "main": "Resto",
-    "alt": "Nvm (Magier)",
+    "character": "Outbreak (Priester)",
+    "main": "SP",
+    "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Mage (Nvm)"
+    "bemerkung": ""
   },
   {
     "id": 33,
@@ -250,11 +250,11 @@
     "bemerkung": ""
   },
   {
-    "id": 6,
+    "id": 9,
     "position": 26,
-    "character": "Outbreak (Priester)",
-    "main": "SP",
-    "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
+    "character": "Kommalrübär (Druide)",
+    "main": "Baum main; Bär sec",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -270,18 +270,8 @@
     "bemerkung": ""
   },
   {
-    "id": 9,
-    "position": 28,
-    "character": "Kommalrübär (Druide)",
-    "main": "Baum main; Bär sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 4,
-    "position": 29,
+    "position": 28,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
@@ -291,13 +281,23 @@
   },
   {
     "id": 2,
-    "position": 30,
+    "position": 29,
     "character": "Háágl (Todesritter)",
     "main": "Main Tank; sec UH",
     "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": "-5 Plätze vor Raid für Ummelden auf UH"
+  },
+  {
+    "id": 25,
+    "position": 30,
+    "character": "Shadowdevíl (Krieger)",
+    "main": "Fury (1. SM Splitter)",
+    "alt": "Shadowshót (Jäger)",
+    "present": "Ja",
+    "item": "1. Item (HC Token)",
+    "bemerkung": ""
   },
   {
     "id": 32,
@@ -320,13 +320,13 @@
     "bemerkung": ""
   },
   {
-    "id": 25,
+    "id": 36,
     "position": 33,
-    "character": "Shadowdevíl (Krieger)",
-    "main": "Fury (1. SM Splitter)",
-    "alt": "Shadowshót (Jäger)",
+    "character": "Anopa (Priester)",
+    "main": "Diszi main, SP Sec",
+    "alt": "-",
     "present": "Ja",
-    "item": "1. Item (HC Token)",
+    "item": "2. Item (Diszi Handgelenke)",
     "bemerkung": ""
   },
   {
@@ -339,23 +339,23 @@
     "item": ""
   },
   {
-    "id": 36,
-    "position": 35,
-    "character": "Anopa (Priester)",
-    "main": "Diszi main, SP Sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "2. Item (Diszi Handgelenke)",
-    "bemerkung": ""
-  },
-  {
     "id": 26,
-    "position": 36,
+    "position": 35,
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
     "present": "Ja",
     "item": "3. Item (Vali Rücken)",
+    "bemerkung": ""
+  },
+  {
+    "id": 5,
+    "position": 36,
+    "character": "Klötenrómer (Krieger)",
+    "main": "Tank main; Fury sec",
+    "alt": "-",
+    "present": "Ja",
+    "item": "4. Item (HC Token)",
     "bemerkung": ""
   }
 ]
