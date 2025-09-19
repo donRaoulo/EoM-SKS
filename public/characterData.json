@@ -5,9 +5,9 @@
     "character": "Golreg (Hexenmeister)",
     "main": "Affli/Dämo; rollt Affli",
     "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
-    "present": false,
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Hpala Varosh"
   },
   {
     "id": 20,
@@ -15,7 +15,7 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": "auf Kotzreiz (Dämo)"
   },
@@ -105,7 +105,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -145,7 +145,7 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -175,7 +175,7 @@
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -185,7 +185,7 @@
     "character": "Klötenrómer (Krieger)",
     "main": "Tank main; Fury sec",
     "alt": "-",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -195,7 +195,7 @@
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -205,7 +205,7 @@
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -235,7 +235,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -275,9 +275,9 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Mage (Nvm)"
   },
   {
     "id": 36,
@@ -285,7 +285,7 @@
     "character": "Anopa (Priester)",
     "main": "Diszi main, SP Sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -295,7 +295,7 @@
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -325,7 +325,7 @@
     "character": "Kommalrübär (Druide)",
     "main": "Baum main; Bär sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -344,7 +344,7 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -354,7 +354,7 @@
     "character": "Háágl (Todesritter)",
     "main": "Main Tank; sec UH",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": "hat 5 Plätze verloren durchs ummelden auf UH..LG Shirley"
   }
