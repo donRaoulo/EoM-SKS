@@ -140,11 +140,11 @@
     "bemerkung": ""
   },
   {
-    "id": 30,
+    "id": 28,
     "position": 15,
-    "character": "Roktaron (Schurke)",
-    "main": "Combat",
-    "alt": "-",
+    "character": "Jînxî (Paladin)",
+    "main": "Retri main, Tank sec",
+    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -170,11 +170,11 @@
     "bemerkung": ""
   },
   {
-    "id": 28,
+    "id": 6,
     "position": 18,
-    "character": "Jînxî (Paladin)",
-    "main": "Retri main, Tank sec",
-    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
+    "character": "Outbreak (Priester)",
+    "main": "SP",
+    "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -190,14 +190,14 @@
     "bemerkung": ""
   },
   {
-    "id": 38,
+    "id": 33,
     "position": 20,
-    "character": "Tschelati (Schamane)",
-    "main": "Resto",
-    "alt": "-",
+    "character": "Awakeshaman (Schamane)",
+    "main": "Ele main, Resto sec",
+    "alt": "Hugger (Druide), Käilee (Paladin)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Hunter (Wischtel)"
   },
   {
     "id": 15,
@@ -230,28 +230,8 @@
     "bemerkung": ""
   },
   {
-    "id": 6,
-    "position": 24,
-    "character": "Outbreak (Priester)",
-    "main": "SP",
-    "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 33,
-    "position": 25,
-    "character": "Awakeshaman (Schamane)",
-    "main": "Ele main, Resto sec",
-    "alt": "Hugger (Druide), Käilee (Paladin)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Hunter (Wischtel)"
-  },
-  {
     "id": 9,
-    "position": 26,
+    "position": 24,
     "character": "Kommalrübär (Druide)",
     "main": "Baum main; Bär sec",
     "alt": "-",
@@ -261,10 +241,30 @@
   },
   {
     "id": 11,
-    "position": 27,
+    "position": 25,
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 2,
+    "position": 26,
+    "character": "Háágl (Todesritter)",
+    "main": "Main Tank; sec UH",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 36,
+    "position": 27,
+    "character": "Anopa (Priester)",
+    "main": "Diszi main, SP Sec",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -280,14 +280,13 @@
     "bemerkung": ""
   },
   {
-    "id": 2,
+    "id": 39,
     "position": 29,
-    "character": "Háágl (Todesritter)",
-    "main": "Main Tank; sec UH",
-    "alt": "-",
+    "character": "Daenara (Paladin)",
+    "main": "Hpala",
+    "alt": "Neratonix (Druide)",
     "present": "Ja",
-    "item": "",
-    "bemerkung": ""
+    "item": ""
   },
   {
     "id": 25,
@@ -320,23 +319,24 @@
     "bemerkung": ""
   },
   {
-    "id": 36,
+    "id": 38,
     "position": 33,
-    "character": "Anopa (Priester)",
-    "main": "Diszi main, SP Sec",
+    "character": "Tschelati (Schamane)",
+    "main": "Resto",
     "alt": "-",
     "present": "Ja",
-    "item": "",
+    "item": "1. Item (Lord Schild)",
     "bemerkung": ""
   },
   {
-    "id": 39,
+    "id": 30,
     "position": 34,
-    "character": "Daenara (Paladin)",
-    "main": "Hpala",
-    "alt": "Neratonix (Druide)",
+    "character": "Roktaron (Schurke)",
+    "main": "Combat",
+    "alt": "-",
     "present": "Ja",
-    "item": ""
+    "item": "2. Item (WDT)",
+    "bemerkung": ""
   },
   {
     "id": 26,
