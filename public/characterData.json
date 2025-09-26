@@ -5,9 +5,9 @@
     "character": "Golreg (Hexenmeister)",
     "main": "Affli/Dämo; rollt Affli",
     "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Hpala (Varosh)"
+    "bemerkung": ""
   },
   {
     "id": 20,
@@ -15,9 +15,9 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf SP (Meldojin)"
+    "bemerkung": ""
   },
   {
     "id": 16,
@@ -65,7 +65,7 @@
     "character": "Multiboy (Schurke)",
     "main": "Main Combat",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -125,7 +125,7 @@
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -185,7 +185,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -205,9 +205,9 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Mage (Nvm)"
+    "bemerkung": ""
   },
   {
     "id": 3,
@@ -265,7 +265,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -275,7 +275,7 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -285,9 +285,9 @@
     "character": "Háágl (Todesritter)",
     "main": "Main Tank; sec UH",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "-5 Plätze vor Raid für Ummelden auf UH"
+    "bemerkung": ""
   },
   {
     "id": 25,
@@ -295,8 +295,8 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
-    "present": "Ja",
-    "item": "1. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -326,7 +326,7 @@
     "main": "Diszi main, SP Sec",
     "alt": "-",
     "present": "Ja",
-    "item": "2. Item (Diszi Handgelenke)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -335,7 +335,7 @@
     "character": "Daenara (Paladin)",
     "main": "Hpala",
     "alt": "Neratonix (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -344,8 +344,8 @@
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
-    "present": "Ja",
-    "item": "3. Item (Vali Rücken)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -354,8 +354,8 @@
     "character": "Klötenrómer (Krieger)",
     "main": "Tank main; Fury sec",
     "alt": "-",
-    "present": "Ja",
-    "item": "4. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   }
 ]
