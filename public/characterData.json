@@ -230,18 +230,8 @@
     "bemerkung": ""
   },
   {
-    "id": 9,
-    "position": 24,
-    "character": "Kommalrübär (Druide)",
-    "main": "Baum main; Bär sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 11,
-    "position": 25,
+    "position": 24,
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
@@ -251,7 +241,7 @@
   },
   {
     "id": 2,
-    "position": 26,
+    "position": 25,
     "character": "Háágl (Todesritter)",
     "main": "Main Tank; sec UH",
     "alt": "-",
@@ -261,13 +251,22 @@
   },
   {
     "id": 36,
-    "position": 27,
+    "position": 26,
     "character": "Anopa (Priester)",
     "main": "Diszi main, SP Sec",
     "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 39,
+    "position": 27,
+    "character": "Daenara (Paladin)",
+    "main": "Hpala",
+    "alt": "Neratonix (Druide)",
+    "present": "Ja",
+    "item": ""
   },
   {
     "id": 4,
@@ -280,13 +279,14 @@
     "bemerkung": ""
   },
   {
-    "id": 39,
+    "id": 38,
     "position": 29,
-    "character": "Daenara (Paladin)",
-    "main": "Hpala",
-    "alt": "Neratonix (Druide)",
+    "character": "Tschelati (Schamane)",
+    "main": "Resto",
+    "alt": "-",
     "present": "Ja",
-    "item": ""
+    "item": "1. Item (Lord Schild)",
+    "bemerkung": ""
   },
   {
     "id": 25,
@@ -319,23 +319,23 @@
     "bemerkung": ""
   },
   {
-    "id": 38,
-    "position": 33,
-    "character": "Tschelati (Schamane)",
-    "main": "Resto",
-    "alt": "-",
-    "present": "Ja",
-    "item": "1. Item (Lord Schild)",
-    "bemerkung": ""
-  },
-  {
     "id": 30,
-    "position": 34,
+    "position": 33,
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "-",
     "present": "Ja",
     "item": "2. Item (WDT)",
+    "bemerkung": ""
+  },
+  {
+    "id": 9,
+    "position": 34,
+    "character": "Kommalrübär (Druide)",
+    "main": "Baum main; Bär sec",
+    "alt": "-",
+    "present": "Ja",
+    "item": "3. Item (HC Token)",
     "bemerkung": ""
   },
   {
