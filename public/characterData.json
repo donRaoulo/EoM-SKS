@@ -190,24 +190,24 @@
     "bemerkung": ""
   },
   {
-    "id": 33,
-    "position": 20,
-    "character": "Awakeshaman (Schamane)",
-    "main": "Ele main, Resto sec",
-    "alt": "Hugger (Druide), Käilee (Paladin)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Cat (Hugger)"
-  },
-  {
     "id": 15,
-    "position": 21,
+    "position": 20,
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
     "present": "Ja",
     "item": "",
     "bemerkung": "auf Fury (Mexn)"
+  },
+  {
+    "id": 2,
+    "position": 21,
+    "character": "Háágl (Todesritter)",
+    "main": "Main Tank; sec UH",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 3,
@@ -240,14 +240,14 @@
     "bemerkung": ""
   },
   {
-    "id": 2,
+    "id": 39,
     "position": 25,
-    "character": "Háágl (Todesritter)",
-    "main": "Main Tank; sec UH",
-    "alt": "-",
+    "character": "Daenara (Paladin)",
+    "main": "Hpala",
+    "alt": "Neratonix (Druide)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Eule (Neratonix)"
   },
   {
     "id": 36,
@@ -260,18 +260,8 @@
     "bemerkung": ""
   },
   {
-    "id": 39,
-    "position": 27,
-    "character": "Daenara (Paladin)",
-    "main": "Hpala",
-    "alt": "Neratonix (Druide)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Eule (Neratonix)"
-  },
-  {
     "id": 4,
-    "position": 28,
+    "position": 27,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
@@ -281,9 +271,19 @@
   },
   {
     "id": 38,
-    "position": 29,
+    "position": 28,
     "character": "Tschelati (Schamane)",
     "main": "Resto",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 30,
+    "position": 29,
+    "character": "Roktaron (Schurke)",
+    "main": "Combat",
     "alt": "-",
     "present": "Ja",
     "item": "",
@@ -320,18 +320,8 @@
     "bemerkung": ""
   },
   {
-    "id": 30,
-    "position": 33,
-    "character": "Roktaron (Schurke)",
-    "main": "Combat",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 9,
-    "position": 34,
+    "position": 33,
     "character": "Kommalrübär (Druide)",
     "main": "Baum main; Bär sec",
     "alt": "-",
@@ -341,13 +331,23 @@
   },
   {
     "id": 26,
-    "position": 35,
+    "position": 34,
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 33,
+    "position": 35,
+    "character": "Awakeshaman (Schamane)",
+    "main": "Ele main, Resto sec",
+    "alt": "Hugger (Druide), Käilee (Paladin)",
+    "present": "Ja",
+    "item": "1. Item (Aldrianas)",
+    "bemerkung": "auf Cat (Hugger)"
   },
   {
     "id": 5,
