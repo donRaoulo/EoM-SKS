@@ -15,9 +15,9 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Fresa (Ele)"
   },
   {
     "id": 16,
@@ -25,7 +25,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -55,7 +55,7 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -65,7 +65,7 @@
     "character": "Multiboy (Schurke)",
     "main": "Main Combat",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -165,9 +165,9 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Hpala"
   },
   {
     "id": 6,
@@ -175,7 +175,7 @@
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -185,7 +185,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -197,7 +197,7 @@
     "alt": "Hugger (Druide), Käilee (Paladin)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Hunter (Wischtel)"
+    "bemerkung": "auf Cat (Hugger)"
   },
   {
     "id": 15,
@@ -205,9 +205,9 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Fury (Mexn)"
   },
   {
     "id": 3,
@@ -235,7 +235,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -255,7 +255,7 @@
     "character": "Anopa (Priester)",
     "main": "Diszi main, SP Sec",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -266,7 +266,8 @@
     "main": "Hpala",
     "alt": "Neratonix (Druide)",
     "present": "Ja",
-    "item": ""
+    "item": "",
+    "bemerkung": "auf Eule (Neratonix)"
   },
   {
     "id": 4,
@@ -274,7 +275,7 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -285,7 +286,7 @@
     "main": "Resto",
     "alt": "-",
     "present": "Ja",
-    "item": "1. Item (Lord Schild)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -325,7 +326,7 @@
     "main": "Combat",
     "alt": "-",
     "present": "Ja",
-    "item": "2. Item (WDT)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -335,7 +336,7 @@
     "main": "Baum main; Bär sec",
     "alt": "-",
     "present": "Ja",
-    "item": "3. Item (HC Token)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -344,7 +345,7 @@
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
