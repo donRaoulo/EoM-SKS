@@ -358,5 +358,14 @@
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 40,
+    "position": 37,
+    "character": "Raythos (Krieger)",
+    "main": "Fury main, Tank sec",
+    "alt": "-",
+    "present": "Nein",
+    "item": "Nein"
   }
 ]
