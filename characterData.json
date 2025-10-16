@@ -5,7 +5,7 @@
     "character": "Golreg (Hexenmeister)",
     "main": "Affli/Dämo; rollt Affli",
     "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -55,7 +55,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -65,7 +65,7 @@
     "character": "Multiboy (Schurke)",
     "main": "Main Combat",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -75,7 +75,7 @@
     "character": "Haimdali (Hexenmeister)",
     "main": "Affli",
     "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -105,7 +105,7 @@
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -145,7 +145,7 @@
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -165,9 +165,9 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Fury (Mexn)"
   },
   {
     "id": 2,
@@ -175,7 +175,7 @@
     "character": "Háágl (Todesritter)",
     "main": "Main Tank; sec UH",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -205,7 +205,7 @@
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -255,7 +255,7 @@
     "character": "Anopa (Priester)",
     "main": "Diszi main, SP Sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -267,7 +267,7 @@
     "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Fresa (Ele)"
+    "bemerkung": "auf Kotzreiz (Dämo)"
   },
   {
     "id": 28,
@@ -325,7 +325,7 @@
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
     "present": "Ja",
-    "item": "1. Item (HC Token)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -335,7 +335,7 @@
     "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
     "present": "Ja",
-    "item": "2. Item (HC Token)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -365,7 +365,7 @@
     "main": "Resto",
     "alt": "-",
     "present": "Ja",
-    "item": "3. Item (Resto Hände)",
+    "item": "",
     "bemerkung": ""
   }
 ]
