@@ -107,7 +107,7 @@
     "alt": "Batna (Priester), Amizo (Todesritter)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Batna (SP)"
+    "bemerkung": ""
   },
   {
     "id": 34,
@@ -367,5 +367,15 @@
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 41,
+    "position": 38,
+    "character": "Ephinaa (Druide)",
+    "main": "Eule main; Cat sec",
+    "alt": "Kóráyn (Priester), Ephii (Magier)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "auf SP (Kóráyn)"
   }
 ]
