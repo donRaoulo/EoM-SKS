@@ -53,7 +53,7 @@
     "id": 24,
     "position": 6,
     "character": "Sélkét (Paladin)",
-    "main": "Retri",
+    "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
     "present": "Ja",
     "item": "",
@@ -237,7 +237,7 @@
     "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf SP (Mortissha)"
+    "bemerkung": "auf Eule"
   },
   {
     "id": 32,
@@ -293,7 +293,7 @@
     "id": 25,
     "position": 30,
     "character": "Shadowdevíl (Krieger)",
-    "main": "Fury",
+    "main": "Fury (1. SM Splitter)",
     "alt": "Shadowshót (Jäger)",
     "present": "Nein",
     "item": "",
@@ -303,7 +303,7 @@
     "id": 40,
     "position": 31,
     "character": "Raythos (Krieger)",
-    "main": "Fury main, Tank sec (1. SM Splitter)",
+    "main": "Fury main, Tank sec",
     "alt": "-",
     "present": "Ja",
     "item": ""
