@@ -377,5 +377,14 @@
     "present": "Ja",
     "item": "2. Item (HC Token), 3. Item (Vali Gürtel), 6. Item (MdS), 7. Item (Armbrust)",
     "bemerkung": "auf Fury (Mexn)"
+  },
+  {
+    "id": 42,
+    "position": 39,
+    "character": "Junglejingle (Jäger)",
+    "main": "Treffsicherheit",
+    "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
+    "present": "Nein",
+    "item": ""
   }
 ]
