@@ -45,7 +45,7 @@
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -107,7 +107,7 @@
     "alt": "Batna (Priester), Amizo (Todesritter)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Batna (SP)"
   },
   {
     "id": 34,
@@ -237,7 +237,7 @@
     "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf SP (Mortissha)"
   },
   {
     "id": 32,
