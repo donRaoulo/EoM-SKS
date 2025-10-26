@@ -396,5 +396,14 @@
     "present": "Nein",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 44,
+    "position": 41,
+    "character": "Asseylum (Priester)",
+    "main": "SP",
+    "alt": "Adis andere Chars",
+    "present": "Nein",
+    "item": ""
   }
 ]
