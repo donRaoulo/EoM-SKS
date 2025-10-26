@@ -15,7 +15,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -25,7 +25,7 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -35,7 +35,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -45,7 +45,7 @@
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -55,7 +55,7 @@
     "character": "Multiboy (Schurke)",
     "main": "Main Combat",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -65,9 +65,9 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": ""
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -105,7 +105,7 @@
     "character": "Háágl (Todesritter)",
     "main": "Main Tank; sec UH",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -125,9 +125,9 @@
     "character": "Anopa (Priester)",
     "main": "Diszi main, SP Sec",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": ""
   },
   {
     "id": 19,
@@ -145,7 +145,7 @@
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -175,9 +175,9 @@
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": ""
   },
   {
     "id": 10,
@@ -185,7 +185,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -195,7 +195,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -205,7 +205,7 @@
     "character": "Tschelati (Schamane)",
     "main": "Resto",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -215,7 +215,7 @@
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -235,7 +235,7 @@
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -245,7 +245,7 @@
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -255,7 +255,7 @@
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -265,9 +265,9 @@
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Fury (Bellâtor)"
+    "bemerkung": ""
   },
   {
     "id": 43,
@@ -275,7 +275,7 @@
     "character": "Maiblock (Magier)",
     "main": "Fmage",
     "alt": "Ondori (Hpala)",
-    "present": "Ja",
+    "present": "Nein",
     "item": ""
   },
   {
@@ -304,8 +304,8 @@
     "character": "Daenara (Paladin)",
     "main": "Hpala",
     "alt": "Neratonix (Druide)",
-    "present": "Ja",
-    "item": "1. Item (Ring d schn Aufstiegs)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -314,8 +314,8 @@
     "character": "Raythos (Krieger)",
     "main": "Fury main, Tank sec",
     "alt": "-",
-    "present": "Ja",
-    "item": "2. Item (Tosks)"
+    "present": "Nein",
+    "item": ""
   },
   {
     "id": 4,
@@ -323,8 +323,8 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Ja",
-    "item": "3. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -343,8 +343,8 @@
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Ja",
-    "item": "4. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -363,9 +363,9 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Ja",
-    "item": "5. Item (Gruftmacher)",
-    "bemerkung": "auf Fury (Mexn)"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 26,
@@ -373,8 +373,8 @@
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
-    "present": "Ja",
-    "item": "6. Item (Blutrotes Heilungsband)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -383,8 +383,8 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
-    "item": "7. Item (BQ Hals)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -393,8 +393,8 @@
     "character": "Burning (Druide)",
     "main": "Cat",
     "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
-    "present": "Ja",
-    "item": "8. Item (HC Token), 9. Item (Fremdkörper). 10. Item Fleischschulterklappen",
-    "bemerkung": "auf Fresa (Ele)"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   }
 ]
