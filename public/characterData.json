@@ -405,5 +405,14 @@
     "alt": "Adis andere Chars",
     "present": "Nein",
     "item": ""
+  },
+  {
+    "id": 45,
+    "position": 42,
+    "character": "Norlex",
+    "main": "Eule Main, Bär sec",
+    "alt": "Xavo sp",
+    "present": "Nein",
+    "item": "Nein"
   }
 ]
