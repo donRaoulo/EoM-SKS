@@ -15,7 +15,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -193,7 +193,7 @@
     "id": 11,
     "position": 20,
     "character": "Chrisson (Paladin)",
-    "main": "Retri main, Tank sec",
+    "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
     "present": "Ja",
     "item": "",
@@ -267,7 +267,7 @@
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Eule Reegahr"
   },
   {
     "id": 43,
