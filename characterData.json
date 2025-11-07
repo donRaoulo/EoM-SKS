@@ -193,7 +193,7 @@
     "id": 11,
     "position": 20,
     "character": "Chrisson (Paladin)",
-    "main": "Hpala main, Tank sec",
+    "main": "Retri main, Tank sec",
     "alt": "Könnteheilen (Priester)",
     "present": "Ja",
     "item": "",
@@ -274,7 +274,7 @@
     "position": 28,
     "character": "Maiblock (Magier)",
     "main": "Fmage",
-    "alt": "Ondori (Hpala)",
+    "alt": "Ondori (Paladin)",
     "present": "Ja",
     "item": ""
   },
@@ -409,7 +409,7 @@
   {
     "id": 45,
     "position": 42,
-    "character": "Norlex",
+    "character": "Norlex (Druide)",
     "main": "Eule Main, Bär sec",
     "alt": "Xavo sp",
     "present": "Ja",
