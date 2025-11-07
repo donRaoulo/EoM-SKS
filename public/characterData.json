@@ -35,7 +35,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -195,7 +195,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -245,7 +245,7 @@
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -275,7 +275,7 @@
     "character": "Maiblock (Magier)",
     "main": "Fmage",
     "alt": "Ondori (Hpala)",
-    "present": "Nein",
+    "present": "Ja",
     "item": ""
   },
   {
@@ -284,9 +284,9 @@
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf blut DD Psyonarra"
   },
   {
     "id": 25,
@@ -345,7 +345,7 @@
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Ausgekekt Ele/vs"
   },
   {
     "id": 5,
@@ -412,7 +412,8 @@
     "character": "Norlex",
     "main": "Eule Main, Bär sec",
     "alt": "Xavo sp",
-    "present": "Nein",
-    "item": "Nein"
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "auf Xavo SP"
   }
 ]
