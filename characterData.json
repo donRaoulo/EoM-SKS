@@ -166,7 +166,7 @@
     "main": "Fmage",
     "alt": "Kommalrübär (Druide), Defaya (Krieger), Schmusevogel (Druide), Mortissha (Priester)",
     "present": "Ja",
-    "item": "",
+    "item": "3. Item HC token",
     "bemerkung": ""
   },
   {
@@ -193,7 +193,7 @@
     "id": 11,
     "position": 20,
     "character": "Chrisson (Paladin)",
-    "main": "Retri main, Tank sec",
+    "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
     "present": "Ja",
     "item": "",
@@ -274,7 +274,7 @@
     "position": 28,
     "character": "Maiblock (Magier)",
     "main": "Fmage",
-    "alt": "Ondori (Paladin)",
+    "alt": "Ondori (Hpala)",
     "present": "Ja",
     "item": ""
   },
@@ -285,7 +285,7 @@
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
     "present": "Ja",
-    "item": "",
+    "item": "1.Item(Handgelenke Tank)",
     "bemerkung": "auf blut DD Psyonarra"
   },
   {
@@ -394,7 +394,7 @@
     "main": "Cat",
     "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
     "present": "Ja",
-    "item": "",
+    "item": "2.Item TOSKS",
     "bemerkung": ""
   },
   {
@@ -409,7 +409,7 @@
   {
     "id": 45,
     "position": 42,
-    "character": "Norlex (Druide)",
+    "character": "Norlex",
     "main": "Eule Main, Bär sec",
     "alt": "Xavo sp",
     "present": "Ja",
