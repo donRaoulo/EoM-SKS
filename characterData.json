@@ -146,7 +146,7 @@
     "main": "Treffsicherheit",
     "alt": "-",
     "present": "Ja",
-    "item": "",
+    "item": "4. Item HC Token",
     "bemerkung": ""
   },
   {
@@ -176,7 +176,7 @@
     "main": "Fmage",
     "alt": "-",
     "present": "Ja",
-    "item": "",
+    "item": "6.Item HC TOKEN",
     "bemerkung": ""
   },
   {
@@ -193,7 +193,7 @@
     "id": 11,
     "position": 20,
     "character": "Chrisson (Paladin)",
-    "main": "Hpala main, Retri sec",
+    "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
     "present": "Ja",
     "item": "",
@@ -274,7 +274,7 @@
     "position": 28,
     "character": "Maiblock (Magier)",
     "main": "Fmage",
-    "alt": "Ondori (Paladin)",
+    "alt": "Ondori (Hpala)",
     "present": "Ja",
     "item": ""
   },
@@ -315,7 +315,7 @@
     "main": "Fury main, Tank sec",
     "alt": "-",
     "present": "Ja",
-    "item": ""
+    "item": "5. Item Meele BQ hals"
   },
   {
     "id": 4,
@@ -409,9 +409,9 @@
   {
     "id": 45,
     "position": 42,
-    "character": "Norlex (Druide)",
+    "character": "Norlex",
     "main": "Eule Main, Bär sec",
-    "alt": "Xavo (Priester)",
+    "alt": "Xavo sp",
     "present": "Ja",
     "item": "",
     "bemerkung": "auf Xavo SP"
