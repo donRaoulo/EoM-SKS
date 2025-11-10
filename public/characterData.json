@@ -35,7 +35,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri (2. SM Splitter)",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -140,13 +140,13 @@
     "bemerkung": ""
   },
   {
-    "id": 3,
+    "id": 10,
     "position": 15,
-    "character": "Merveille (Jäger)",
-    "main": "Treffsicherheit",
-    "alt": "-",
-    "present": "Ja",
-    "item": "4. Item HC Token",
+    "character": "Gwinraw (Todesritter)",
+    "main": "Blut DD",
+    "alt": "Fresa (Schamane), Hiería (Druide)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -160,44 +160,44 @@
     "bemerkung": ""
   },
   {
-    "id": 9,
-    "position": 17,
-    "character": "Pessimisma (Magier)",
-    "main": "Fmage",
-    "alt": "Kommalrübär (Druide), Defaya (Krieger), Schmusevogel (Druide), Mortissha (Priester)",
-    "present": "Ja",
-    "item": "3. Item HC token",
-    "bemerkung": ""
-  },
-  {
-    "id": 32,
-    "position": 18,
-    "character": "Porthuhn (Magier)",
-    "main": "Fmage",
-    "alt": "-",
-    "present": "Ja",
-    "item": "6.Item HC TOKEN",
-    "bemerkung": ""
-  },
-  {
-    "id": 10,
-    "position": 19,
-    "character": "Gwinraw (Todesritter)",
-    "main": "Blut DD",
-    "alt": "Fresa (Schamane), Hiería (Druide)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 11,
-    "position": 20,
+    "position": 17,
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Tank sec",
     "alt": "Könnteheilen (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": "Heal main, Retri sec!"
+  },
+  {
+    "id": 41,
+    "position": 18,
+    "character": "Ephinaa (Druide)",
+    "main": "Eule main; Cat sec",
+    "alt": "Kóráyn (Priester), Ephii (Magier)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 21,
+    "position": 19,
+    "character": "Beautý (Priester)",
+    "main": "SP/Diszi; rollt SP",
+    "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 12,
+    "position": 20,
+    "character": "Moophie (Druide)",
+    "main": "Baum/Eule; rollt Baum",
+    "alt": "Shieldow (Priester)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 38,
@@ -210,12 +210,12 @@
     "bemerkung": ""
   },
   {
-    "id": 41,
+    "id": 30,
     "position": 22,
-    "character": "Ephinaa (Druide)",
-    "main": "Eule main; Cat sec",
-    "alt": "Kóráyn (Priester), Ephii (Magier)",
-    "present": "Ja",
+    "character": "Roktaron (Schurke)",
+    "main": "Combat",
+    "alt": "-",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -230,63 +230,63 @@
     "bemerkung": ""
   },
   {
-    "id": 21,
-    "position": 24,
-    "character": "Beautý (Priester)",
-    "main": "SP/Diszi; rollt SP",
-    "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 12,
-    "position": 25,
-    "character": "Moophie (Druide)",
-    "main": "Baum/Eule; rollt Baum",
-    "alt": "Shieldow (Priester)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 30,
-    "position": 26,
-    "character": "Roktaron (Schurke)",
-    "main": "Combat",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 42,
-    "position": 27,
+    "position": 24,
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Eule Reegahr"
+    "bemerkung": ""
   },
   {
     "id": 43,
-    "position": 28,
+    "position": 25,
     "character": "Maiblock (Magier)",
     "main": "Fmage",
     "alt": "Ondori (Hpala)",
-    "present": "Ja",
+    "present": "Nein",
     "item": ""
   },
   {
-    "id": 33,
+    "id": 39,
+    "position": 26,
+    "character": "Daenara (Paladin)",
+    "main": "Hpala",
+    "alt": "Neratonix (Druide)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 1,
+    "position": 27,
+    "character": "Haimdali (Hexenmeister)",
+    "main": "Affli",
+    "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 28,
+    "position": 28,
+    "character": "Jînxî (Paladin)",
+    "main": "Retri main, Tank sec",
+    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 45,
     "position": 29,
-    "character": "Awakeshaman (Schamane)",
-    "main": "Ele main, Resto sec",
-    "alt": "Hugger (Druide), Käilee (Paladin)",
-    "present": "Ja",
-    "item": "1.Item(Handgelenke Tank)",
-    "bemerkung": "auf blut DD Psyonarra"
+    "character": "Norlex",
+    "main": "Eule Main, Bär sec",
+    "alt": "Xavo sp",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 25,
@@ -299,23 +299,24 @@
     "bemerkung": ""
   },
   {
-    "id": 39,
+    "id": 33,
     "position": 31,
-    "character": "Daenara (Paladin)",
-    "main": "Hpala",
-    "alt": "Neratonix (Druide)",
-    "present": "Ja",
+    "character": "Awakeshaman (Schamane)",
+    "main": "Ele main, Resto sec",
+    "alt": "Hugger (Druide), Käilee (Paladin)",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 40,
+    "id": 20,
     "position": 32,
-    "character": "Raythos (Krieger)",
-    "main": "Fury main, Tank sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "5. Item Meele BQ hals"
+    "character": "Burning (Druide)",
+    "main": "Cat",
+    "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 4,
@@ -328,24 +329,24 @@
     "bemerkung": ""
   },
   {
-    "id": 1,
+    "id": 9,
     "position": 34,
-    "character": "Haimdali (Hexenmeister)",
-    "main": "Affli",
-    "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
-    "present": "Ja",
+    "character": "Pessimisma (Magier)",
+    "main": "Fmage",
+    "alt": "Kommalrübär (Druide), Defaya (Krieger), Schmusevogel (Druide), Mortissha (Priester)",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 28,
+    "id": 3,
     "position": 35,
-    "character": "Jînxî (Paladin)",
-    "main": "Retri main, Tank sec",
-    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Ja",
+    "character": "Merveille (Jäger)",
+    "main": "Treffsicherheit",
+    "alt": "-",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Ausgekekt Ele/vs"
+    "bemerkung": ""
   },
   {
     "id": 5,
@@ -388,14 +389,13 @@
     "bemerkung": ""
   },
   {
-    "id": 20,
+    "id": 40,
     "position": 40,
-    "character": "Burning (Druide)",
-    "main": "Cat",
-    "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
-    "present": "Ja",
-    "item": "2.Item TOSKS",
-    "bemerkung": ""
+    "character": "Raythos (Krieger)",
+    "main": "Fury main, Tank sec",
+    "alt": "-",
+    "present": "Nein",
+    "item": ""
   },
   {
     "id": 44,
@@ -407,13 +407,13 @@
     "item": ""
   },
   {
-    "id": 45,
+    "id": 32,
     "position": 42,
-    "character": "Norlex",
-    "main": "Eule Main, Bär sec",
-    "alt": "Xavo sp",
-    "present": "Ja",
+    "character": "Porthuhn (Magier)",
+    "main": "Fmage",
+    "alt": "-",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Xavo SP"
+    "bemerkung": ""
   }
 ]
