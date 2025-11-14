@@ -77,7 +77,7 @@
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Hunter\n(Spitzl)"
   },
   {
     "id": 17,
@@ -160,21 +160,21 @@
     "bemerkung": ""
   },
   {
-    "id": 11,
+    "id": 41,
     "position": 17,
-    "character": "Chrisson (Paladin)",
-    "main": "Hpala main, Retri sec",
-    "alt": "Könnteheilen (Priester)",
+    "character": "Ephinaa (Druide)",
+    "main": "Eule main; Cat sec",
+    "alt": "Kóráyn (Priester), Ephii (Magier)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 41,
+    "id": 30,
     "position": 18,
-    "character": "Ephinaa (Druide)",
-    "main": "Eule main; Cat sec",
-    "alt": "Kóráyn (Priester), Ephii (Magier)",
+    "character": "Roktaron (Schurke)",
+    "main": "Combat",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -190,14 +190,13 @@
     "bemerkung": ""
   },
   {
-    "id": 12,
+    "id": 43,
     "position": 20,
-    "character": "Moophie (Druide)",
-    "main": "Baum/Eule; rollt Baum",
-    "alt": "Shieldow (Priester)",
+    "character": "Maiblock (Magier)",
+    "main": "Fmage",
+    "alt": "Ondori (Paladin)",
     "present": "Ja",
-    "item": "",
-    "bemerkung": ""
+    "item": ""
   },
   {
     "id": 38,
@@ -210,11 +209,11 @@
     "bemerkung": ""
   },
   {
-    "id": 30,
+    "id": 39,
     "position": 22,
-    "character": "Roktaron (Schurke)",
-    "main": "Combat",
-    "alt": "-",
+    "character": "Daenara (Paladin)",
+    "main": "Hpala",
+    "alt": "Neratonix (Druide)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -240,23 +239,24 @@
     "bemerkung": ""
   },
   {
-    "id": 43,
+    "id": 28,
     "position": 25,
-    "character": "Maiblock (Magier)",
-    "main": "Fmage",
-    "alt": "Ondori (Paladin)",
-    "present": "Ja",
-    "item": ""
-  },
-  {
-    "id": 39,
-    "position": 26,
-    "character": "Daenara (Paladin)",
-    "main": "Hpala",
-    "alt": "Neratonix (Druide)",
+    "character": "Jînxî (Paladin)",
+    "main": "Retri main, Tank sec",
+    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 45,
+    "position": 26,
+    "character": "Norlex (Druide)",
+    "main": "Eule Main, Bär sec",
+    "alt": "Xavo (Priester)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "auf Mage (Zabji)"
   },
   {
     "id": 1,
@@ -269,24 +269,24 @@
     "bemerkung": ""
   },
   {
-    "id": 28,
+    "id": 26,
     "position": 28,
-    "character": "Jînxî (Paladin)",
-    "main": "Retri main, Tank sec",
-    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
+    "character": "Solédad (Priester)",
+    "main": "Diszi/SP, rollt Diszi",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 45,
+    "id": 20,
     "position": 29,
-    "character": "Norlex (Druide)",
-    "main": "Eule Main, Bär sec",
-    "alt": "Xavo (Priester)",
+    "character": "Burning (Druide)",
+    "main": "Cat",
+    "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
     "present": "Ja",
-    "item": "",
-    "bemerkung": "auf SP (Xavo)"
+    "item": "1. Item Bollwerk",
+    "bemerkung": "auf Ele (Fresa)"
   },
   {
     "id": 25,
@@ -309,24 +309,22 @@
     "bemerkung": ""
   },
   {
-    "id": 20,
+    "id": 44,
     "position": 32,
-    "character": "Burning (Druide)",
-    "main": "Cat",
-    "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
-    "present": "Nein",
-    "item": "",
-    "bemerkung": ""
+    "character": "Asseylum (Priester)",
+    "main": "SP",
+    "alt": "Adis andere Chars",
+    "present": "Ja",
+    "item": "2.Item Euloge"
   },
   {
-    "id": 4,
+    "id": 40,
     "position": 33,
-    "character": "Graugdasch (Schamane)",
-    "main": "Resto main, VS sec",
+    "character": "Raythos (Krieger)",
+    "main": "Fury main, Tank sec",
     "alt": "-",
     "present": "Ja",
-    "item": "",
-    "bemerkung": ""
+    "item": "3.Item WDT"
   },
   {
     "id": 9,
@@ -369,13 +367,13 @@
     "bemerkung": ""
   },
   {
-    "id": 26,
+    "id": 11,
     "position": 38,
-    "character": "Solédad (Priester)",
-    "main": "Diszi/SP, rollt Diszi",
-    "alt": "-",
+    "character": "Chrisson (Paladin)",
+    "main": "Hpala main, Retri sec",
+    "alt": "Könnteheilen (Priester)",
     "present": "Ja",
-    "item": "",
+    "item": "4. Item HC Token",
     "bemerkung": ""
   },
   {
@@ -385,26 +383,28 @@
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
-    "item": "",
+    "item": "5. Item Siegelring",
     "bemerkung": ""
   },
   {
-    "id": 40,
+    "id": 4,
     "position": 40,
-    "character": "Raythos (Krieger)",
-    "main": "Fury main, Tank sec",
+    "character": "Graugdasch (Schamane)",
+    "main": "Resto main, VS sec",
     "alt": "-",
     "present": "Ja",
-    "item": ""
+    "item": "6. Item HC Token",
+    "bemerkung": ""
   },
   {
-    "id": 44,
+    "id": 12,
     "position": 41,
-    "character": "Asseylum (Priester)",
-    "main": "SP",
-    "alt": "Adis andere Chars",
+    "character": "Moophie (Druide)",
+    "main": "Baum/Eule; rollt Baum",
+    "alt": "Shieldow (Priester)",
     "present": "Ja",
-    "item": ""
+    "item": "7.Item Hc Token",
+    "bemerkung": ""
   },
   {
     "id": 32,
