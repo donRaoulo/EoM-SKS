@@ -15,7 +15,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -25,7 +25,7 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -35,7 +35,7 @@
     "character": "Sélkét (Paladin)",
     "main": "Retri",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -145,7 +145,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Fresa (Schamane), Hiería (Druide)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -165,7 +165,7 @@
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -205,7 +205,7 @@
     "character": "Tschelati (Schamane)",
     "main": "Resto",
     "alt": "-",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -215,7 +215,7 @@
     "character": "Daenara (Paladin)",
     "main": "Hpala",
     "alt": "Neratonix (Druide)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -280,18 +280,8 @@
     "bemerkung": ""
   },
   {
-    "id": 20,
-    "position": 29,
-    "character": "Burning (Druide)",
-    "main": "Cat",
-    "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
-    "present": false,
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 25,
-    "position": 30,
+    "position": 29,
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury",
     "alt": "Shadowshót (Jäger)",
@@ -301,7 +291,7 @@
   },
   {
     "id": 33,
-    "position": 31,
+    "position": 30,
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
@@ -311,7 +301,7 @@
   },
   {
     "id": 44,
-    "position": 32,
+    "position": 31,
     "character": "Asseylum (Priester)",
     "main": "SP",
     "alt": "Adis andere Chars mit SM Need",
@@ -321,7 +311,7 @@
   },
   {
     "id": 40,
-    "position": 33,
+    "position": 32,
     "character": "Raythos (Krieger)",
     "main": "Fury main, Tank sec (1. SM Splitter)",
     "alt": "-",
@@ -331,7 +321,7 @@
   },
   {
     "id": 9,
-    "position": 34,
+    "position": 33,
     "character": "Pessimisma (Magier)",
     "main": "Fmage",
     "alt": "Kommalrübär (Druide), Defaya (Krieger), Schmusevogel (Druide), Mortissha (Priester)",
@@ -341,7 +331,7 @@
   },
   {
     "id": 3,
-    "position": 35,
+    "position": 34,
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
@@ -351,7 +341,7 @@
   },
   {
     "id": 5,
-    "position": 36,
+    "position": 35,
     "character": "Klötenrómer (Krieger)",
     "main": "Tank main; Fury sec",
     "alt": "-",
@@ -361,7 +351,7 @@
   },
   {
     "id": 15,
-    "position": 37,
+    "position": 36,
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
@@ -371,7 +361,7 @@
   },
   {
     "id": 11,
-    "position": 38,
+    "position": 37,
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
@@ -381,7 +371,7 @@
   },
   {
     "id": 22,
-    "position": 39,
+    "position": 38,
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
@@ -391,7 +381,7 @@
   },
   {
     "id": 4,
-    "position": 40,
+    "position": 39,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
@@ -401,22 +391,32 @@
   },
   {
     "id": 12,
-    "position": 41,
+    "position": 40,
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
   {
     "id": 32,
-    "position": 42,
+    "position": 41,
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
     "alt": "-",
     "present": false,
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 20,
+    "position": 42,
+    "character": "Burning (Druide)",
+    "main": "Cat",
+    "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "Vor Raid Ummeldung auf Fresa ("
   }
 ]
