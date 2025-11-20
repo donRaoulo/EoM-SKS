@@ -144,7 +144,7 @@
     "position": 15,
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
-    "alt": "Fresa (Schamane), Hiería (Druide)",
+    "alt": "Hiería (Druide)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -412,9 +412,9 @@
   {
     "id": 20,
     "position": 42,
-    "character": "Burning (Druide)",
-    "main": "Cat",
-    "alt": "Kotzreiz (Hexenmeister), Fresa (Schamane)",
+    "character": "Fresa (Schamane)",
+    "main": "Ele main, VS sec",
+    "alt": "Kotzreiz (Hexenmeister)",
     "present": "Ja",
     "item": "",
     "bemerkung": "Vor Raid Ummeldung auf Fresa ("
