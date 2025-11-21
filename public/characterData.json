@@ -350,18 +350,8 @@
     "bemerkung": ""
   },
   {
-    "id": 20,
-    "position": 36,
-    "character": "Fresa (Schamane)",
-    "main": "Ele main, VS sec",
-    "alt": "Kotzreiz (Hexenmeister)",
-    "present": "Ja",
-    "item": "1. Item: Knochenstachel",
-    "bemerkung": "Vor Raid dauerhafte Ummeldung auf Fresa"
-  },
-  {
     "id": 38,
-    "position": 37,
+    "position": 36,
     "character": "Tschelati (Schamane)",
     "main": "Resto",
     "alt": "-",
@@ -371,7 +361,7 @@
   },
   {
     "id": 42,
-    "position": 38,
+    "position": 37,
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
@@ -381,7 +371,7 @@
   },
   {
     "id": 40,
-    "position": 39,
+    "position": 38,
     "character": "Raythos (Krieger)",
     "main": "Fury main, Tank sec (1. SM Splitter)",
     "alt": "-",
@@ -391,7 +381,7 @@
   },
   {
     "id": 41,
-    "position": 40,
+    "position": 39,
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier)",
@@ -400,13 +390,23 @@
     "bemerkung": ""
   },
   {
+    "id": 20,
+    "position": 40,
+    "character": "Fresa (Schamane)",
+    "main": "Ele main, VS sec",
+    "alt": "Kotzreiz (Hexenmeister)",
+    "present": "Ja",
+    "item": "1. Item: Knochenstachel, 8. Item: HC Token",
+    "bemerkung": "Vor Raid dauerhafte Ummeldung auf Fresa"
+  },
+  {
     "id": 12,
     "position": 41,
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
     "present": "Ja",
-    "item": "5. Item: HC Token, 8. Item: Prof Gurt",
+    "item": "5. Item: HC Token, 9. Item: Prof Gurt",
     "bemerkung": ""
   },
   {
@@ -416,7 +416,7 @@
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
     "present": "Ja",
-    "item": "9. Item: HC Token",
+    "item": "10. Item: HC Token",
     "bemerkung": ""
   }
 ]
