@@ -20,18 +20,8 @@
     "bemerkung": ""
   },
   {
-    "id": 13,
-    "position": 3,
-    "character": "Alabuu (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "Alibär (Todesritter)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 24,
-    "position": 4,
+    "position": 3,
     "character": "Sélkét (Paladin)",
     "main": "Retri",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Morfydd (Hexenmeister)",
@@ -41,7 +31,7 @@
   },
   {
     "id": 14,
-    "position": 5,
+    "position": 4,
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
@@ -51,7 +41,7 @@
   },
   {
     "id": 7,
-    "position": 6,
+    "position": 5,
     "character": "Multiboy (Schurke)",
     "main": "Main Combat",
     "alt": "-",
@@ -61,7 +51,7 @@
   },
   {
     "id": 31,
-    "position": 7,
+    "position": 6,
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
@@ -71,7 +61,7 @@
   },
   {
     "id": 6,
-    "position": 8,
+    "position": 7,
     "character": "Outbreak (Priester)",
     "main": "SP",
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
@@ -81,7 +71,7 @@
   },
   {
     "id": 17,
-    "position": 9,
+    "position": 8,
     "character": "Blinkadin (Paladin)",
     "main": "Tank main/Hpala sec",
     "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
@@ -91,7 +81,7 @@
   },
   {
     "id": 8,
-    "position": 10,
+    "position": 9,
     "character": "Mchaesslich (Schurke)",
     "main": "Combat",
     "alt": "-",
@@ -101,7 +91,7 @@
   },
   {
     "id": 2,
-    "position": 11,
+    "position": 10,
     "character": "Háágl (Todesritter)",
     "main": "Main UH; sec Tank",
     "alt": "-",
@@ -111,7 +101,7 @@
   },
   {
     "id": 34,
-    "position": 12,
+    "position": 11,
     "character": "Umtex (Schamane)",
     "main": "Resto main/ Ele Sec",
     "alt": "-",
@@ -121,7 +111,7 @@
   },
   {
     "id": 36,
-    "position": 13,
+    "position": 12,
     "character": "Anopa (Priester)",
     "main": "Diszi main, SP Sec",
     "alt": "-",
@@ -131,7 +121,7 @@
   },
   {
     "id": 19,
-    "position": 14,
+    "position": 13,
     "character": "Freetag (Todesritter)",
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
@@ -141,7 +131,7 @@
   },
   {
     "id": 10,
-    "position": 15,
+    "position": 14,
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Hiería (Druide)",
@@ -151,7 +141,7 @@
   },
   {
     "id": 35,
-    "position": 16,
+    "position": 15,
     "character": "Fluten (Schamane)",
     "main": "Resto main; Ele sec",
     "alt": "Cøldasîce (Schurke), Teuflischx (Hexenmeister), Spreader (Todesritter), Asîlaydyîng (Jäger)",
@@ -161,17 +151,17 @@
   },
   {
     "id": 41,
-    "position": 17,
+    "position": 16,
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier)",
     "present": "Ja",
-    "item": "",
+    "item": "7. Item BQ Hals",
     "bemerkung": ""
   },
   {
     "id": 30,
-    "position": 18,
+    "position": 17,
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "-",
@@ -181,7 +171,7 @@
   },
   {
     "id": 21,
-    "position": 19,
+    "position": 18,
     "character": "Beautý (Priester)",
     "main": "SP/Diszi; rollt SP",
     "alt": "Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
@@ -191,7 +181,7 @@
   },
   {
     "id": 43,
-    "position": 20,
+    "position": 19,
     "character": "Maiblock (Magier)",
     "main": "Fmage",
     "alt": "Ondori (Paladin)",
@@ -200,18 +190,8 @@
     "bemerkung": ""
   },
   {
-    "id": 38,
-    "position": 21,
-    "character": "Tschelati (Schamane)",
-    "main": "Resto",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 39,
-    "position": 22,
+    "position": 20,
     "character": "Daenara (Paladin)",
     "main": "Hpala",
     "alt": "Neratonix (Druide)",
@@ -221,7 +201,7 @@
   },
   {
     "id": 37,
-    "position": 23,
+    "position": 21,
     "character": "Angèlus (Todesritter)",
     "main": "FDK DD main; FDK Tank sec",
     "alt": "-",
@@ -230,18 +210,8 @@
     "bemerkung": ""
   },
   {
-    "id": 42,
-    "position": 24,
-    "character": "Junglejingle (Jäger)",
-    "main": "Treffsicherheit",
-    "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 28,
-    "position": 25,
+    "position": 22,
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
@@ -251,7 +221,7 @@
   },
   {
     "id": 45,
-    "position": 26,
+    "position": 23,
     "character": "Norlex (Druide)",
     "main": "Eule Main, Bär sec",
     "alt": "Xavo (Priester)",
@@ -261,7 +231,7 @@
   },
   {
     "id": 1,
-    "position": 27,
+    "position": 24,
     "character": "Haimdali (Hexenmeister)",
     "main": "Affli",
     "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
@@ -271,7 +241,7 @@
   },
   {
     "id": 26,
-    "position": 28,
+    "position": 25,
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
@@ -281,7 +251,7 @@
   },
   {
     "id": 25,
-    "position": 29,
+    "position": 26,
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury",
     "alt": "Shadowshót (Jäger)",
@@ -291,7 +261,7 @@
   },
   {
     "id": 33,
-    "position": 30,
+    "position": 27,
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
@@ -301,7 +271,7 @@
   },
   {
     "id": 44,
-    "position": 31,
+    "position": 28,
     "character": "Asseylum (Priester)",
     "main": "SP",
     "alt": "Adis andere Chars mit SM Need",
@@ -310,18 +280,8 @@
     "bemerkung": "Ersatzbank"
   },
   {
-    "id": 40,
-    "position": 32,
-    "character": "Raythos (Krieger)",
-    "main": "Fury main, Tank sec (1. SM Splitter)",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 9,
-    "position": 33,
+    "position": 29,
     "character": "Pessimisma (Magier)",
     "main": "Fmage",
     "alt": "Kommalrübär (Druide), Defaya (Krieger), Schmusevogel (Druide), Mortissha (Priester)",
@@ -331,7 +291,7 @@
   },
   {
     "id": 3,
-    "position": 34,
+    "position": 30,
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
@@ -341,7 +301,7 @@
   },
   {
     "id": 5,
-    "position": 35,
+    "position": 31,
     "character": "Klötenrómer (Krieger)",
     "main": "Tank main; Fury sec",
     "alt": "-",
@@ -351,7 +311,7 @@
   },
   {
     "id": 15,
-    "position": 36,
+    "position": 32,
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
@@ -361,7 +321,7 @@
   },
   {
     "id": 11,
-    "position": 37,
+    "position": 33,
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
@@ -371,7 +331,7 @@
   },
   {
     "id": 22,
-    "position": 38,
+    "position": 34,
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
@@ -381,7 +341,7 @@
   },
   {
     "id": 4,
-    "position": 39,
+    "position": 35,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
@@ -390,18 +350,8 @@
     "bemerkung": ""
   },
   {
-    "id": 12,
-    "position": 40,
-    "character": "Moophie (Druide)",
-    "main": "Baum/Eule; rollt Baum",
-    "alt": "Shieldow (Priester)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 32,
-    "position": 41,
+    "position": 36,
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
     "alt": "-",
@@ -410,13 +360,63 @@
     "bemerkung": ""
   },
   {
+    "id": 38,
+    "position": 37,
+    "character": "Tschelati (Schamane)",
+    "main": "Resto",
+    "alt": "-",
+    "present": "Ja",
+    "item": "2. Item HC token",
+    "bemerkung": ""
+  },
+  {
+    "id": 42,
+    "position": 38,
+    "character": "Junglejingle (Jäger)",
+    "main": "Treffsicherheit",
+    "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
+    "present": "Ja",
+    "item": "3. Item Saphirring\n4.Item Sindras Klaue",
+    "bemerkung": ""
+  },
+  {
+    "id": 40,
+    "position": 39,
+    "character": "Raythos (Krieger)",
+    "main": "Fury main, Tank sec (1. SM Splitter)",
+    "alt": "-",
+    "present": "Ja",
+    "item": "6. Item Grufti",
+    "bemerkung": ""
+  },
+  {
     "id": 20,
-    "position": 42,
+    "position": 40,
     "character": "Fresa (Schamane)",
     "main": "Ele main, VS sec",
     "alt": "Kotzreiz (Hexenmeister)",
     "present": "Ja",
-    "item": "",
+    "item": "1. Item Knochenstachel\n5. Item HC Token",
     "bemerkung": "Vor Raid dauerhafte Ummeldung auf Fresa"
+  },
+  {
+    "id": 12,
+    "position": 41,
+    "character": "Moophie (Druide)",
+    "main": "Baum/Eule; rollt Baum",
+    "alt": "Shieldow (Priester)",
+    "present": "Ja",
+    "item": "5. Item HC Token\n8. Item Profgurt",
+    "bemerkung": ""
+  },
+  {
+    "id": 13,
+    "position": 42,
+    "character": "Alabuu (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "Alibär (Todesritter)",
+    "present": "Ja",
+    "item": "9. Item HC Token",
+    "bemerkung": ""
   }
 ]
