@@ -296,7 +296,7 @@
     "main": "Frost DD Main",
     "alt": "",
     "present": "Ja",
-    "item": ""
+    "item": "Ânnâyâ (Priester), Rôxôr (Paladin)"
   },
   {
     "id": 46,
@@ -361,7 +361,7 @@
     "id": 5,
     "position": 37,
     "character": "Klötenrómer (Krieger)",
-    "main": "Tank main; Fury sec",
+    "main": "Fury main; Tank sec",
     "alt": "-",
     "present": "Ja",
     "item": "4. Item (HC Token), 7. Item (Lana'thels)",
@@ -372,7 +372,7 @@
     "position": 38,
     "character": "Liladiva (Paladin)",
     "main": "Retri main, Tank sec (Splittersammler)",
-    "alt": "Beautý (Priester), Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
+    "alt": "Lágêrthá (Todesritter)",
     "present": "Ja",
     "item": "8. Item ( Kordel)",
     "bemerkung": "Vor dem Raid dauerhaft auf Retri gewechselt"
