@@ -283,11 +283,11 @@
     "id": 5,
     "position": 29,
     "character": "Klötenrómer (Krieger)",
-    "main": "Tank main; Fury sec",
+    "main": "Fury main; Tank sec",
     "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "-5 Plätze noch abziehen für Speccwechsel"
   },
   {
     "id": 15,
@@ -414,7 +414,7 @@
     "position": 42,
     "character": "Liladiva (Paladin)",
     "main": "Retri main, Tank sec (Splittersammler)",
-    "alt": "Beautý (Priester), Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
+    "alt": "Lágêrthá (Todesritter)",
     "present": "Ja",
     "item": "",
     "bemerkung": "Vor dem Raid dauerhaft auf Retri gewechselt"
