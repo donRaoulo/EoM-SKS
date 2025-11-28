@@ -280,18 +280,8 @@
     "bemerkung": ""
   },
   {
-    "id": 5,
-    "position": 29,
-    "character": "Klötenrómer (Krieger)",
-    "main": "Tank main; Fury sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "-5 Plätze für Ummeldung auf Fury vor Raid"
-  },
-  {
     "id": 15,
-    "position": 30,
+    "position": 29,
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
@@ -301,7 +291,7 @@
   },
   {
     "id": 11,
-    "position": 31,
+    "position": 30,
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
@@ -311,7 +301,7 @@
   },
   {
     "id": 22,
-    "position": 32,
+    "position": 31,
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
@@ -321,7 +311,7 @@
   },
   {
     "id": 4,
-    "position": 33,
+    "position": 32,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
@@ -331,13 +321,23 @@
   },
   {
     "id": 32,
-    "position": 34,
+    "position": 33,
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
     "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 5,
+    "position": 34,
+    "character": "Klötenrómer (Krieger)",
+    "main": "Tank main; Fury sec",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "-5 Plätze für Ummeldung auf Fury vor Raid"
   },
   {
     "id": 38,
