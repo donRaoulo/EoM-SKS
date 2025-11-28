@@ -67,7 +67,7 @@
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Cat (Themba)"
+    "bemerkung": ""
   },
   {
     "id": 17,
@@ -257,7 +257,7 @@
     "alt": "Adis andere Chars mit SM Need",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Hunter (Mustardino)"
   },
   {
     "id": 3,
@@ -325,7 +325,7 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
