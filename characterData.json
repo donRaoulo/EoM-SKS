@@ -260,22 +260,22 @@
     "bemerkung": "auf Hunter (Mustardino)"
   },
   {
-    "id": 3,
-    "position": 27,
-    "character": "Merveille (Jäger)",
-    "main": "Treffsicherheit",
-    "alt": "-",
-    "present": false,
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 9,
-    "position": 28,
+    "position": 27,
     "character": "Pessimisma (Magier)",
     "main": "Fmage",
     "alt": "Kommalrübär (Druide), Defaya (Krieger), Schmusevogel (Druide), Mortissha (Priester)",
     "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 3,
+    "position": 28,
+    "character": "Merveille (Jäger)",
+    "main": "Treffsicherheit",
+    "alt": "-",
+    "present": false,
     "item": "",
     "bemerkung": ""
   },
@@ -287,7 +287,7 @@
     "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "-5 Plätze für Ummeldung auf Fury vor Raid"
   },
   {
     "id": 15,
@@ -330,18 +330,8 @@
     "bemerkung": ""
   },
   {
-    "id": 40,
-    "position": 34,
-    "character": "Raythos (Krieger)",
-    "main": "Fury main, Tank sec (1. SM Splitter)",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 32,
-    "position": 35,
+    "position": 34,
     "character": "Porthuhn (Magier)",
     "main": "Fmage",
     "alt": "-",
@@ -351,7 +341,7 @@
   },
   {
     "id": 38,
-    "position": 36,
+    "position": 35,
     "character": "Tschelati (Schamane)",
     "main": "Resto",
     "alt": "-",
@@ -361,11 +351,21 @@
   },
   {
     "id": 42,
-    "position": 37,
+    "position": 36,
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
     "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 40,
+    "position": 37,
+    "character": "Raythos (Krieger)",
+    "main": "Fury main, Tank sec (1. SM Splitter)",
+    "alt": "-",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -380,28 +380,8 @@
     "bemerkung": ""
   },
   {
-    "id": 41,
-    "position": 39,
-    "character": "Ephinaa (Druide)",
-    "main": "Eule main; Cat sec",
-    "alt": "Kóráyn (Priester), Ephii (Magier)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 20,
-    "position": 40,
-    "character": "Fresa (Schamane)",
-    "main": "Ele main, VS sec",
-    "alt": "Kotzreiz (Hexenmeister)",
-    "present": "Nein",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 13,
-    "position": 41,
+    "position": 39,
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
@@ -411,7 +391,7 @@
   },
   {
     "id": 21,
-    "position": 42,
+    "position": 40,
     "character": "Liladiva (Paladin)",
     "main": "Retri main, Tank sec (Splittersammler)",
     "alt": "Beautý (Priester), Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
@@ -420,21 +400,41 @@
     "bemerkung": "Vor dem Raid dauerhaft auf Retri gewechselt"
   },
   {
+    "id": 20,
+    "position": 41,
+    "character": "Fresa (Schamane)",
+    "main": "Ele main, VS sec",
+    "alt": "Kotzreiz (Hexenmeister)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 47,
+    "position": 42,
+    "character": "Thôrôndôr (Todesritter)",
+    "main": "Frost DD Main",
+    "alt": "",
+    "present": "Ja",
+    "item": ""
+  },
+  {
     "id": 46,
     "position": 43,
     "character": "Cubitter (Todesritter)",
     "main": "Blut Tank main; UH sec",
     "alt": "",
     "present": "Ja",
-    "item": ""
+    "item": "1. Item (Molochband)"
   },
   {
-    "id": 47,
+    "id": 41,
     "position": 44,
-    "character": "Thôrôndôr (Todesritter)",
-    "main": "Frost DD Main",
-    "alt": "",
+    "character": "Ephinaa (Druide)",
+    "main": "Eule main; Cat sec",
+    "alt": "Kóráyn (Priester), Ephii (Magier)",
     "present": "Ja",
-    "item": ""
+    "item": "2. Item (Lady Handgelenke)",
+    "bemerkung": ""
   }
 ]
