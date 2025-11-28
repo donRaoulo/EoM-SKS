@@ -15,7 +15,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -67,7 +67,7 @@
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Cat (Themba)"
+    "bemerkung": ""
   },
   {
     "id": 17,
@@ -295,7 +295,7 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": false,
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
