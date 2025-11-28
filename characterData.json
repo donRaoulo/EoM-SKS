@@ -280,18 +280,8 @@
     "bemerkung": ""
   },
   {
-    "id": 15,
-    "position": 29,
-    "character": "Dopehealz (Schamane)",
-    "main": "Resto",
-    "alt": "Nvm (Magier)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Fury (Mexn)"
-  },
-  {
     "id": 11,
-    "position": 30,
+    "position": 29,
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
@@ -301,13 +291,23 @@
   },
   {
     "id": 22,
-    "position": 31,
+    "position": 30,
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": "auf Resto (Debugmode)"
+  },
+  {
+    "id": 38,
+    "position": 31,
+    "character": "Tschelati (Schamane)",
+    "main": "Resto",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 4,
@@ -320,31 +320,31 @@
     "bemerkung": ""
   },
   {
-    "id": 32,
+    "id": 40,
     "position": 33,
-    "character": "Porthuhn (Magier)",
-    "main": "Fmage",
+    "character": "Raythos (Krieger)",
+    "main": "Fury main, Tank sec (1. SM Splitter)",
     "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 5,
+    "id": 12,
     "position": 34,
-    "character": "Klötenrómer (Krieger)",
-    "main": "Tank main; Fury sec",
-    "alt": "-",
+    "character": "Moophie (Druide)",
+    "main": "Baum/Eule; rollt Baum",
+    "alt": "Shieldow (Priester)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "-5 Plätze für Ummeldung auf Fury vor Raid"
+    "bemerkung": ""
   },
   {
-    "id": 38,
+    "id": 13,
     "position": 35,
-    "character": "Tschelati (Schamane)",
-    "main": "Resto",
-    "alt": "-",
+    "character": "Alabuu (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "Alibär (Todesritter)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -360,44 +360,42 @@
     "bemerkung": ""
   },
   {
-    "id": 40,
-    "position": 37,
-    "character": "Raythos (Krieger)",
-    "main": "Fury main, Tank sec (1. SM Splitter)",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 12,
-    "position": 38,
-    "character": "Moophie (Druide)",
-    "main": "Baum/Eule; rollt Baum",
-    "alt": "Shieldow (Priester)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 13,
-    "position": 39,
-    "character": "Alabuu (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "Alibär (Todesritter)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 21,
-    "position": 40,
+    "position": 37,
     "character": "Liladiva (Paladin)",
     "main": "Retri main, Tank sec (Splittersammler)",
     "alt": "Beautý (Priester), Lágêrthá (Todesritter), Snîckêrs (Schamane), Liebstê (Druide)",
     "present": "Ja",
     "item": "",
     "bemerkung": "Vor dem Raid dauerhaft auf Retri gewechselt"
+  },
+  {
+    "id": 47,
+    "position": 38,
+    "character": "Thôrôndôr (Todesritter)",
+    "main": "Frost DD Main",
+    "alt": "",
+    "present": "Ja",
+    "item": ""
+  },
+  {
+    "id": 46,
+    "position": 39,
+    "character": "Cubitter (Todesritter)",
+    "main": "Blut Tank main; UH sec",
+    "alt": "",
+    "present": "Ja",
+    "item": "1. Item (Molochband)"
+  },
+  {
+    "id": 41,
+    "position": 40,
+    "character": "Ephinaa (Druide)",
+    "main": "Eule main; Cat sec",
+    "alt": "Kóráyn (Priester), Ephii (Magier)",
+    "present": "Ja",
+    "item": "2. Item (Lady Handgelenke)",
+    "bemerkung": ""
   },
   {
     "id": 20,
@@ -410,31 +408,33 @@
     "bemerkung": ""
   },
   {
-    "id": 47,
+    "id": 15,
     "position": 42,
-    "character": "Thôrôndôr (Todesritter)",
-    "main": "Frost DD Main",
-    "alt": "",
+    "character": "Dopehealz (Schamane)",
+    "main": "Resto",
+    "alt": "Nvm (Magier)",
     "present": "Ja",
-    "item": ""
+    "item": "3. Item (Toskks), 5. Item (Saphirring)",
+    "bemerkung": "auf Fury (Mexn)"
   },
   {
-    "id": 46,
+    "id": 32,
     "position": 43,
-    "character": "Cubitter (Todesritter)",
-    "main": "Blut Tank main; UH sec",
-    "alt": "",
+    "character": "Porthuhn (Magier)",
+    "main": "Fmage",
+    "alt": "-",
     "present": "Ja",
-    "item": "1. Item (Molochband)"
+    "item": "6. Item (HC Token)",
+    "bemerkung": ""
   },
   {
-    "id": 41,
+    "id": 5,
     "position": 44,
-    "character": "Ephinaa (Druide)",
-    "main": "Eule main; Cat sec",
-    "alt": "Kóráyn (Priester), Ephii (Magier)",
+    "character": "Klötenrómer (Krieger)",
+    "main": "Tank main; Fury sec",
+    "alt": "-",
     "present": "Ja",
-    "item": "2. Item (Lady Handgelenke)",
-    "bemerkung": ""
+    "item": "4. Item (HC Token), 7. Item (Lana'thels)",
+    "bemerkung": "-5 Plätze für Ummeldung auf Fury vor Raid"
   }
 ]
