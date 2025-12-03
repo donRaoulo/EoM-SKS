@@ -95,7 +95,7 @@
     "character": "Háágl (Todesritter)",
     "main": "Main UH; sec Tank",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -185,9 +185,9 @@
     "character": "Norlex (Druide)",
     "main": "Cat Main, Bär sec",
     "alt": "Xavo (Priester), Netley (Magier)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf SP (Xavo)"
+    "bemerkung": ""
   },
   {
     "id": 1,
@@ -215,9 +215,9 @@
     "character": "Asseylum (Priester)",
     "main": "SP",
     "alt": "Adis andere Chars mit SM Need",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Hunter (Mustardino)"
+    "bemerkung": ""
   },
   {
     "id": 3,
@@ -255,7 +255,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -275,9 +275,9 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Resto (Debugmode)"
+    "bemerkung": ""
   },
   {
     "id": 13,
@@ -285,7 +285,7 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -295,8 +295,8 @@
     "character": "Thôrôndôr (Todesritter)",
     "main": "Frost DD Main",
     "alt": "",
-    "present": "Ja",
-    "item": "Ânnâyâ (Priester), Rôxôr (Paladin)"
+    "present": "Nein",
+    "item": ""
   },
   {
     "id": 46,
@@ -304,8 +304,8 @@
     "character": "Cubitter (Todesritter)",
     "main": "Blut Tank main; UH sec",
     "alt": "",
-    "present": "Ja",
-    "item": "1. Item (Molochband)"
+    "present": "Nein",
+    "item": ""
   },
   {
     "id": 4,
@@ -313,7 +313,7 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -323,8 +323,8 @@
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier)",
-    "present": "Ja",
-    "item": "2. Item (Lady Handgelenke)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -333,9 +333,9 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Ja",
-    "item": "3. Item (Toskks), 5. Item (Saphirring)",
-    "bemerkung": "auf Fury (Mexn)"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 32,
@@ -344,7 +344,7 @@
     "main": "Fmage",
     "alt": "-",
     "present": "Ja",
-    "item": "6. Item (HC Token)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -363,9 +363,9 @@
     "character": "Klötenrómer (Krieger)",
     "main": "Fury main; Tank sec",
     "alt": "-",
-    "present": "Ja",
-    "item": "4. Item (HC Token), 7. Item (Lana'thels)",
-    "bemerkung": "-5 Plätze für Ummeldung auf Fury vor Raid"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 21,
@@ -374,8 +374,8 @@
     "main": "Retri main, Tank sec (Splittersammler)",
     "alt": "Lágêrthá (Todesritter)",
     "present": "Ja",
-    "item": "8. Item ( Kordel)",
-    "bemerkung": "Vor dem Raid dauerhaft auf Retri gewechselt"
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 12,
@@ -384,7 +384,7 @@
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
     "present": "Ja",
-    "item": "9. Item (Trauma)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -393,8 +393,8 @@
     "character": "Maiblock (Magier)",
     "main": "Fmage",
     "alt": "Ondori (Paladin)",
-    "present": "Ja",
-    "item": "10. Item (Knochenstachel)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -413,8 +413,8 @@
     "character": "Tschelati (Schamane)",
     "main": "Resto",
     "alt": "-",
-    "present": "Ja",
-    "item": "11. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -423,8 +423,8 @@
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Ja",
-    "item": "12. Item (Tiny Abo)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -434,7 +434,7 @@
     "main": "Fury main, Tank sec (1. SM Splitter)",
     "alt": "-",
     "present": "Ja",
-    "item": "13. Item (HC Token)",
+    "item": "",
     "bemerkung": ""
   }
 ]
