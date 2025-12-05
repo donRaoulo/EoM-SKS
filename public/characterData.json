@@ -95,7 +95,7 @@
     "character": "Háágl (Todesritter)",
     "main": "Main UH; sec Tank",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -225,9 +225,9 @@
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
-    "present": false,
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Ersatzbank"
   },
   {
     "id": 26,
@@ -307,7 +307,7 @@
     "alt": "",
     "present": "Ja",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": "auf Fury (Cubîtter)"
   },
   {
     "id": 4,
@@ -415,7 +415,7 @@
     "character": "Tschelati (Schamane)",
     "main": "Resto",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
