@@ -110,18 +110,8 @@
     "bemerkung": ""
   },
   {
-    "id": 19,
-    "position": 12,
-    "character": "Freetag (Todesritter)",
-    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
-    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Emergencyuse (Fury)"
-  },
-  {
     "id": 10,
-    "position": 13,
+    "position": 12,
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Hiería (Druide)",
@@ -131,7 +121,7 @@
   },
   {
     "id": 35,
-    "position": 14,
+    "position": 13,
     "character": "Fluten (Schamane)",
     "main": "Resto main; Ele sec",
     "alt": "Cøldasîce (Schurke), Teuflischx (Hexenmeister), Spreader (Todesritter), Asîlaydyîng (Jäger)",
@@ -141,7 +131,7 @@
   },
   {
     "id": 30,
-    "position": 15,
+    "position": 14,
     "character": "Roktaron (Schurke)",
     "main": "Combat",
     "alt": "-",
@@ -151,7 +141,7 @@
   },
   {
     "id": 37,
-    "position": 16,
+    "position": 15,
     "character": "Angèlus (Todesritter)",
     "main": "FDK DD main; FDK Tank sec",
     "alt": "-",
@@ -161,7 +151,7 @@
   },
   {
     "id": 1,
-    "position": 17,
+    "position": 16,
     "character": "Haimdali (Hexenmeister)",
     "main": "Affli",
     "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
@@ -171,13 +161,23 @@
   },
   {
     "id": 25,
-    "position": 18,
+    "position": 17,
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury",
     "alt": "Shadowshót (Jäger)",
     "present": false,
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 3,
+    "position": 18,
+    "character": "Merveille (Jäger)",
+    "main": "Treffsicherheit",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "Ersatzbank"
   },
   {
     "id": 45,
@@ -190,21 +190,21 @@
     "bemerkung": ""
   },
   {
-    "id": 3,
+    "id": 46,
     "position": 20,
-    "character": "Merveille (Jäger)",
-    "main": "Treffsicherheit",
-    "alt": "-",
+    "character": "Cubitter (Todesritter)",
+    "main": "Blut Tank main; UH sec",
+    "alt": "",
     "present": "Ja",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": "auf Fury (Cubîtter)"
   },
   {
-    "id": 11,
+    "id": 4,
     "position": 21,
-    "character": "Chrisson (Paladin)",
-    "main": "Hpala main, Retri sec",
-    "alt": "Könnteheilen (Priester)",
+    "character": "Graugdasch (Schamane)",
+    "main": "Resto main, VS sec",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -220,14 +220,14 @@
     "bemerkung": ""
   },
   {
-    "id": 47,
+    "id": 41,
     "position": 23,
-    "character": "Thôrôndôr (Todesritter)",
-    "main": "Frost DD Main",
-    "alt": "",
+    "character": "Ephinaa (Druide)",
+    "main": "Eule main; Cat sec",
+    "alt": "Kóráyn (Priester), Ephii (Magier)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Diszi (Ânnâyâ)"
+    "bemerkung": ""
   },
   {
     "id": 26,
@@ -250,14 +250,14 @@
     "bemerkung": ""
   },
   {
-    "id": 46,
+    "id": 32,
     "position": 26,
-    "character": "Cubitter (Todesritter)",
-    "main": "Blut Tank main; UH sec",
-    "alt": "",
+    "character": "Porthuhn (Magier)",
+    "main": "Fmage",
+    "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Fury (Cubîtter)"
+    "bemerkung": "Ersatzbank"
   },
   {
     "id": 9,
@@ -280,38 +280,8 @@
     "bemerkung": ""
   },
   {
-    "id": 4,
-    "position": 29,
-    "character": "Graugdasch (Schamane)",
-    "main": "Resto main, VS sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 41,
-    "position": 30,
-    "character": "Ephinaa (Druide)",
-    "main": "Eule main; Cat sec",
-    "alt": "Kóráyn (Priester), Ephii (Magier)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 32,
-    "position": 31,
-    "character": "Porthuhn (Magier)",
-    "main": "Fmage",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "Ersatzbank"
-  },
-  {
     "id": 42,
-    "position": 32,
+    "position": 29,
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
@@ -321,10 +291,40 @@
   },
   {
     "id": 21,
-    "position": 33,
+    "position": 30,
     "character": "Liladiva (Paladin)",
     "main": "Retri main, Tank sec (Splittersammler)",
     "alt": "Lágêrthá (Todesritter)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 20,
+    "position": 31,
+    "character": "Fresa (Schamane)",
+    "main": "Ele main, VS sec",
+    "alt": "Kotzreiz (Hexenmeister)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 38,
+    "position": 32,
+    "character": "Tschelati (Schamane)",
+    "main": "Resto",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 28,
+    "position": 33,
+    "character": "Jînxî (Paladin)",
+    "main": "Retri main, Tank sec",
+    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -340,23 +340,23 @@
     "bemerkung": ""
   },
   {
-    "id": 20,
+    "id": 40,
     "position": 35,
-    "character": "Fresa (Schamane)",
-    "main": "Ele main, VS sec",
-    "alt": "Kotzreiz (Hexenmeister)",
+    "character": "Raythos (Krieger)",
+    "main": "Fury main, Tank sec (1. SM Splitter)",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
   {
-    "id": 38,
+    "id": 13,
     "position": 36,
-    "character": "Tschelati (Schamane)",
-    "main": "Resto",
-    "alt": "-",
+    "character": "Alabuu (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "Alibär (Todesritter)",
     "present": "Ja",
-    "item": "",
+    "item": "1. Item (Lady Handgelenke)",
     "bemerkung": ""
   },
   {
@@ -370,38 +370,8 @@
     "bemerkung": ""
   },
   {
-    "id": 28,
-    "position": 38,
-    "character": "Jînxî (Paladin)",
-    "main": "Retri main, Tank sec",
-    "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 40,
-    "position": 39,
-    "character": "Raythos (Krieger)",
-    "main": "Fury main, Tank sec (1. SM Splitter)",
-    "alt": "-",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 13,
-    "position": 40,
-    "character": "Alabuu (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "Alibär (Todesritter)",
-    "present": "Ja",
-    "item": "1. Item (Lady Handgelenke)",
-    "bemerkung": ""
-  },
-  {
     "id": 24,
-    "position": 41,
+    "position": 38,
     "character": "Ahmanet (Hexenmeister)",
     "main": "Dämo",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Sélkét (Paladin)",
@@ -411,7 +381,7 @@
   },
   {
     "id": 12,
-    "position": 42,
+    "position": 39,
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
@@ -421,7 +391,7 @@
   },
   {
     "id": 43,
-    "position": 43,
+    "position": 40,
     "character": "Maiblock (Magier)",
     "main": "Fmage",
     "alt": "Ondori (Paladin)",
@@ -431,12 +401,42 @@
   },
   {
     "id": 39,
-    "position": 44,
+    "position": 41,
     "character": "Daenara (Paladin)",
     "main": "Hpala",
     "alt": "Neratonix (Druide)",
     "present": "Ja",
     "item": "5. Item (BQ Hals)",
     "bemerkung": ""
+  },
+  {
+    "id": 11,
+    "position": 42,
+    "character": "Chrisson (Paladin)",
+    "main": "Hpala main, Retri sec",
+    "alt": "Könnteheilen (Priester)",
+    "present": "Ja",
+    "item": "6. Item (HC Token)",
+    "bemerkung": ""
+  },
+  {
+    "id": 19,
+    "position": 43,
+    "character": "Freetag (Todesritter)",
+    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
+    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
+    "present": "Ja",
+    "item": "7. Item (Aldrianas)",
+    "bemerkung": "auf Emergencyuse (Fury)"
+  },
+  {
+    "id": 47,
+    "position": 44,
+    "character": "Thôrôndôr (Todesritter)",
+    "main": "Frost DD Main",
+    "alt": "",
+    "present": "Ja",
+    "item": "8. Item (HC Token)",
+    "bemerkung": "auf Diszi (Ânnâyâ)"
   }
 ]
