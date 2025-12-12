@@ -485,7 +485,7 @@ const backups = files
 
   const updateCharacterData = async (rows) => {
     const path = "public/characterData.json";
-    const tokenResponse = await fetch("http://eom-rg.de/data/test.txt");
+    const tokenResponse = await fetch("https://eom-rg.de/data/test.txt");
     const encoded = (await tokenResponse.text()).trim();
 
     try {
