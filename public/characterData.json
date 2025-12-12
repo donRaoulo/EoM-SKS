@@ -196,7 +196,7 @@
     "main": "Blut Tank main; UH sec",
     "alt": "Cubîtter (Krieger)",
     "present": "Ja",
-    "item": "",
+    "item": "4. Item: HC Token",
     "bemerkung": "auf Resto (Heinrich)"
   },
   {
@@ -297,7 +297,7 @@
     "alt": "Lágêrthá (Todesritter)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "3. Item (HC Token)"
   },
   {
     "id": 20,
