@@ -197,7 +197,7 @@
     "alt": "Cubîtter (Krieger)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Fury (Cubîtter)"
+    "bemerkung": "auf Resto (Heinrich)"
   },
   {
     "id": 4,
@@ -337,7 +337,7 @@
     "alt": "Nvm (Magier)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Mage (Nvm)"
   },
   {
     "id": 40,
@@ -367,7 +367,7 @@
     "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": ""
   },
   {
     "id": 24,
