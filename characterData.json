@@ -296,8 +296,8 @@
     "main": "Retri main, Tank sec (Splittersammler)",
     "alt": "Lágêrthá (Todesritter)",
     "present": "Ja",
-    "item": "",
-    "bemerkung": "3. Item (HC Token), 8. Item (Stulpen Hände)"
+    "item": "3. Item (HC Token), 8. Item (Stulpen Hände)",
+    "bemerkung": ""
   },
   {
     "id": 20,
