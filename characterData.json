@@ -35,7 +35,7 @@
     "character": "Multiboy (Schurke)",
     "main": "Main Combat",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -75,7 +75,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Hiería (Druide)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -115,9 +115,9 @@
     "character": "Haimdali (Hexenmeister)",
     "main": "Affli",
     "alt": "Eovîn (Hexenmeister), Àrwén (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": ""
   },
   {
     "id": 35,
@@ -137,7 +137,7 @@
     "alt": "Kóráyn (Priester), Ephii (Magier)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Retri"
+    "bemerkung": "auf Mage (Ephii)"
   },
   {
     "id": 37,
@@ -185,7 +185,7 @@
     "character": "Norlex (Druide)",
     "main": "Cat Main, Bär sec",
     "alt": "Xavo (Priester), Netley (Magier)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -215,7 +215,7 @@
     "character": "Asseylum (Priester)",
     "main": "SP",
     "alt": "Adis andere Chars mit SM Need",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -225,7 +225,7 @@
     "character": "Fresa (Schamane)",
     "main": "Ele main, VS sec",
     "alt": "Kotzreiz (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -235,7 +235,7 @@
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -275,9 +275,9 @@
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Resto (Debugmode)"
   },
   {
     "id": 28,
@@ -297,7 +297,7 @@
     "alt": "Nvm (Magier)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Mage (Nvm)"
+    "bemerkung": "auf Fury (Mexn)"
   },
   {
     "id": 40,
@@ -315,7 +315,7 @@
     "character": "Klötenrómer (Krieger)",
     "main": "Fury main; Tank sec",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -325,7 +325,7 @@
     "character": "Ahmanet (Hexenmeister)",
     "main": "Dämo",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Sélkét (Paladin)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -335,7 +335,7 @@
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -357,7 +357,7 @@
     "alt": "Ânnâyâ (Priester)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Diszi (Ânnâyâ)"
+    "bemerkung": ""
   },
   {
     "id": 13,
@@ -365,9 +365,9 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter), Druidiekaa (Druide)",
-    "present": "Ja",
-    "item": "2. Item (HC Token)",
-    "bemerkung": "auf Eule (Druidiekaa)"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 46,
@@ -376,8 +376,8 @@
     "main": "Blut Tank main; UH sec",
     "alt": "Cubîtter (Krieger)",
     "present": "Ja",
-    "item": "4. Item: HC Token",
-    "bemerkung": "auf Resto (Heinrich)"
+    "item": "",
+    "bemerkung": "auf Fury (Cubîtter)"
   },
   {
     "id": 31,
@@ -386,7 +386,7 @@
     "main": "UH main/Blut Tank sec",
     "alt": "Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
     "present": "Ja",
-    "item": "5. Item: BQ Hals",
+    "item": "",
     "bemerkung": "auf Hpala Mjollnir"
   },
   {
@@ -397,7 +397,7 @@
     "alt": "Ondori (Paladin)",
     "present": "Nein",
     "item": "",
-    "bemerkung": "Angemeldet, aber kam nicht"
+    "bemerkung": ""
   },
   {
     "id": 39,
@@ -405,9 +405,9 @@
     "character": "Daenara (Paladin)",
     "main": "Hpala",
     "alt": "Neratonix (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Eule (Neratonix)"
   },
   {
     "id": 11,
@@ -415,7 +415,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -426,8 +426,8 @@
     "main": "Tank main/Hpala sec",
     "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
     "present": "Ja",
-    "item": "1. Item (Lord Gürtel), 6. Item (Stachel)",
-    "bemerkung": "auf SP (Blinkeypri)"
+    "item": "",
+    "bemerkung": "auf Baum (Blinkeydru)"
   },
   {
     "id": 21,
@@ -436,7 +436,7 @@
     "main": "Retri main, Tank sec (Splittersammler)",
     "alt": "Lágêrthá (Todesritter)",
     "present": "Ja",
-    "item": "3. Item (HC Token), 7. Item (Stulpen Hände)",
+    "item": "",
     "bemerkung": ""
   }
 ]
