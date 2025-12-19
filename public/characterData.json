@@ -215,9 +215,9 @@
     "character": "Asseylum (Priester)",
     "main": "SP",
     "alt": "Adis andere Chars mit SM Need",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Angemeldet, aber kam nicht"
   },
   {
     "id": 20,
@@ -385,9 +385,9 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Hpala Mjollnir"
+    "bemerkung": "Angemeldet, aber kam nicht"
   },
   {
     "id": 43,
@@ -407,7 +407,7 @@
     "alt": "Neratonix (Druide)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Eule (Neratonix)"
+    "bemerkung": "Angemeldet, aber kam nicht"
   },
   {
     "id": 11,
