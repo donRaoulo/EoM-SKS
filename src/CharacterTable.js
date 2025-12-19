@@ -533,7 +533,7 @@ const backups = files
     const timestamp = `${String(now.getDate()).padStart(2, "0")}.${String(now.getMonth() + 1).padStart(2, "0")}.${now.getFullYear()}_${String(now.getHours()).padStart(2, "0")}-${String(now.getMinutes()).padStart(2, "0")}`;
     const path = `public/history/${timestamp}.json`;
   
-    const tokenResponse = await fetch("https://echoes-of-madness.x10.mx/data/test.txt");
+    const tokenResponse = await fetch("https://eom-rg.de/data/test.txt");
     const encoded = (await tokenResponse.text()).trim();
   
     try {
