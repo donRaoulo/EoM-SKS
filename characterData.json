@@ -187,14 +187,14 @@
     "alt": "Xavo (Priester), Netley (Magier)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf SP (Xavo)"
   },
   {
-    "id": 42,
+    "id": 26,
     "position": 20,
-    "character": "Junglejingle (Jäger)",
-    "main": "Treffsicherheit",
-    "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
+    "character": "Solédad (Priester)",
+    "main": "Diszi/SP, rollt Diszi",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -230,10 +230,10 @@
     "bemerkung": ""
   },
   {
-    "id": 26,
+    "id": 38,
     "position": 24,
-    "character": "Solédad (Priester)",
-    "main": "Diszi/SP, rollt Diszi",
+    "character": "Tschelati (Schamane)",
+    "main": "Resto",
     "alt": "-",
     "present": "Ja",
     "item": "",
@@ -250,14 +250,14 @@
     "bemerkung": ""
   },
   {
-    "id": 38,
+    "id": 22,
     "position": 26,
-    "character": "Tschelati (Schamane)",
-    "main": "Resto",
-    "alt": "-",
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Resto (Debugmode)"
   },
   {
     "id": 9,
@@ -270,18 +270,8 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
-    "position": 28,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Resto (Debugmode)"
-  },
-  {
     "id": 28,
-    "position": 29,
+    "position": 28,
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
@@ -291,7 +281,7 @@
   },
   {
     "id": 15,
-    "position": 30,
+    "position": 29,
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
@@ -301,11 +291,21 @@
   },
   {
     "id": 40,
-    "position": 31,
+    "position": 30,
     "character": "Raythos (Krieger)",
     "main": "Fury main, Tank sec (1. SM Splitter)",
     "alt": "-",
     "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 19,
+    "position": 31,
+    "character": "Freetag (Todesritter)",
+    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
+    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
+    "present": "nein",
     "item": "",
     "bemerkung": ""
   },
@@ -340,24 +340,24 @@
     "bemerkung": ""
   },
   {
-    "id": 19,
-    "position": 35,
-    "character": "Freetag (Todesritter)",
-    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
-    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
-    "present": "nein",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 47,
-    "position": 36,
+    "position": 35,
     "character": "Thôrôndôr (Todesritter)",
     "main": "Frost DD Main",
     "alt": "Ânnâyâ (Priester)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 46,
+    "position": 36,
+    "character": "Cubitter (Todesritter)",
+    "main": "Blut Tank main; UH sec",
+    "alt": "Cubîtter (Krieger)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "auf Fury (Cubîtter)"
   },
   {
     "id": 13,
@@ -370,14 +370,14 @@
     "bemerkung": ""
   },
   {
-    "id": 46,
+    "id": 39,
     "position": 38,
-    "character": "Cubitter (Todesritter)",
-    "main": "Blut Tank main; UH sec",
-    "alt": "Cubîtter (Krieger)",
+    "character": "Daenara (Paladin)",
+    "main": "Hpala",
+    "alt": "Neratonix (Druide)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Fury (Cubîtter)"
+    "bemerkung": "Angemeldet, aber kam nicht"
   },
   {
     "id": 31,
@@ -400,18 +400,8 @@
     "bemerkung": ""
   },
   {
-    "id": 39,
-    "position": 41,
-    "character": "Daenara (Paladin)",
-    "main": "Hpala",
-    "alt": "Neratonix (Druide)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "Angemeldet, aber kam nicht"
-  },
-  {
     "id": 11,
-    "position": 42,
+    "position": 41,
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
@@ -421,7 +411,7 @@
   },
   {
     "id": 17,
-    "position": 43,
+    "position": 42,
     "character": "Blinkadin (Paladin)",
     "main": "Tank main/Hpala sec",
     "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
@@ -431,12 +421,22 @@
   },
   {
     "id": 21,
-    "position": 44,
+    "position": 43,
     "character": "Liladiva (Paladin)",
     "main": "Retri main, Tank sec (Splittersammler)",
     "alt": "Lágêrthá (Todesritter)",
     "present": "Ja",
     "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 42,
+    "position": 44,
+    "character": "Junglejingle (Jäger)",
+    "main": "Treffsicherheit",
+    "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
+    "present": "Ja",
+    "item": "1. Item (HC Token)",
     "bemerkung": ""
   }
 ]
