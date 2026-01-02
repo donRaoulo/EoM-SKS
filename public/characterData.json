@@ -15,7 +15,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -47,7 +47,7 @@
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Hunter"
   },
   {
     "id": 8,
@@ -65,7 +65,7 @@
     "character": "Háágl (Todesritter)",
     "main": "Main UH; sec Tank",
     "alt": "Powerwarrior (Krieger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -197,7 +197,7 @@
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Resto (Debugmode)"
+    "bemerkung": ""
   },
   {
     "id": 4,
@@ -205,7 +205,7 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -215,7 +215,7 @@
     "character": "Asseylum (Priester)",
     "main": "SP",
     "alt": "Adis andere Chars mit SM Need",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -255,9 +255,9 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Fury (Mexn)"
+    "bemerkung": ""
   },
   {
     "id": 9,
@@ -297,7 +297,7 @@
     "alt": "Cubîtter (Krieger)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Fury (Cubîtter)"
+    "bemerkung": ""
   },
   {
     "id": 39,
@@ -307,7 +307,7 @@
     "alt": "Neratonix (Druide)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "Angemeldet, aber kam nicht"
+    "bemerkung": ""
   },
   {
     "id": 5,
@@ -325,7 +325,7 @@
     "character": "Ahmanet (Hexenmeister)",
     "main": "Dämo",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Sélkét (Paladin)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -335,7 +335,7 @@
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -345,7 +345,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -355,9 +355,9 @@
     "character": "Blinkadin (Paladin)",
     "main": "Tank main/Hpala sec",
     "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Baum (Blinkeydru)"
+    "bemerkung": ""
   },
   {
     "id": 13,
@@ -375,7 +375,7 @@
     "character": "Liladiva (Paladin)",
     "main": "Retri main, Tank sec (Splittersammler)",
     "alt": "Lágêrthá (Todesritter)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -385,9 +385,9 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": "Angemeldet, aber kam nicht"
+    "bemerkung": "Ersatzbank"
   },
   {
     "id": 43,
@@ -395,7 +395,7 @@
     "character": "Maiblock (Magier)",
     "main": "Fmage",
     "alt": "Ondori (Paladin)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -405,8 +405,8 @@
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
-    "present": "Ja",
-    "item": "1. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -416,7 +416,7 @@
     "main": "Frost DD Main",
     "alt": "Ânnâyâ (Priester)",
     "present": "Ja",
-    "item": "2. Item (HC Token)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -426,7 +426,7 @@
     "main": "Resto",
     "alt": "-",
     "present": "Ja",
-    "item": "3. Item (HC Token)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -436,7 +436,7 @@
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier)",
     "present": "Ja",
-    "item": "4. Item (Spindel)",
-    "bemerkung": "auf Mage (Ephii)"
+    "item": "",
+    "bemerkung": "Auf Retri (Xatena)"
   }
 ]
