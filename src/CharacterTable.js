@@ -561,7 +561,7 @@ const backups = files
   const resetRows = rows.map(row => ({
     ...row,
     bemerkung: "",      // oder default-Wert
-    present: false,     // oder true, je nachdem
+    present: "Nein",     // oder true, je nachdem
     item: ""            // oder "Nein", "Ja", etc.
   }));
 
