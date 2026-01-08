@@ -22,6 +22,7 @@ const ItemType = "ROW";
 const CONFIG = "pw123";
 const GITHUB_REPO = "donRaoulo/EoM-SKS";
 const BRANCH = "main";
+const isPresentValue = (value) => value === "Ja";
 
 const TableRowComponent = ({
   data,
@@ -77,7 +78,7 @@ const handleClose = () => {
   const [{ isOver }, drop] = useDrop({
     accept: ItemType,
     hover: (draggedItem) => {
-      if (draggedItem.index !== index && data.present !== "Nein" && isEditable) {
+      if (draggedItem.index !== index && isEditable) {
         moveRow(draggedItem.index, index);
         draggedItem.index = index;
       }
@@ -90,16 +91,16 @@ const handleClose = () => {
   const [{ isDragging }, drag] = useDrag({
     type: ItemType,
     item: { index },
-    canDrag: isEditable && data.present !== "Nein",
+    canDrag: isEditable,
     collect: (monitor) => ({
       isDragging: monitor.isDragging()
     })
   });
 
-  if (isEditable && data.present !== "Nein") drag(drop(ref));
+  if (isEditable) drag(drop(ref));
 
   const className = `animated-row ${isDragging ? "dragging" : ""} ${
-    isOver && isEditable && data.present !== "Nein" ? "drop-target" : ""
+    isOver && isEditable ? "drop-target" : ""
   }`;
 
   const getDisplayName = (character) => {
@@ -380,51 +381,43 @@ const backups = files
     .catch((err) => console.error("Fehler beim Laden der Backups", err));
 }, []);
 
-  const moveRow = (fromIndex, toIndex) => {
-    const movable = rows.filter(r => r.present !== "Nein");
-    const fromMovableIndex = movable.findIndex(r => r === rows[fromIndex]);
-    const toMovableIndex = movable.findIndex(r => r === rows[toIndex]);
-
-    if (fromMovableIndex === -1 || toMovableIndex === -1) return;
-
-    const newMovable = [...movable];
-    const [movedRow] = newMovable.splice(fromMovableIndex, 1);
-    newMovable.splice(toMovableIndex, 0, movedRow);
-
+  const mergeMovableRows = (movableRows) => {
     const newRows = [];
     let mIndex = 0;
     for (let i = 0; i < rows.length; i++) {
-      if (rows[i].present === "Nein") {
+      if (!isPresentValue(rows[i].present)) {
         newRows.push(rows[i]);
       } else {
-        newRows.push(newMovable[mIndex]);
-        mIndex++;
+        newRows.push(movableRows[mIndex++]);
       }
     }
+    return newRows;
+  };
+
+  const moveRow = (fromIndex, toIndex) => {
+    if (fromIndex === toIndex) return;
+    const newRows = [...rows];
+    const [movedRow] = newRows.splice(fromIndex, 1);
+    newRows.splice(toIndex, 0, movedRow);
 
     newRows.forEach((r, i) => (r.position = i + 1));
     setRows(newRows);
   };
 
-  const moveToBottom = (fromIndex) => {
-      const movable = rows.filter(r => r.present !== "Nein");
-      const fromMovableIndex = movable.findIndex(r => r === rows[fromIndex]);
-      if (fromMovableIndex === -1) return;
+    const moveToBottom = (fromIndex) => {
+        const movable = rows.filter(r => isPresentValue(r.present));
+        const fromMovableIndex = movable.findIndex(r => r === rows[fromIndex]);
+        if (fromMovableIndex === -1) return;
   
       const newMovable = [...movable];
       const [movedRow] = newMovable.splice(fromMovableIndex, 1);
       newMovable.push(movedRow);
   
-      const newRows = [];
-      let mIndex = 0;
-      for (let i = 0; i < rows.length; i++) {
-        if (rows[i].present === "Nein") newRows.push(rows[i]);
-        else newRows.push(newMovable[mIndex++]);
-      }
+        const newRows = mergeMovableRows(newMovable);
   
-      newRows.forEach((r, i) => (r.position = i + 1));
-      setRows(newRows);
-    };
+    newRows.forEach((r, i) => (r.position = i + 1));
+    setRows(newRows);
+  };
 
     const moveOneDown = (index) => {
       if (index >= rows.length - 1) return;
@@ -472,7 +465,6 @@ const backups = files
       const [movedRow] = updated.splice(index, 1);
       updated.splice(newIndex, 0, movedRow);
     
-      // Positionen neu setzen
       updated.forEach((r, i) => (r.position = i + 1));
       setRows(updated);
     };    
