@@ -5,7 +5,7 @@
     "character": "Golreg (Hexenmeister)",
     "main": "Affli/Dämo; rollt Affli",
     "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester); 'disc und tank mach ich nur wenns gar nicht anders geht'",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -27,7 +27,7 @@
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Hunter"
+    "bemerkung": ""
   },
   {
     "id": 7,
@@ -75,7 +75,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Hiería (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -137,7 +137,7 @@
     "alt": "Xavo (Priester), Netley (Magier)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf SP (Xavo)"
+    "bemerkung": "auf Fury (Sitama)"
   },
   {
     "id": 37,
@@ -155,7 +155,7 @@
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -187,7 +187,7 @@
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Resto (Debugmode)"
   },
   {
     "id": 19,
@@ -215,9 +215,9 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": ""
   },
   {
     "id": 20,
@@ -225,7 +225,7 @@
     "character": "Fresa (Schamane)",
     "main": "Ele main, VS sec",
     "alt": "Kotzreiz (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -235,7 +235,7 @@
     "character": "Maiblock (Magier)",
     "main": "Fmage",
     "alt": "Ondori (Paladin)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -275,7 +275,7 @@
     "character": "Thôrôndôr (Todesritter)",
     "main": "Frost DD Main",
     "alt": "Ânnâyâ (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -296,7 +296,7 @@
     "main": "Dämo",
     "alt": "Zadrazil (Krieger), Asmódäus (Priester), Sélkét (Paladin)",
     "present": "Ja",
-    "item": "1. Item (Knochenstachel)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -305,8 +305,8 @@
     "character": "Cubitter (Todesritter)",
     "main": "Blut Tank main; UH sec",
     "alt": "Cubîtter (Krieger)",
-    "present": "Ja",
-    "item": "4. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -326,7 +326,7 @@
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
     "present": "Ja",
-    "item": "5. Item (Phyla)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -335,8 +335,8 @@
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Ja",
-    "item": "6. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -365,9 +365,9 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter), Druidiekaa (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Ersatzbank"
   },
   {
     "id": 21,
@@ -386,8 +386,8 @@
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier)",
     "present": "Ja",
-    "item": "3. Item (Abakus); 7. Item (Rat Ring)",
-    "bemerkung": "Auf Retri (Xatena)"
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 4,
@@ -395,8 +395,8 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Ja",
-    "item": "8. Item (BQ Hals)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -405,7 +405,7 @@
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -415,8 +415,8 @@
     "character": "Moophie (Druide)",
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
-    "present": "Ja",
-    "item": "9. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -425,8 +425,8 @@
     "character": "Asseylum (Priester)",
     "main": "SP",
     "alt": "Adis andere Chars mit SM Need",
-    "present": "Ja",
-    "item": "2. Item (Lord Gürtel), 10. Item (Knochenstachel)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -436,7 +436,7 @@
     "main": "Fury main, Tank sec (1. SM Splitter)",
     "alt": "-",
     "present": "Ja",
-    "item": "11. Item (HC Token)",
+    "item": "",
     "bemerkung": ""
   }
 ]
