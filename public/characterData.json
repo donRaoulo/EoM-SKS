@@ -140,14 +140,14 @@
     "bemerkung": "auf Fury (Sitama)"
   },
   {
-    "id": 37,
+    "id": 22,
     "position": 15,
-    "character": "Angèlus (Todesritter)",
-    "main": "FDK DD main; FDK Tank sec",
-    "alt": "-",
-    "present": "Nein",
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Resto (Debugmode)"
   },
   {
     "id": 26,
@@ -180,18 +180,8 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
-    "position": 19,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Resto (Debugmode)"
-  },
-  {
     "id": 19,
-    "position": 20,
+    "position": 19,
     "character": "Freetag (Todesritter)",
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
@@ -201,7 +191,7 @@
   },
   {
     "id": 39,
-    "position": 21,
+    "position": 20,
     "character": "Daenara (Paladin)",
     "main": "Hpala",
     "alt": "Neratonix (Druide)",
@@ -211,7 +201,7 @@
   },
   {
     "id": 31,
-    "position": 22,
+    "position": 21,
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
@@ -221,10 +211,20 @@
   },
   {
     "id": 20,
-    "position": 23,
+    "position": 22,
     "character": "Fresa (Schamane)",
     "main": "Ele main, VS sec",
     "alt": "Kotzreiz (Hexenmeister)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 38,
+    "position": 23,
+    "character": "Tschelati (Schamane)",
+    "main": "Resto",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -270,22 +270,22 @@
     "bemerkung": ""
   },
   {
-    "id": 47,
+    "id": 37,
     "position": 28,
+    "character": "Angèlus (Todesritter)",
+    "main": "FDK DD main; FDK Tank sec",
+    "alt": "-",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": "Platz korrigiert, da fälschlicherweise hochgerutscht"
+  },
+  {
+    "id": 47,
+    "position": 29,
     "character": "Thôrôndôr (Todesritter)",
     "main": "Frost DD Main",
     "alt": "Ânnâyâ (Priester)",
     "present": "Nein",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 38,
-    "position": 29,
-    "character": "Tschelati (Schamane)",
-    "main": "Resto",
-    "alt": "-",
-    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -300,24 +300,24 @@
     "bemerkung": ""
   },
   {
-    "id": 46,
-    "position": 31,
-    "character": "Cubitter (Todesritter)",
-    "main": "Blut Tank main; UH sec",
-    "alt": "Cubîtter (Krieger)",
-    "present": "Nein",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 5,
-    "position": 32,
+    "position": 31,
     "character": "Klötenrómer (Krieger)",
     "main": "Fury main; Tank sec",
     "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": "Ersatzbank"
+  },
+  {
+    "id": 46,
+    "position": 32,
+    "character": "Cubitter (Todesritter)",
+    "main": "Blut Tank main; UH sec",
+    "alt": "Cubîtter (Krieger)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 14,
@@ -340,8 +340,18 @@
     "bemerkung": ""
   },
   {
-    "id": 11,
+    "id": 13,
     "position": 35,
+    "character": "Alabuu (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "Alibär (Todesritter), Druidiekaa (Druide)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 11,
+    "position": 36,
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
@@ -351,7 +361,7 @@
   },
   {
     "id": 17,
-    "position": 36,
+    "position": 37,
     "character": "Blinkadin (Paladin)",
     "main": "Tank main/Hpala sec",
     "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
@@ -360,28 +370,8 @@
     "bemerkung": ""
   },
   {
-    "id": 13,
-    "position": 37,
-    "character": "Alabuu (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "Alibär (Todesritter), Druidiekaa (Druide)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 21,
-    "position": 38,
-    "character": "Liladiva (Paladin)",
-    "main": "Retri main, Tank sec (2. SM Splitter)",
-    "alt": "Lágêrthá (Todesritter)",
-    "present": "Nein",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 41,
-    "position": 39,
+    "position": 38,
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier)",
@@ -390,22 +380,32 @@
     "bemerkung": ""
   },
   {
-    "id": 4,
-    "position": 40,
-    "character": "Graugdasch (Schamane)",
-    "main": "Resto main, VS sec",
-    "alt": "-",
+    "id": 21,
+    "position": 39,
+    "character": "Liladiva (Paladin)",
+    "main": "Retri main, Tank sec (2. SM Splitter)",
+    "alt": "Lágêrthá (Todesritter)",
     "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
   {
     "id": 42,
-    "position": 41,
+    "position": 40,
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
     "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 4,
+    "position": 41,
+    "character": "Graugdasch (Schamane)",
+    "main": "Resto main, VS sec",
+    "alt": "-",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
