@@ -340,18 +340,8 @@
     "bemerkung": ""
   },
   {
-    "id": 23,
-    "position": 35,
-    "character": "Tahronn (Krieger)",
-    "main": "Fury, Splittersammler < Freetag",
-    "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester)",
-    "present": "Ja",
-    "item": "4. Item (Fauli Beine)",
-    "bemerkung": "Dauerhaft umgemeldet nach dem Raid"
-  },
-  {
     "id": 22,
-    "position": 36,
+    "position": 35,
     "character": "Firmware (Druide)",
     "main": "Eule main, Baum sec",
     "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
@@ -361,12 +351,22 @@
   },
   {
     "id": 13,
-    "position": 37,
+    "position": 36,
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter), Druidiekaa (Druide)",
     "present": "Ja",
     "item": "6. Item (Leichenstachel)",
+    "bemerkung": ""
+  },
+  {
+    "id": 40,
+    "position": 37,
+    "character": "Raythos (Krieger)",
+    "main": "Fury main, Tank sec",
+    "alt": "-",
+    "present": "Ja",
+    "item": "7. Item (HC Token)",
     "bemerkung": ""
   },
   {
@@ -390,13 +390,13 @@
     "bemerkung": ""
   },
   {
-    "id": 40,
+    "id": 20,
     "position": 40,
-    "character": "Raythos (Krieger)",
-    "main": "Fury main, Tank sec",
-    "alt": "-",
+    "character": "Fresa (Schamane)",
+    "main": "Ele main, VS sec",
+    "alt": "Kotzreiz (Hexenmeister)",
     "present": "Ja",
-    "item": "7. Item (HC Token)",
+    "item": "3. Item (Frostcape), 8. Item (HC Token)",
     "bemerkung": ""
   },
   {
@@ -410,14 +410,14 @@
     "bemerkung": ""
   },
   {
-    "id": 20,
+    "id": 19,
     "position": 42,
-    "character": "Fresa (Schamane)",
-    "main": "Ele main, VS sec",
-    "alt": "Kotzreiz (Hexenmeister)",
+    "character": "Freetag (Todesritter)",
+    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
+    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
     "present": "Ja",
-    "item": "3. Item (Frostcape), 8. Item (HC Token)",
-    "bemerkung": ""
+    "item": "9. Item (HC Token)",
+    "bemerkung": "Splittersammler"
   },
   {
     "id": 4,
@@ -430,13 +430,13 @@
     "bemerkung": ""
   },
   {
-    "id": 19,
+    "id": 23,
     "position": 44,
-    "character": "Freetag (Todesritter)",
-    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
-    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
+    "character": "Tahronn (Krieger)",
+    "main": "Fury, Splittersammler < Freetag",
+    "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester)",
     "present": "Ja",
-    "item": "9. Item (HC Token)",
-    "bemerkung": "Splittersammler"
+    "item": "4. Item (Fauli Beine)",
+    "bemerkung": "Dauerhaft umgemeldet nach dem Raid"
   }
 ]
