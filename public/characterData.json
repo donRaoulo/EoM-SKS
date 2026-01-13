@@ -310,8 +310,18 @@
     "bemerkung": "Platz korrigiert, da fälschlicherweise hochgerutscht"
   },
   {
-    "id": 14,
+    "id": 46,
     "position": 32,
+    "character": "Cubitter (Todesritter)",
+    "main": "Blut Tank main; UH sec",
+    "alt": "Cubîtter (Krieger)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 14,
+    "position": 33,
     "character": "Patrota (Magier)",
     "main": "Fmage",
     "alt": "Batna (Priester), Amizo (Todesritter)",
@@ -321,7 +331,7 @@
   },
   {
     "id": 42,
-    "position": 33,
+    "position": 34,
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
@@ -330,48 +340,8 @@
     "bemerkung": ""
   },
   {
-    "id": 46,
-    "position": 34,
-    "character": "Cubitter (Todesritter)",
-    "main": "Blut Tank main; UH sec",
-    "alt": "Cubîtter (Krieger)",
-    "present": "Nein",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 22,
-    "position": 35,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
-    "item": "5. Item (BQ Hals)",
-    "bemerkung": "auf Resto (Debugmode)"
-  },
-  {
-    "id": 13,
-    "position": 36,
-    "character": "Alabuu (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "Alibär (Todesritter), Druidiekaa (Druide)",
-    "present": "Ja",
-    "item": "6. Item (Leichenstachel)",
-    "bemerkung": ""
-  },
-  {
-    "id": 40,
-    "position": 37,
-    "character": "Raythos (Krieger)",
-    "main": "Fury main, Tank sec",
-    "alt": "-",
-    "present": "Ja",
-    "item": "7. Item (HC Token)",
-    "bemerkung": ""
-  },
-  {
     "id": 11,
-    "position": 38,
+    "position": 35,
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
@@ -381,7 +351,7 @@
   },
   {
     "id": 17,
-    "position": 39,
+    "position": 36,
     "character": "Blinkadin (Paladin)",
     "main": "Tank main/Hpala sec",
     "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
@@ -390,18 +360,18 @@
     "bemerkung": ""
   },
   {
-    "id": 20,
-    "position": 40,
-    "character": "Fresa (Schamane)",
-    "main": "Ele main, VS sec",
-    "alt": "Kotzreiz (Hexenmeister)",
+    "id": 22,
+    "position": 37,
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
-    "item": "3. Item (Frostcape), 8. Item (HC Token)",
-    "bemerkung": ""
+    "item": "5. Item (BQ Hals)",
+    "bemerkung": "auf Resto (Debugmode)"
   },
   {
     "id": 21,
-    "position": 41,
+    "position": 38,
     "character": "Liladiva (Paladin)",
     "main": "Retri main, Tank sec (2. SM Splitter)",
     "alt": "Lágêrthá (Todesritter)",
@@ -410,24 +380,54 @@
     "bemerkung": ""
   },
   {
-    "id": 19,
-    "position": 42,
-    "character": "Freetag (Todesritter)",
-    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
-    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
+    "id": 13,
+    "position": 39,
+    "character": "Alabuu (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "Alibär (Todesritter), Druidiekaa (Druide)",
     "present": "Ja",
-    "item": "9. Item (HC Token)",
-    "bemerkung": "Splittersammler"
+    "item": "6. Item (Leichenstachel)",
+    "bemerkung": ""
   },
   {
     "id": 4,
-    "position": 43,
+    "position": 40,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
     "present": "Nein",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 40,
+    "position": 41,
+    "character": "Raythos (Krieger)",
+    "main": "Fury main, Tank sec",
+    "alt": "-",
+    "present": "Ja",
+    "item": "7. Item (HC Token)",
+    "bemerkung": ""
+  },
+  {
+    "id": 20,
+    "position": 42,
+    "character": "Fresa (Schamane)",
+    "main": "Ele main, VS sec",
+    "alt": "Kotzreiz (Hexenmeister)",
+    "present": "Ja",
+    "item": "3. Item (Frostcape), 8. Item (HC Token)",
+    "bemerkung": ""
+  },
+  {
+    "id": 19,
+    "position": 43,
+    "character": "Freetag (Todesritter)",
+    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
+    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
+    "present": "Ja",
+    "item": "9. Item (HC Token)",
+    "bemerkung": "Splittersammler"
   },
   {
     "id": 23,
