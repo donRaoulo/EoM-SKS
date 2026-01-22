@@ -5,7 +5,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Eule",
     "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -35,7 +35,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Hiería (Druide)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -65,9 +65,9 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Retri Spongebob"
+    "bemerkung": ""
   },
   {
     "id": 45,
@@ -125,9 +125,9 @@
     "character": "Thôrôndôr (Todesritter)",
     "main": "Frost DD Main",
     "alt": "Ânnâyâ (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Diszi (Annaya)"
+    "bemerkung": ""
   },
   {
     "id": 14,
@@ -165,7 +165,7 @@
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -215,9 +215,9 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter), Druidiekaa (Druide)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Retri (Miimose)"
+    "bemerkung": ""
   },
   {
     "id": 4,
@@ -225,7 +225,7 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -255,7 +255,7 @@
     "character": "Fresa (Schamane)",
     "main": "Ele main, VS sec",
     "alt": "Kotzreiz (Hexenmeister)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -326,7 +326,7 @@
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
     "present": "Ja",
-    "item": "1. Item (Pelzstiefel)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -336,7 +336,7 @@
     "main": "Baum/Eule; rollt Baum",
     "alt": "Shieldow (Priester)",
     "present": "Ja",
-    "item": "2. Item (Sonnenuhr)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -346,7 +346,7 @@
     "main": "Combat",
     "alt": "-",
     "present": "Ja",
-    "item": "3. Item (Prof Gürtel)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -376,7 +376,7 @@
     "main": "Resto",
     "alt": "-",
     "present": "Ja",
-    "item": "4. Item (BQ Hals)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -395,9 +395,9 @@
     "character": "Cubitter (Todesritter)",
     "main": "Blut Tank main; UH sec",
     "alt": "Cubîtter (Krieger)",
-    "present": "Ja",
-    "item": "5. Item (HC Token)",
-    "bemerkung": "auf Fury (Cubitter)"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 41,
@@ -405,9 +405,9 @@
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier)",
-    "present": "Ja",
-    "item": "6. Item (HC Token=",
-    "bemerkung": "auf Xatenaa (Pala tank)"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 44,
@@ -415,8 +415,8 @@
     "character": "Asseylum (Priester)",
     "main": "SP",
     "alt": "Adis andere Chars mit SM Need",
-    "present": "Ja",
-    "item": "7. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -425,8 +425,8 @@
     "character": "Multiboy (Schurke)",
     "main": "Main Combat",
     "alt": "-",
-    "present": "Ja",
-    "item": "8. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
