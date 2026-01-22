@@ -35,7 +35,7 @@
     "character": "Gwinraw (Todesritter)",
     "main": "Blut DD",
     "alt": "Hiería (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -137,7 +137,7 @@
     "alt": "Batna (Priester), Amizo (Todesritter)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf SP Batna"
   },
   {
     "id": 22,
@@ -255,7 +255,7 @@
     "character": "Fresa (Schamane)",
     "main": "Ele main, VS sec",
     "alt": "Kotzreiz (Hexenmeister)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -275,9 +275,9 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Mage (Nvm)"
   },
   {
     "id": 9,
@@ -435,7 +435,7 @@
     "character": "Tahronn (Krieger)",
     "main": "Fury, Splittersammler < Freetag",
     "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   }
