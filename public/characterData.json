@@ -30,18 +30,8 @@
     "bemerkung": ""
   },
   {
-    "id": 24,
-    "position": 4,
-    "character": "Ahmanet (Hexenmeister)",
-    "main": "Dämo",
-    "alt": "Zadrazil (Krieger), Asmódäus (Priester), Sélkét (Paladin)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 43,
-    "position": 5,
+    "position": 4,
     "character": "Maiblock (Magier)",
     "main": "Fmage",
     "alt": "Ondori (Paladin)",
@@ -50,24 +40,34 @@
     "bemerkung": ""
   },
   {
-    "id": 47,
-    "position": 6,
-    "character": "Thôrôndôr (Todesritter)",
-    "main": "Frost DD Main",
-    "alt": "Ânnâyâ (Priester)",
+    "id": 22,
+    "position": 5,
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Fury (Alnor)"
+    "bemerkung": ""
   },
   {
-    "id": 14,
-    "position": 7,
-    "character": "Patrota (Magier)",
-    "main": "Fmage",
-    "alt": "Batna (Priester), Amizo (Todesritter)",
+    "id": 26,
+    "position": 6,
+    "character": "Solédad (Priester)",
+    "main": "Diszi/SP, rollt Diszi",
+    "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf SP Batna"
+    "bemerkung": ""
+  },
+  {
+    "id": 33,
+    "position": 7,
+    "character": "Awakeshaman (Schamane)",
+    "main": "Ele main, Resto sec",
+    "alt": "Hugger (Druide), Käilee (Paladin)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "Auf Retri (Käilee)"
   },
   {
     "id": 45,
@@ -80,21 +80,21 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
+    "id": 15,
     "position": 9,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "character": "Dopehealz (Schamane)",
+    "main": "Resto",
+    "alt": "Nvm (Magier)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Mage (Nvm)"
   },
   {
-    "id": 26,
+    "id": 12,
     "position": 10,
-    "character": "Solédad (Priester)",
-    "main": "Diszi/SP, rollt Diszi",
-    "alt": "-",
+    "character": "Moophie (Druide)",
+    "main": "Baum/Eule; rollt Baum",
+    "alt": "Shieldow (Priester)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -120,34 +120,34 @@
     "bemerkung": ""
   },
   {
-    "id": 33,
+    "id": 30,
     "position": 13,
-    "character": "Awakeshaman (Schamane)",
-    "main": "Ele main, Resto sec",
-    "alt": "Hugger (Druide), Käilee (Paladin)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "Auf Retri (Käilee)"
-  },
-  {
-    "id": 15,
-    "position": 14,
-    "character": "Dopehealz (Schamane)",
-    "main": "Resto",
-    "alt": "Nvm (Magier)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Mage (Nvm)"
-  },
-  {
-    "id": 12,
-    "position": 15,
-    "character": "Moophie (Druide)",
-    "main": "Baum/Eule; rollt Baum",
-    "alt": "Shieldow (Priester)",
+    "character": "Roktaron (Schurke)",
+    "main": "Combat",
+    "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 38,
+    "position": 14,
+    "character": "Tschelati (Schamane)",
+    "main": "Resto",
+    "alt": "-",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 41,
+    "position": 15,
+    "character": "Ephinaa (Druide)",
+    "main": "Eule main; Cat sec",
+    "alt": "Kóráyn (Priester), Ephii (Magier)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "auf Xatena (Pala Tank)"
   },
   {
     "id": 8,
@@ -160,11 +160,11 @@
     "bemerkung": ""
   },
   {
-    "id": 30,
+    "id": 23,
     "position": 17,
-    "character": "Roktaron (Schurke)",
-    "main": "Combat",
-    "alt": "-",
+    "character": "Tahronn (Krieger)",
+    "main": "Fury, Splittersammler < Freetag",
+    "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester)",
     "present": "Ja",
     "item": "",
     "bemerkung": ""
@@ -230,14 +230,14 @@
     "bemerkung": ""
   },
   {
-    "id": 38,
+    "id": 39,
     "position": 24,
-    "character": "Tschelati (Schamane)",
-    "main": "Resto",
-    "alt": "-",
+    "character": "Daenara (Paladin)",
+    "main": "Hpala",
+    "alt": "Neratonix (Druide)",
     "present": "Ja",
-    "item": "",
-    "bemerkung": ""
+    "item": "1. Item (Schneller Aufstieg",
+    "bemerkung": "auf Resto (Butterflies)"
   },
   {
     "id": 34,
@@ -250,38 +250,28 @@
     "bemerkung": ""
   },
   {
-    "id": 41,
+    "id": 40,
     "position": 26,
-    "character": "Ephinaa (Druide)",
-    "main": "Eule main; Cat sec",
-    "alt": "Kóráyn (Priester), Ephii (Magier)",
+    "character": "Raythos (Krieger)",
+    "main": "Fury main, Tank sec",
+    "alt": "-",
     "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Xatena (Pala Tank)"
-  },
-  {
-    "id": 23,
-    "position": 27,
-    "character": "Tahronn (Krieger)",
-    "main": "Fury, Splittersammler < Freetag",
-    "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester)",
-    "present": "Ja",
-    "item": "",
+    "item": "3. Item (HC Token)",
     "bemerkung": ""
   },
   {
-    "id": 39,
-    "position": 28,
-    "character": "Daenara (Paladin)",
-    "main": "Hpala",
-    "alt": "Neratonix (Druide)",
+    "id": 20,
+    "position": 27,
+    "character": "Fresa (Schamane)",
+    "main": "Ele main, VS sec",
+    "alt": "Kotzreiz (Hexenmeister)",
     "present": "Ja",
-    "item": "1. Item (Schneller Aufstieg",
-    "bemerkung": "auf Resto (Butterflies)"
+    "item": "4. Item (Fauli Beine)",
+    "bemerkung": ""
   },
   {
     "id": 9,
-    "position": 29,
+    "position": 28,
     "character": "Pessimisma (Magier)",
     "main": "Fmage",
     "alt": "Kommalrübär (Druide), Defaya (Krieger), Schmusevogel (Druide), Mortissha (Priester)",
@@ -291,12 +281,22 @@
   },
   {
     "id": 37,
-    "position": 30,
+    "position": 29,
     "character": "Angèlus (Todesritter)",
     "main": "FDK DD main; FDK Tank sec",
     "alt": "-",
     "present": "Nein",
     "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 32,
+    "position": 30,
+    "character": "Porthuhn (Magier)",
+    "main": "Fmage",
+    "alt": "-",
+    "present": "Ja",
+    "item": "5. Item (Spindel)",
     "bemerkung": ""
   },
   {
@@ -307,7 +307,7 @@
     "alt": "Hiería (Druide)",
     "present": "Ja",
     "item": "2. Item (Toskss)",
-    "bemerkung": ""
+    "bemerkung": "Nach Raid umgemeldet auf Tank"
   },
   {
     "id": 35,
@@ -330,24 +330,24 @@
     "bemerkung": "last Minute Absage"
   },
   {
-    "id": 40,
+    "id": 31,
     "position": 34,
-    "character": "Raythos (Krieger)",
-    "main": "Fury main, Tank sec",
-    "alt": "-",
+    "character": "Runénfaust (Todesritter)",
+    "main": "UH main/Blut Tank sec",
+    "alt": "Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
     "present": "Ja",
-    "item": "3. Item (HC Token)",
-    "bemerkung": ""
+    "item": "7. Item (Gewundenes Laken)",
+    "bemerkung": "auf Hpala (Mjollnir)"
   },
   {
-    "id": 20,
+    "id": 47,
     "position": 35,
-    "character": "Fresa (Schamane)",
-    "main": "Ele main, VS sec",
-    "alt": "Kotzreiz (Hexenmeister)",
+    "character": "Thôrôndôr (Todesritter)",
+    "main": "Frost DD Main",
+    "alt": "Ânnâyâ (Priester)",
     "present": "Ja",
-    "item": "4. Item (Fauli Beine)",
-    "bemerkung": ""
+    "item": "8. Item (BQ Hals MDD)",
+    "bemerkung": "auf Fury (Alnor)"
   },
   {
     "id": 11,
@@ -370,14 +370,14 @@
     "bemerkung": ""
   },
   {
-    "id": 32,
+    "id": 14,
     "position": 38,
-    "character": "Porthuhn (Magier)",
+    "character": "Patrota (Magier)",
     "main": "Fmage",
-    "alt": "-",
+    "alt": "Batna (Priester), Amizo (Todesritter)",
     "present": "Ja",
-    "item": "5. Item (Spindel)",
-    "bemerkung": ""
+    "item": "9. Item (HC Token)",
+    "bemerkung": "auf SP Batna"
   },
   {
     "id": 21,
@@ -400,14 +400,14 @@
     "bemerkung": ""
   },
   {
-    "id": 19,
+    "id": 24,
     "position": 41,
-    "character": "Freetag (Todesritter)",
-    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
-    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
+    "character": "Ahmanet (Hexenmeister)",
+    "main": "Dämo",
+    "alt": "Zadrazil (Krieger), Asmódäus (Priester), Sélkét (Paladin)",
     "present": "Ja",
-    "item": "6. Item (HC Token)",
-    "bemerkung": "Splittersammler"
+    "item": "10. Item (Frostcape)",
+    "bemerkung": ""
   },
   {
     "id": 44,
@@ -430,13 +430,13 @@
     "bemerkung": ""
   },
   {
-    "id": 31,
+    "id": 19,
     "position": 44,
-    "character": "Runénfaust (Todesritter)",
-    "main": "UH main/Blut Tank sec",
-    "alt": "Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
+    "character": "Freetag (Todesritter)",
+    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
+    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
     "present": "Ja",
-    "item": "7. Item (Gewundenes Laken)",
-    "bemerkung": "auf Hpala (Mjollnir)"
+    "item": "6. Item (HC Token), 11. Item (HC Token)",
+    "bemerkung": "Splittersammler"
   }
 ]
