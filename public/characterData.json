@@ -65,9 +65,9 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Hpala (Mjollnir)"
   },
   {
     "id": 45,
@@ -125,9 +125,9 @@
     "character": "Thôrôndôr (Todesritter)",
     "main": "Frost DD Main",
     "alt": "Ânnâyâ (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Fury (Alnor)"
   },
   {
     "id": 14,
@@ -265,9 +265,9 @@
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Auf Retri (Käilee)"
   },
   {
     "id": 15,
@@ -325,9 +325,9 @@
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "last Minute Absage"
   },
   {
     "id": 12,
@@ -405,9 +405,9 @@
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Xatena (Pala Tank)"
   },
   {
     "id": 44,
