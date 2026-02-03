@@ -10,18 +10,8 @@
     "bemerkung": ""
   },
   {
-    "id": 22,
-    "position": 2,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Debugmode (Resto)"
-  },
-  {
     "id": 33,
-    "position": 3,
+    "position": 2,
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
@@ -31,13 +21,23 @@
   },
   {
     "id": 43,
-    "position": 4,
+    "position": 3,
     "character": "Maiblock (Magier)",
     "main": "Fmage",
     "alt": "Ondori (Paladin)",
     "present": "Nein",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 22,
+    "position": 4,
+    "character": "Firmware (Druide)",
+    "main": "Eule main, Baum sec",
+    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "auf Debugmode (Resto)"
   },
   {
     "id": 45,
@@ -290,18 +290,8 @@
     "bemerkung": ""
   },
   {
-    "id": 16,
-    "position": 30,
-    "character": "Chrønøs (Druide)",
-    "main": "Eule/Bär; rollt Eule",
-    "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
-    "item": "7. Item (Fauli Boots)",
-    "bemerkung": ""
-  },
-  {
     "id": 44,
-    "position": 31,
+    "position": 30,
     "character": "Asseylum (Priester)",
     "main": "SP",
     "alt": "Adis andere Chars mit SM Need",
@@ -311,7 +301,7 @@
   },
   {
     "id": 35,
-    "position": 32,
+    "position": 31,
     "character": "Fluten (Schamane)",
     "main": "Resto main; Ele sec",
     "alt": "Cøldasîce (Schurke), Teuflischx (Hexenmeister), Spreader (Todesritter), Asîlaydyîng (Jäger)",
@@ -321,7 +311,7 @@
   },
   {
     "id": 28,
-    "position": 33,
+    "position": 32,
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
@@ -331,7 +321,7 @@
   },
   {
     "id": 31,
-    "position": 34,
+    "position": 33,
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
@@ -341,13 +331,23 @@
   },
   {
     "id": 47,
-    "position": 35,
+    "position": 34,
     "character": "Thôrôndôr (Todesritter)",
     "main": "Frost DD Main",
     "alt": "Ânnâyâ (Priester)",
     "present": "Nein",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 16,
+    "position": 35,
+    "character": "Chrønøs (Druide)",
+    "main": "Eule/Bär; rollt Eule",
+    "alt": "Karkaroff (Schamane)",
+    "present": "Ja",
+    "item": "7. Item (Fauli Boots)",
+    "bemerkung": "-5 für Ummeldung auf Main Tank nach dem Raid"
   },
   {
     "id": 11,
