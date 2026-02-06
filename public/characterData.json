@@ -324,7 +324,7 @@
     "position": 33,
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
-    "alt": "Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
+    "alt": "Spøngebøb (Paladin), Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
     "present": "Nein",
     "item": "",
     "bemerkung": ""
@@ -334,7 +334,7 @@
     "position": 34,
     "character": "Thôrôndôr (Todesritter)",
     "main": "Frost DD Main",
-    "alt": "Ânnâyâ (Priester)",
+    "alt": "Ânnâyâ (Priester), Alnor (Krieger)",
     "present": "Nein",
     "item": "",
     "bemerkung": ""
@@ -343,7 +343,7 @@
     "id": 16,
     "position": 35,
     "character": "Chrønøs (Druide)",
-    "main": "Eule/Bär; rollt Eule",
+    "main": "Eule/Bär; rollt Bär",
     "alt": "Karkaroff (Schamane)",
     "present": "Ja",
     "item": "7. Item (Fauli Boots)",
