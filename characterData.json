@@ -388,5 +388,14 @@
     "present": "Nein",
     "item": "",
     "bemerkung": ""
+  },
+  {
+    "id": 48,
+    "position": 40,
+    "character": "Wakejack (Schamane)",
+    "main": "VS main, Resto Sec",
+    "alt": "Schulzi (Druide)",
+    "present": "Ja",
+    "item": ""
   }
 ]
