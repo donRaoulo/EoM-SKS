@@ -32,12 +32,12 @@
   {
     "id": 22,
     "position": 4,
-    "character": "Firmware (Druide)",
-    "main": "Eule main, Baum sec",
-    "alt": "Debugmode (Schamane), Lòcknar (Krieger)",
+    "character": "Debugmode (Schamane),",
+    "main": "Resto Main, Ele sec",
+    "alt": "Firmware (Druide), Lòcknar (Krieger)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Debugmode (Resto)"
+    "bemerkung": "vor Raid dauerhaft auf Resto geswitcht, da Tschelati ausscheidet"
   },
   {
     "id": 45,
