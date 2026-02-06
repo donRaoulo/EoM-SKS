@@ -325,7 +325,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -357,7 +357,7 @@
     "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Ersatzbank"
   },
   {
     "id": 15,
@@ -377,7 +377,7 @@
     "alt": "Kóráyn (Priester), Ephii (Magier)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Bär (Xuros)"
   },
   {
     "id": 7,
