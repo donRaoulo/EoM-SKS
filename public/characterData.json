@@ -290,18 +290,8 @@
     "bemerkung": ""
   },
   {
-    "id": 47,
-    "position": 30,
-    "character": "Thôrôndôr (Todesritter)",
-    "main": "Frost DD Main",
-    "alt": "Ânnâyâ (Priester), Alnor (Krieger)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Fury (Alnor)"
-  },
-  {
     "id": 11,
-    "position": 31,
+    "position": 30,
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
@@ -311,7 +301,7 @@
   },
   {
     "id": 16,
-    "position": 32,
+    "position": 31,
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Bär",
     "alt": "Karkaroff (Schamane)",
@@ -320,24 +310,34 @@
     "bemerkung": "-5 für Ummeldung auf Main Tank nach dem Raid"
   },
   {
-    "id": 10,
-    "position": 33,
-    "character": "Gwinraw (Todesritter)",
-    "main": "Blut Tank",
-    "alt": "Hiería (Druide)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 40,
-    "position": 34,
+    "position": 32,
     "character": "Raythos (Krieger)",
     "main": "Fury main, Tank sec",
     "alt": "-",
     "present": "Ja",
     "item": "",
     "bemerkung": "Ersatzbank"
+  },
+  {
+    "id": 15,
+    "position": 33,
+    "character": "Dopehealz (Schamane)",
+    "main": "Resto",
+    "alt": "Nvm (Magier)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "auf Mage (Nvm)"
+  },
+  {
+    "id": 41,
+    "position": 34,
+    "character": "Ephinaa (Druide)",
+    "main": "Eule main; Cat sec",
+    "alt": "Kóráyn (Priester), Ephii (Magier)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": "auf Bär (Xuros)"
   },
   {
     "id": 17,
@@ -350,28 +350,8 @@
     "bemerkung": ""
   },
   {
-    "id": 15,
-    "position": 36,
-    "character": "Dopehealz (Schamane)",
-    "main": "Resto",
-    "alt": "Nvm (Magier)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Mage (Nvm)"
-  },
-  {
-    "id": 41,
-    "position": 37,
-    "character": "Ephinaa (Druide)",
-    "main": "Eule main; Cat sec",
-    "alt": "Kóráyn (Priester), Ephii (Magier)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Bär (Xuros)"
-  },
-  {
     "id": 48,
-    "position": 38,
+    "position": 36,
     "character": "Wakejack (Schamane)",
     "main": "VS main, Resto Sec",
     "alt": "Schulzi (Druide)",
@@ -380,22 +360,42 @@
   },
   {
     "id": 19,
-    "position": 39,
+    "position": 37,
     "character": "Freetag (Todesritter)",
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
     "present": "Ja",
-    "item": "1. Item (Blutgiftklinge)",
+    "item": "1. Item (Blutgiftklinge), 2. Item (Geißelhäscher Beine)",
     "bemerkung": "Splittersammler"
   },
   {
+    "id": 47,
+    "position": 38,
+    "character": "Thôrôndôr (Todesritter)",
+    "main": "Frost DD Main",
+    "alt": "Ânnâyâ (Priester), Alnor (Krieger)",
+    "present": "Ja",
+    "item": "3. Item (Gruftmacher)",
+    "bemerkung": "auf Fury (Alnor)"
+  },
+  {
     "id": 7,
-    "position": 40,
+    "position": 39,
     "character": "Multiboy (Schurke)",
     "main": "Main Combat",
     "alt": "-",
     "present": "Nein",
     "item": "",
+    "bemerkung": ""
+  },
+  {
+    "id": 10,
+    "position": 40,
+    "character": "Gwinraw (Todesritter)",
+    "main": "Blut Tank",
+    "alt": "Hiería (Druide)",
+    "present": "Ja",
+    "item": "4. Item (HC Token)",
     "bemerkung": ""
   }
 ]
