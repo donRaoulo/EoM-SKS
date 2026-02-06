@@ -240,14 +240,14 @@
     "bemerkung": ""
   },
   {
-    "id": 19,
+    "id": 35,
     "position": 25,
-    "character": "Freetag (Todesritter)",
-    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
-    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
+    "character": "Fluten (Schamane)",
+    "main": "Resto main; Ele sec",
+    "alt": "Cøldasîce (Schurke), Teuflischx (Hexenmeister), Spreader (Todesritter), Asîlaydyîng (Jäger)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "Splittersammler"
+    "bemerkung": "auf Fury (Chinxox)"
   },
   {
     "id": 9,
@@ -270,14 +270,14 @@
     "bemerkung": ""
   },
   {
-    "id": 35,
+    "id": 31,
     "position": 28,
-    "character": "Fluten (Schamane)",
-    "main": "Resto main; Ele sec",
-    "alt": "Cøldasîce (Schurke), Teuflischx (Hexenmeister), Spreader (Todesritter), Asîlaydyîng (Jäger)",
+    "character": "Runénfaust (Todesritter)",
+    "main": "UH main/Blut Tank sec",
+    "alt": "Spøngebøb (Paladin), Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Fury (Chinxox)"
+    "bemerkung": "auf Retri (Spongebob)"
   },
   {
     "id": 28,
@@ -290,24 +290,24 @@
     "bemerkung": ""
   },
   {
-    "id": 31,
-    "position": 30,
-    "character": "Runénfaust (Todesritter)",
-    "main": "UH main/Blut Tank sec",
-    "alt": "Spøngebøb (Paladin), Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": "auf Retri (Spongebob)"
-  },
-  {
     "id": 47,
-    "position": 31,
+    "position": 30,
     "character": "Thôrôndôr (Todesritter)",
     "main": "Frost DD Main",
     "alt": "Ânnâyâ (Priester), Alnor (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": "auf Fury (Alnor)"
+  },
+  {
+    "id": 11,
+    "position": 31,
+    "character": "Chrisson (Paladin)",
+    "main": "Hpala main, Retri sec",
+    "alt": "Könnteheilen (Priester)",
+    "present": "Ja",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 16,
@@ -320,28 +320,8 @@
     "bemerkung": "-5 für Ummeldung auf Main Tank nach dem Raid"
   },
   {
-    "id": 11,
-    "position": 33,
-    "character": "Chrisson (Paladin)",
-    "main": "Hpala main, Retri sec",
-    "alt": "Könnteheilen (Priester)",
-    "present": "Ja",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
-    "id": 17,
-    "position": 34,
-    "character": "Blinkadin (Paladin)",
-    "main": "Tank main/Hpala sec",
-    "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
-    "present": "Nein",
-    "item": "",
-    "bemerkung": ""
-  },
-  {
     "id": 10,
-    "position": 35,
+    "position": 33,
     "character": "Gwinraw (Todesritter)",
     "main": "Blut Tank",
     "alt": "Hiería (Druide)",
@@ -351,7 +331,7 @@
   },
   {
     "id": 40,
-    "position": 36,
+    "position": 34,
     "character": "Raythos (Krieger)",
     "main": "Fury main, Tank sec",
     "alt": "-",
@@ -360,8 +340,18 @@
     "bemerkung": "Ersatzbank"
   },
   {
+    "id": 17,
+    "position": 35,
+    "character": "Blinkadin (Paladin)",
+    "main": "Tank main/Hpala sec",
+    "alt": "Blinkeydk (Todesritter), Flereigam (Magier)",
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
+  },
+  {
     "id": 15,
-    "position": 37,
+    "position": 36,
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
@@ -371,7 +361,7 @@
   },
   {
     "id": 41,
-    "position": 38,
+    "position": 37,
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier)",
@@ -380,22 +370,32 @@
     "bemerkung": "auf Bär (Xuros)"
   },
   {
-    "id": 7,
+    "id": 48,
+    "position": 38,
+    "character": "Wakejack (Schamane)",
+    "main": "VS main, Resto Sec",
+    "alt": "Schulzi (Druide)",
+    "present": "Ja",
+    "item": ""
+  },
+  {
+    "id": 19,
     "position": 39,
+    "character": "Freetag (Todesritter)",
+    "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
+    "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
+    "present": "Ja",
+    "item": "1. Item (Blutgiftklinge)",
+    "bemerkung": "Splittersammler"
+  },
+  {
+    "id": 7,
+    "position": 40,
     "character": "Multiboy (Schurke)",
     "main": "Main Combat",
     "alt": "-",
     "present": "Nein",
     "item": "",
     "bemerkung": ""
-  },
-  {
-    "id": 48,
-    "position": 40,
-    "character": "Wakejack (Schamane)",
-    "main": "VS main, Resto Sec",
-    "alt": "Schulzi (Druide)",
-    "present": "Ja",
-    "item": ""
   }
 ]
