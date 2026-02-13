@@ -7,7 +7,7 @@
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Hunter (SPitzl)"
   },
   {
     "id": 33,
@@ -15,9 +15,9 @@
     "character": "Awakeshaman (Schamane)",
     "main": "Ele main, Resto sec",
     "alt": "Hugger (Druide), Käilee (Paladin)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf FDK (Härzl)"
   },
   {
     "id": 43,
@@ -37,7 +37,7 @@
     "alt": "Firmware (Druide), Lòcknar (Krieger)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "vor Raid dauerhaft auf Resto geswitcht, da Tschelati ausscheidet"
+    "bemerkung": ""
   },
   {
     "id": 45,
@@ -45,7 +45,7 @@
     "character": "Norlex (Druide)",
     "main": "Cat Main, Bär sec",
     "alt": "Xavo (Priester), Netley (Magier)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -95,7 +95,7 @@
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -135,7 +135,7 @@
     "character": "Cubitter (Todesritter)",
     "main": "Blut Tank main; UH sec",
     "alt": "Cubîtter (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -185,9 +185,9 @@
     "character": "Merveille (Jäger)",
     "main": "Treffsicherheit",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": ""
   },
   {
     "id": 5,
@@ -215,7 +215,7 @@
     "character": "Solédad (Priester)",
     "main": "Diszi/SP, rollt Diszi",
     "alt": "-",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -255,7 +255,7 @@
     "character": "Pessimisma (Magier)",
     "main": "Fmage",
     "alt": "Kommalrübär (Druide), Defaya (Krieger), Schmusevogel (Druide), Mortissha (Priester)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -277,7 +277,7 @@
     "alt": "Spøngebøb (Paladin), Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Retri (Spongebob)"
+    "bemerkung": "auf Hpala (Mjollnir)"
   },
   {
     "id": 28,
@@ -307,7 +307,7 @@
     "alt": "Karkaroff (Schamane)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "-5 für Ummeldung auf Main Tank nach dem Raid"
+    "bemerkung": ""
   },
   {
     "id": 40,
@@ -317,7 +317,7 @@
     "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": "Ersatzbank"
+    "bemerkung": "auf Eule (Rhyounos)"
   },
   {
     "id": 15,
@@ -325,9 +325,9 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Mage (Nvm)"
+    "bemerkung": ""
   },
   {
     "id": 41,
@@ -337,7 +337,7 @@
     "alt": "Kóráyn (Priester), Ephii (Magier)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Bär (Xuros)"
+    "bemerkung": "auf SP (Kóráyn)"
   },
   {
     "id": 17,
@@ -365,7 +365,7 @@
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
     "present": "Ja",
-    "item": "1. Item (Blutgiftklinge), 2. Item (Geißelhäscher Beine)",
+    "item": "",
     "bemerkung": "Splittersammler"
   },
   {
@@ -375,7 +375,7 @@
     "main": "Frost DD Main",
     "alt": "Ânnâyâ (Priester), Alnor (Krieger)",
     "present": "Ja",
-    "item": "3. Item (Gruftmacher)",
+    "item": "",
     "bemerkung": "auf Fury (Alnor)"
   },
   {
@@ -395,7 +395,7 @@
     "main": "Blut Tank",
     "alt": "Hiería (Druide)",
     "present": "Ja",
-    "item": "4. Item (HC Token)",
+    "item": "",
     "bemerkung": ""
   }
 ]
