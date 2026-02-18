@@ -144,7 +144,7 @@
     "position": 15,
     "character": "Ahmanet (Hexenmeister)",
     "main": "Dämo",
-    "alt": "Zadrazil (Krieger), Asmódäus (Priester), Sélkét (Paladin)",
+    "alt": "Zadrazil (Krieger), Sélkét (Paladin)",
     "present": "Nein",
     "item": "",
     "bemerkung": ""
@@ -164,7 +164,7 @@
     "position": 17,
     "character": "Tahronn (Krieger)",
     "main": "Fury, Splittersammler",
-    "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke), Askannon (Priester)",
+    "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke)",
     "present": "Nein",
     "item": "",
     "bemerkung": ""
@@ -204,7 +204,7 @@
     "position": 21,
     "character": "Fluten (Schamane)",
     "main": "Resto main; Ele sec",
-    "alt": "Cøldasîce (Schurke), Teuflischx (Hexenmeister), Spreader (Todesritter), Asîlaydyîng (Jäger), Chinxox (Krieger)",
+    "alt": "Cøldasîce (Schurke), Asîlaydyîng (Jäger), Chinxox (Krieger)",
     "present": "Ja",
     "item": "",
     "bemerkung": "auf Fury (Chinxox)"
@@ -224,7 +224,7 @@
     "position": 23,
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
-    "alt": "-",
+    "alt": "Solacy (Paladin)",
     "present": "Nein",
     "item": "",
     "bemerkung": ""
@@ -304,7 +304,7 @@
     "position": 31,
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
-    "alt": "Kóráyn (Priester), Ephii (Magier)",
+    "alt": "Kóráyn (Priester), Ephii (Magier), Xatena (Paladin), Xatenaa (Paladin)",
     "present": "Ja",
     "item": "",
     "bemerkung": "auf SP (Kóráyn)"
