@@ -7,7 +7,7 @@
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Hunter (Spitzl)"
+    "bemerkung": "auf Hunter (SPitzl)"
   },
   {
     "id": 33,
@@ -365,7 +365,7 @@
     "main": "Blut Tank/FDK; rollt Tank (3. SM Splitter)",
     "alt": "Dingstag (Paladin), Diensthund (Druide), Suntag (Priester)",
     "present": "Ja",
-    "item": "2. Item (Kordel), 4. Item (BQ Hals)",
+    "item": "2. Item (Fauli Gürtel), 4. Item (BQ Hals)",
     "bemerkung": "Splittersammler"
   },
   {
@@ -395,7 +395,7 @@
     "main": "Frost DD Main",
     "alt": "Ânnâyâ (Priester), Alnor (Krieger)",
     "present": "Ja",
-    "item": "3. Item (HC Token), 5. Item (HC Token), 7. Item (HC Token)",
+    "item": "3. Item (HC Token), 5. Item (HC Token), 7. Item HC Token",
     "bemerkung": "auf Fury (Alnor)"
   }
 ]
