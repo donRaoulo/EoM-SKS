@@ -7,7 +7,7 @@
     "alt": "Themba (Druide), Spitzl (Jäger), Yaina (Hexenmeister)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Hunter (SPitzl)"
+    "bemerkung": ""
   },
   {
     "id": 33,
@@ -87,7 +87,7 @@
     "alt": "Batna (Priester), Amizo (Todesritter)",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf SP (Batna)"
+    "bemerkung": ""
   },
   {
     "id": 42,
@@ -105,7 +105,7 @@
     "character": "Anopa (Priester)",
     "main": "Diszi main, SP Sec",
     "alt": "-",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -125,7 +125,7 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter), Druidiekaa (Druide)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -145,7 +145,7 @@
     "character": "Ahmanet (Hexenmeister)",
     "main": "Dämo",
     "alt": "Zadrazil (Krieger), Sélkét (Paladin)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -165,9 +165,9 @@
     "character": "Tahronn (Krieger)",
     "main": "Fury, Splittersammler",
     "alt": "Varosh (Paladin), Gerlog (Schamane), Lenortha (Schurke)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Splittersammler"
   },
   {
     "id": 25,
@@ -175,7 +175,7 @@
     "character": "Shadowdevíl (Krieger)",
     "main": "Fury",
     "alt": "Shadowshót (Jäger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -205,9 +205,9 @@
     "character": "Fluten (Schamane)",
     "main": "Resto main; Ele sec",
     "alt": "Cøldasîce (Schurke), Asîlaydyîng (Jäger), Chinxox (Krieger)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Fury (Chinxox)"
+    "bemerkung": ""
   },
   {
     "id": 26,
@@ -225,9 +225,9 @@
     "character": "Graugdasch (Schamane)",
     "main": "Resto main, VS sec",
     "alt": "Solacy (Paladin)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Retri (Solacy)"
   },
   {
     "id": 9,
@@ -245,9 +245,9 @@
     "character": "Runénfaust (Todesritter)",
     "main": "UH main/Blut Tank sec",
     "alt": "Spøngebøb (Paladin), Mjøllnir (Paladin), Døtøt (Hexenmeister), Mínjung (Druide), Kôppnuss (Schurke)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf Hpala (Mjollnir)"
+    "bemerkung": ""
   },
   {
     "id": 11,
@@ -255,7 +255,7 @@
     "character": "Chrisson (Paladin)",
     "main": "Hpala main, Retri sec",
     "alt": "Könnteheilen (Priester)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -275,7 +275,7 @@
     "character": "Chrønøs (Druide)",
     "main": "Eule/Bär; rollt Bär",
     "alt": "Karkaroff (Schamane)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
     "bemerkung": ""
   },
@@ -285,7 +285,7 @@
     "character": "Jînxî (Paladin)",
     "main": "Retri main, Tank sec",
     "alt": "Angekekt (Magier), Ausgekekt (Schamane); alles außer Rumgekekt (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -297,7 +297,7 @@
     "alt": "-",
     "present": "Ja",
     "item": "",
-    "bemerkung": "auf Eule (Rhyounos)"
+    "bemerkung": ""
   },
   {
     "id": 41,
@@ -305,9 +305,9 @@
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier), Xatena (Paladin), Xatenaa (Paladin)",
-    "present": "Ja",
+    "present": "Nein",
     "item": "",
-    "bemerkung": "auf SP (Kóráyn)"
+    "bemerkung": ""
   },
   {
     "id": 48,
@@ -354,8 +354,8 @@
     "character": "Cubitter (Todesritter)",
     "main": "Blut Tank main; UH sec",
     "alt": "Cubîtter (Krieger)",
-    "present": "Ja",
-    "item": "1. Item (HC Token)",
+    "present": "Nein",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -364,9 +364,9 @@
     "character": "Freetag (Todesritter)",
     "main": "Blut Tank/FDK; rollt Tank",
     "alt": "Dingstag (Paladin)",
-    "present": "Ja",
-    "item": "2. Item (Fauli Gürtel), 4. Item (BQ Hals)",
-    "bemerkung": "Splittersammler"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   },
   {
     "id": 32,
@@ -375,7 +375,7 @@
     "main": "Fmage",
     "alt": "Lìberty (Paladin)",
     "present": "Ja",
-    "item": "6. Item (Vali Rücken)",
+    "item": "",
     "bemerkung": ""
   },
   {
@@ -394,8 +394,8 @@
     "character": "Thôrôndôr (Todesritter)",
     "main": "Frost DD Main; Splittersammler Alnor<Tharonn",
     "alt": "Ânnâyâ (Priester), Alnor (Krieger)",
-    "present": "Ja",
-    "item": "3. Item (HC Token), 5. Item (HC Token), 7. Item HC Token",
-    "bemerkung": "auf Fury (Alnor)"
+    "present": "Nein",
+    "item": "",
+    "bemerkung": ""
   }
 ]
