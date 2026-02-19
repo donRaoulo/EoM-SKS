@@ -45,7 +45,7 @@
     "character": "Norlex (Druide)",
     "main": "Cat Main, Bär sec",
     "alt": "Xavo (Priester), Netley (Magier)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -95,7 +95,7 @@
     "character": "Junglejingle (Jäger)",
     "main": "Treffsicherheit",
     "alt": "Bellâtor (Krieger), Reegahr (Druide), Reegâhr (Schamane)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -125,9 +125,9 @@
     "character": "Alabuu (Hexenmeister)",
     "main": "Dämo",
     "alt": "Alibär (Todesritter), Druidiekaa (Druide)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Ersatzbank"
   },
   {
     "id": 20,
@@ -305,7 +305,7 @@
     "character": "Ephinaa (Druide)",
     "main": "Eule main; Cat sec",
     "alt": "Kóráyn (Priester), Ephii (Magier), Xatena (Paladin), Xatenaa (Paladin)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
     "bemerkung": ""
   },
@@ -364,9 +364,9 @@
     "character": "Freetag (Todesritter)",
     "main": "Blut Tank/FDK; rollt Tank",
     "alt": "Dingstag (Paladin)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Retri (Dingstag)"
   },
   {
     "id": 32,
@@ -394,8 +394,8 @@
     "character": "Thôrôndôr (Todesritter)",
     "main": "Frost DD Main; Splittersammler Alnor<Tharonn",
     "alt": "Ânnâyâ (Priester), Alnor (Krieger)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf Diszi (Annaya)"
   }
 ]
