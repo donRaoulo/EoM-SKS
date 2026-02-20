@@ -77,7 +77,7 @@
     "alt": "Neratonix (Druide)",
     "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "auf DK Tank (Khiria)"
   },
   {
     "id": 14,
@@ -324,9 +324,9 @@
     "character": "Dopehealz (Schamane)",
     "main": "Resto",
     "alt": "Nvm (Magier)",
-    "present": "Nein",
+    "present": "Ja",
     "item": "",
-    "bemerkung": ""
+    "bemerkung": "Ersatzbank"
   },
   {
     "id": 10,
